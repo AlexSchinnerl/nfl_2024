@@ -1,9 +1,9 @@
 import streamlit as st
 # import pandas as pd
 from datetime import datetime
-from load_and_transform import betsDF
+from load_and_transform import betsDF, player_list, scoringDF, playerDF, team_list
 
-# st.set_page_config(layout="wide")
+st.set_page_config(layout="wide")
 # st.set_page_config(runOnSave = True)
 
 # def check_winner(row): # winner column in game Data
@@ -26,31 +26,77 @@ filtered_bets = betsDF.loc[betsDF["Date"]<thisDay].copy()
 thisWeek = filtered_bets["Round Number"].max()
 lastWeek = thisWeek-1
 
-player_list = ["Alex", "Alina", "Evelyn", "Christopher", "Ludwig", "Manu", "Natalie", "Nikolai", "Sebastian", "Vero", "Viki", "Wolfgang"]
-team_list = betsDF["Home Team"].unique()
+# player_list = ["Alex", "Alina", "Evelyn", "Christopher", "Ludwig", "Manu", "Natalie", "Nikolai", "Sebastian", "Vero", "Viki", "Wolfgang"]
+# team_list = betsDF["Home Team"].unique()
 
-# # create additional Dataframes
-# playerDF = pd.DataFrame(data={"Player":player_list}) # sums up 
-# scoringDF = pd.DataFrame(columns=player_list) # collect the points for each game
-# scoringDF["Week Count"] = filtered_bets["Round Number"]
+
+scoringDF["Week Count"] = filtered_bets["Round Number"]
+
+
 
 
 # # Transform Dataframes
 # filtered_bets["Winner"] = filtered_bets.apply(check_winner, axis=1)
-# thisWeek_DF = filtered_bets.loc[filtered_bets["Round Number"]==thisWeek, ["Game Nr.", "Date", "Location", "Home Team", "Away Team"]]
-# lastWeek_DF = filtered_bets.loc[filtered_bets["Round Number"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
+thisWeek_DF = filtered_bets.loc[filtered_bets["Round Number"]==thisWeek, ["Game Nr.", "Date", "Location", "Home Team", "Away Team"]]
+lastWeek_DF = filtered_bets.loc[filtered_bets["Round Number"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
+# thisWeek_DF["Tipp"] = ""
 
-st.dataframe(filtered_bets)
+st.header("NFL Tippspiel 2024")
+
+# col1, col2 = st.columns(2)
+
+# with col1:
+#     st.subheader(f"Spielplan für Woche {thisWeek}")
+#     st.dataframe(thisWeek_DF, hide_index=True)
+# with col2:
+#     st.subheader(f"Ergebnisse für Woche {lastWeek}")
+#     st.dataframe(lastWeek_DF, hide_index=True)
 
 
-# st.header("test")
-# st.subheader("Ergebnisse der letzten Woche")
-# st.dataframe(lastWeek_DF)
-# st.subheader(f"Spielplan für Woche {thisWeek}")
-# st.dataframe(thisWeek_DF)
+# st.data_editor(
+#     thisWeek_DF,
+#     column_config={
+#         "Tipp": st.column_config.SelectboxColumn(
+#             "Tipp",
+#             help="Place Bets",
+#             width="medium",
+#             options=[["Team A", "Team B"]]
+#         )
+#     },
+#     hide_index=True,
+# )
+
+colA, colB = st.columns(2)
+
+with colA:
+    st.subheader(f"Ergebnisse für Woche {lastWeek}")
+    st.dataframe(lastWeek_DF, hide_index=True, height=600)
+
+    st.subheader(f"Spielplan für Woche {thisWeek}")
+    st.dataframe(thisWeek_DF, hide_index=True, height=600)
 
 
+with colB:
+    with st.form("place Bet"):
+        st.subheader("Hier Gewinner auswählen")
+        # col1, col2 = st.columns(2)
+        # with col1:
+        selected_teams = []
+        for pairing in zip(thisWeek_DF["Home Team"], thisWeek_DF["Away Team"], thisWeek_DF["Game Nr."]):
+            chosen_winner = st.selectbox(label=f"Game Nr.: {pairing[2]} {pairing[0]} vs. {pairing[1]}", options=pairing[0:2])
+            selected_teams.append(chosen_winner)
+        col1a, col1b = st.columns(2)
+        with col1a:
+            player_name = st.text_input("Name eingeben")
+        with col1b:
+            st.write("\n")
+            st.write("\n")
+            submitted = st.form_submit_button("Tipps absenden")
+        if submitted:
+            selected_teams.append(player_name)
+            st.write(selected_teams)
 
+# st.write(selected_teams)
 
 # placed_bets = []
 
