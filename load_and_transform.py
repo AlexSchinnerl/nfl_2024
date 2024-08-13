@@ -49,10 +49,10 @@ def teamCount_per_player(row):
         return row["Away Team"]
 
 # Load Data
-betsDF = pd.read_csv("season_2024/data/bets.csv", delimiter=";")
+betsDF = pd.read_csv("data/bets.csv", delimiter=";")
 betsDF["Date"] = pd.to_datetime(betsDF["Date"], format="%d.%m.%Y %H:%M")
-playoffDF = pd.read_csv("season_2024/data/playoffTipps.csv", delimiter=";")
-superbowlDF = pd.read_csv("season_2024/data/superbowl.csv", delimiter=";")
+playoffDF = pd.read_csv("data/playoffTipps.csv", delimiter=";")
+superbowlDF = pd.read_csv("data/superbowl.csv", delimiter=";")
 # player List of all participants and list of all teams
 player_list = ["Alex", "Alina", "Evelyn", "Christopher", "Ludwig", "Manu", "Natalie", "Nikolai", "Sebastian", "Vero", "Viki", "Wolfgang"]
 player_list_with_MrMedian = player_list.copy()
