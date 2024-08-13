@@ -50,6 +50,7 @@ def teamCount_per_player(row):
 
 # Load Data
 betsDF = pd.read_csv("season_2024/data/bets.csv", delimiter=";")
+betsDF["Date"] = pd.to_datetime(betsDF["Date"], format="%d.%m.%Y %H:%M")
 playoffDF = pd.read_csv("season_2024/data/playoffTipps.csv", delimiter=";")
 superbowlDF = pd.read_csv("season_2024/data/superbowl.csv", delimiter=";")
 # player List of all participants and list of all teams
