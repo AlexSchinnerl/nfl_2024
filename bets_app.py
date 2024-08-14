@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from load_and_transform import schedule, betsDF, player_list, scoringDF, playerDF, team_list
+from load_and_transform import schedule, my_bets, player_list, scoringDF, playerDF, team_list
 
 st.set_page_config(layout="wide")
 # st.set_page_config(runOnSave = True)
@@ -29,7 +29,7 @@ lastWeek = thisWeek-1
 # # Transform Dataframes
 # filtered_bets["Winner"] = filtered_bets.apply(check_winner, axis=1)
 thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Location", "Home Team", "Away Team"]]
-lastWeek_DF = betsDF.loc[betsDF["Round Number"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
+lastWeek_DF = my_bets.loc[my_bets["Week"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
 
 st.header("NFL Tippspiel 2024")
 
@@ -65,10 +65,9 @@ if submitted:
         for team in selected_teams[:-1]:
             f.write(f"{team},")
     st.write(selected_teams)
-    weekly_bets_DF = pd.read_csv(f"data/bets_week{thisWeek}.csv")
-    weekly_bets_DF[f"{selected_teams[-1]}"] = selected_teams[:-1]
-    weekly_bets_DF.to_csv(f"data/bets_week{thisWeek}.csv")
-    st.dataframe(weekly_bets_DF)
+    my_bets.loc[my_bets["Week"]==thisWeek, f"{selected_teams[-1]}"] = selected_teams[:-1]
+    my_bets.to_csv(f"data/betsDF.csv", index=False)
+    st.dataframe(my_bets)
 
 
 
