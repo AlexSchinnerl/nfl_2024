@@ -22,6 +22,14 @@ def name_submit(button_description):
         submitted = st.form_submit_button(button_description)
     return player_name, submitted
 
+def playoff_checkboxes(df):
+    for subdivision in sorted(df["Subdivision"].unique()):
+        st.write(f"{subdivision}")
+        for team in df.loc[df["Subdivision"]==subdivision, "Teams"]:
+            check_team = st.checkbox(label=team, value=False)
+            if check_team:
+                selected_playoff_teams.append(team)
+
 st.set_page_config(layout="wide")
 # st.set_page_config(runOnSave = True)
 
@@ -31,13 +39,11 @@ MYKEY = keyring.get_password("alxMail", "alex")
 
 # thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 thisDay = datetime(2024, 9, 6)
-st.write(thisDay)
 
 # betsDF = pd.read_csv("season_2024/data/bets.csv", delimiter=";")
 filtered_bets = schedule.loc[schedule["Date"]<thisDay].copy()
 thisWeek = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
 thisWeek = 1
-st.write(thisWeek)
 lastWeek = thisWeek-1
 
 # # Transform Dataframes
@@ -49,8 +55,9 @@ nfc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="NFC"]
 
 st.title("NFL Tippspiel 2024")
 
-superbowl, playoff = st.columns(2)
+st.header("Vorab Tipps")
 
+superbowl, playoff = st.columns(2)
 with superbowl:
     st.subheader("Superbowl Vorab Tipp")
     with st.form("Place Superbowl Bet"):
@@ -66,25 +73,16 @@ with playoff:
         selected_playoff_teams = []
         with col1:
             st.subheader("AFC Playof Teams")
-            for subdivision in sorted(afc_DF["Subdivision"].unique()):
-                st.write(f"{subdivision}")
-                for team in afc_DF.loc[afc_DF["Subdivision"]==subdivision, "Teams"]:
-                    check_team = st.checkbox(label=team, value=False)
-                    if check_team:
-                        selected_playoff_teams.append(team)
+            playoff_checkboxes(afc_DF)
         with col2:
             st.subheader("NFC Playoff Teams")
-            for subdivision in sorted(nfc_DF["Subdivision"].unique()):
-                st.write(f"{subdivision}")
-                for team in nfc_DF.loc[nfc_DF["Subdivision"]==subdivision, "Teams"]:
-                    check_team = st.checkbox(label=team, value=False)
-                    if check_team:
-                        selected_playoff_teams.append(team)
-
-        player_name, playoff_submitted = name_submit("Playoff Tipps absenden")
-
+            playoff_checkboxes(nfc_DF)
+        player_name, playoff_submitted = name_submit("Playoff Tipps absenden")      
     if playoff_submitted:
         send_form(mailText=f"{player_name}: {selected_playoff_teams}", subject=f"Playoff_vorab_{player_name}")
+
+
+st.header("Wöchentliche Tipps")
 
 colA, colB = st.columns(2)
 with colA:
@@ -144,7 +142,7 @@ with colB:
 
 
 
-st.subheader("Zwischenstand")
+st.header("Zwischenstand")
 # col1, col2 = st.columns(2)
 # with col1:
 #     st.dataframe(playerDF.sort_values(by="Gesamtpunkte", ascending=False, ignore_index=True))
