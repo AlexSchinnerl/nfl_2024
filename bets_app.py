@@ -65,10 +65,15 @@ with colB:
             submitted = st.form_submit_button("Tipps absenden")
 if submitted:
     selected_teams.append(player_name)
-    send_mail_function(mail_key=MYKEY, mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
+    try:
+        send_mail_function(mail_key=MYKEY, mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
+        st.success("Tipps abgeschickt!")
     # with open(f"submitted_bets/{selected_teams[-1]}_week_{thisWeek}_{datetime.now().strftime('%Y-%m-%d %H-%M-%S-%f')}.txt", "w") as f:
     #     for team in selected_teams[:-1]:
     #         f.write(f"{team},")
+    except Exception as e:
+        st.error("Fehler beim Übermitteln")
+
     st.write(selected_teams)
     my_bets.loc[my_bets["Week"]==thisWeek, f"{selected_teams[-1]}"] = selected_teams[:-1]
     my_bets.to_csv(f"data/betsDF.csv", index=False)
