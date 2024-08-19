@@ -62,6 +62,8 @@ schedule["Score Home"] = 0
 schedule["Score Guest"] = 0
 schedule["Winner"] = schedule.apply(check_winner, axis=1)
 
+playoff_teams_DF = pd.read_csv("data/playoffTipps.csv", delimiter=";")
+
 # player List of all participants and list of all teams
 player_list = ["Alex", "Alina", "Evelyn", "Christopher", "Ludwig", "Manu", "Natalie", "Nikolai", "Sebastian", "Vero", "Viki", "Wolfgang"]
 # player_list_with_MrMedian = player_list.copy()

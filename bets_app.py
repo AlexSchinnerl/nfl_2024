@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from load_and_transform import schedule, my_bets, player_list, scoringDF, playerDF, team_list
+from load_and_transform import schedule, my_bets, playoff_teams_DF, player_list, scoringDF, playerDF, team_list
 from mail_function import send_mail_function
 
 
@@ -12,13 +12,22 @@ def send_form(mailText, subject):
     except Exception:
         st.error("Fehler beim Übermitteln")
 
+def name_submit(button_description):
+    col1a, col1b = st.columns(2)
+    with col1a:
+        player_name = st.text_input("Name eingeben")
+    with col1b:
+        st.write("\n")
+        st.write("\n")
+        submitted = st.form_submit_button(button_description)
+    return player_name, submitted
 
 st.set_page_config(layout="wide")
 # st.set_page_config(runOnSave = True)
 
-# import keyring
-# MYKEY = keyring.get_password("alxMail", "alex")
-MYKEY = st.secrets["my_key"]
+import keyring
+MYKEY = keyring.get_password("alxMail", "alex")
+# MYKEY = st.secrets["my_key"]
 
 # thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 thisDay = datetime(2024, 9, 6)
@@ -35,35 +44,47 @@ lastWeek = thisWeek-1
 # filtered_bets["Winner"] = filtered_bets.apply(check_winner, axis=1)
 thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Location", "Home Team", "Away Team"]]
 lastWeek_DF = my_bets.loc[my_bets["Week"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
+afc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="AFC"]
+nfc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="NFC"]
 
 st.title("NFL Tippspiel 2024")
 
-superbowl, playoff_AFC, playoff_NFC = st.columns(3)
+superbowl, playoff = st.columns(2)
 
 with superbowl:
-    st.subheader("Superbowl Tipp")
+    st.subheader("Superbowl Vorab Tipp")
     with st.form("Place Superbowl Bet"):
         superbowl_bet = st.selectbox(label="Superbowl Tipp abgeben", options=team_list, index=None, placeholder="Hier Superbowl Sieger auswählen")
-        player_name = st.text_input("Name eingeben")
-        superbowl_submitted = st.form_submit_button("Superbowl Tipp absenden")
+        player_name, superbowl_submitted = name_submit("Superbowl Tipp absenden")
     if superbowl_submitted:
         send_form(mailText=f"{player_name}: {superbowl_bet}", subject=f"Superbowl_vorab_{player_name}")
 
-with playoff_AFC:
-    st.subheader("Playoff Tipp Tipp")
+with playoff:
+    st.subheader("Playoff Vorab Tipp")
     with st.form("Place Playoff Bet"):
+        col1, col2 = st.columns(2)
         selected_playoff_teams = []
-        for team in team_list:
-            check_team = st.checkbox(label=team, value=False)
-            if check_team:
-                selected_playoff_teams.append(team)
-        playoff_submitted = st.form_submit_button("Playoff Tipps absenden")
+        with col1:
+            st.subheader("AFC Playof Teams")
+            for subdivision in sorted(afc_DF["Subdivision"].unique()):
+                st.write(f"{subdivision}")
+                for team in afc_DF.loc[afc_DF["Subdivision"]==subdivision, "Teams"]:
+                    check_team = st.checkbox(label=team, value=False)
+                    if check_team:
+                        selected_playoff_teams.append(team)
+        with col2:
+            st.subheader("NFC Playoff Teams")
+            for subdivision in sorted(nfc_DF["Subdivision"].unique()):
+                st.write(f"{subdivision}")
+                for team in nfc_DF.loc[nfc_DF["Subdivision"]==subdivision, "Teams"]:
+                    check_team = st.checkbox(label=team, value=False)
+                    if check_team:
+                        selected_playoff_teams.append(team)
+
+        player_name, playoff_submitted = name_submit("Playoff Tipps absenden")
 
     if playoff_submitted:
-        st.write(selected_playoff_teams)
-
-
-
+        send_form(mailText=f"{player_name}: {selected_playoff_teams}", subject=f"Playoff_vorab_{player_name}")
 
 colA, colB = st.columns(2)
 with colA:
@@ -88,13 +109,7 @@ with colB:
                 placeholder="Bitte Gewinner auswählen"
                 )
             selected_teams.append(chosen_winner)
-        col1a, col1b = st.columns(2)
-        with col1a:
-            player_name = st.text_input("Name eingeben")
-        with col1b:
-            st.write("\n")
-            st.write("\n")
-            weekly_submitted = st.form_submit_button("Tipps absenden")
+        player_name, weekly_submitted = name_submit("Tipps absenden")
     if weekly_submitted:
         selected_teams.append(player_name)
         send_form(mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
