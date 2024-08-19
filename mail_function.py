@@ -4,9 +4,6 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-# import keyring
-
-# MYKEY = keyring.get_password("alxMail", "alex")
 MYMAIL = "alex.itsme@gmx.at"
 
 def send_mail_function(mail_key, mailText, subject):
