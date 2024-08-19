@@ -33,9 +33,9 @@ def playoff_checkboxes(df):
 st.set_page_config(layout="wide")
 # st.set_page_config(runOnSave = True)
 
-# import keyring
-# MYKEY = keyring.get_password("alxMail", "alex")
-MYKEY = st.secrets["my_key"]
+import keyring
+MYKEY = keyring.get_password("alxMail", "alex")
+# MYKEY = st.secrets["my_key"]
 
 # thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 thisDay = datetime(2024, 9, 6)
@@ -72,7 +72,7 @@ with playoff:
         col1, col2 = st.columns(2)
         selected_playoff_teams = []
         with col1:
-            st.subheader("AFC Playof Teams")
+            st.subheader("AFC Playoff Teams")
             playoff_checkboxes(afc_DF)
         with col2:
             st.subheader("NFC Playoff Teams")
