@@ -4,7 +4,6 @@ from datetime import datetime
 from load_and_transform import schedule, my_bets, playoff_teams_DF, player_list, scoringDF, playerDF, team_list
 from mail_function import send_mail_function
 
-
 def send_form(mailText, subject):
     try:
         send_mail_function(mail_key=MYKEY, mailText=mailText, subject=subject)
@@ -55,70 +54,73 @@ nfc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="NFC"]
 
 st.title("NFL Tippspiel 2024")
 
-st.header("Vorab Tipps")
+vorab, weekly, standings, help_page = st.tabs(["Vorab Tipps", "Wöchentliche Tipps", "Zwischenstand", "Anleitung"])
 
-superbowl, playoff = st.columns(2)
-with superbowl:
-    st.subheader("Superbowl Vorab Tipp")
-    with st.form("Place Superbowl Bet"):
-        superbowl_bet = st.selectbox(label="Superbowl Tipp abgeben", options=team_list, index=None, placeholder="Hier Superbowl Sieger auswählen")
-        player_name, superbowl_submitted = name_submit("Superbowl Tipp absenden")
-    if superbowl_submitted:
-        send_form(mailText=f"{player_name}: {superbowl_bet}", subject=f"Superbowl_vorab_{player_name}")
+with vorab:
+    st.header("Vorab Tipps")
 
-with playoff:
-    st.subheader("Playoff Vorab Tipp")
-    with st.form("Place Playoff Bet"):
-        col1, col2 = st.columns(2)
-        selected_playoff_teams = []
-        with col1:
-            st.subheader("AFC Playoff Teams")
-            playoff_checkboxes(afc_DF)
-        with col2:
-            st.subheader("NFC Playoff Teams")
-            playoff_checkboxes(nfc_DF)
-        player_name, playoff_submitted = name_submit("Playoff Tipps absenden")      
-    if playoff_submitted:
-        send_form(mailText=f"{player_name}: {selected_playoff_teams}", subject=f"Playoff_vorab_{player_name}")
+    superbowl, playoff = st.columns(2)
+    with superbowl:
+        st.subheader("Superbowl Vorab Tipp")
+        with st.form("Place Superbowl Bet"):
+            superbowl_bet = st.selectbox(label="Superbowl Tipp abgeben", options=team_list, index=None, placeholder="Hier Superbowl Sieger auswählen")
+            player_name, superbowl_submitted = name_submit("Superbowl Tipp absenden")
+        if superbowl_submitted:
+            send_form(mailText=f"{player_name}: {superbowl_bet}", subject=f"Superbowl_vorab_{player_name}")
 
+    with playoff:
+        st.subheader("Playoff Vorab Tipp")
+        with st.form("Place Playoff Bet"):
+            col1, col2 = st.columns(2)
+            selected_playoff_teams = []
+            with col1:
+                st.subheader("AFC Playoff Teams")
+                playoff_checkboxes(afc_DF)
+            with col2:
+                st.subheader("NFC Playoff Teams")
+                playoff_checkboxes(nfc_DF)
+            player_name, playoff_submitted = name_submit("Playoff Tipps absenden")      
+        if playoff_submitted:
+            send_form(mailText=f"{player_name}: {selected_playoff_teams}", subject=f"Playoff_vorab_{player_name}")
 
-st.header("Wöchentliche Tipps")
+with weekly:
+    st.header("Wöchentliche Tipps")
 
-colA, colB = st.columns(2)
-with colA:
-    if thisWeek == 1:
-        pass
-    else:
-        st.subheader(f"Ergebnisse für Woche {lastWeek}")
-        st.dataframe(lastWeek_DF, hide_index=True, height=600)
+    colA, colB = st.columns(2)
+    with colA:
+        if thisWeek == 1:
+            pass
+        else:
+            st.subheader(f"Ergebnisse für Woche {lastWeek}")
+            st.dataframe(lastWeek_DF, hide_index=True, height=600)
 
-    st.subheader(f"Spielplan für Woche {thisWeek}")
-    st.dataframe(thisWeek_DF, hide_index=True, height=600)
+        st.subheader(f"Spielplan für Woche {thisWeek}")
+        st.dataframe(thisWeek_DF, hide_index=True, height=600)
 
-with colB:
-    st.subheader("Hier Tipps auswählen")
-    with st.form("Place Bet"):
-        selected_teams = []
-        for pairing in zip(thisWeek_DF["Home Team"], thisWeek_DF["Away Team"], thisWeek_DF["Game Nr."]):
-            chosen_winner = st.selectbox(
-                label=f"Game Nr.: {pairing[2]} {pairing[0]} vs. {pairing[1]}", 
-                options=pairing[0:2], 
-                index=None, 
-                placeholder="Bitte Gewinner auswählen"
-                )
-            selected_teams.append(chosen_winner)
-        player_name, weekly_submitted = name_submit("Tipps absenden")
-    if weekly_submitted:
-        selected_teams.append(player_name)
-        send_form(mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
+    with colB:
+        st.subheader("Hier Tipps auswählen")
+        with st.form("Place Bet"):
+            selected_teams = []
+            for pairing in zip(thisWeek_DF["Home Team"], thisWeek_DF["Away Team"], thisWeek_DF["Game Nr."]):
+                chosen_winner = st.selectbox(
+                    label=f"Game Nr.: {pairing[2]} {pairing[0]} vs. {pairing[1]}", 
+                    options=pairing[0:2], 
+                    index=None, 
+                    placeholder="Bitte Gewinner auswählen"
+                    )
+                selected_teams.append(chosen_winner)
+            player_name, weekly_submitted = name_submit("Tipps absenden")
+        if weekly_submitted:
+            selected_teams.append(player_name)
+            send_form(mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
 
         
-    # my_bets.loc[my_bets["Week"]==thisWeek, f"{selected_teams[-1]}"] = selected_teams[:-1]
-    # my_bets.to_csv(f"data/betsDF.csv", index=False)
-    # st.dataframe(my_bets)
+with standings:
+    st.header("Zwischenstand")
 
 
-    
+with help_page:
+    st.header("So läufts")
 
 # placed_bets = []
 
@@ -141,8 +143,6 @@ with colB:
 
 
 
-
-st.header("Zwischenstand")
 # col1, col2 = st.columns(2)
 # with col1:
 #     st.dataframe(playerDF.sort_values(by="Gesamtpunkte", ascending=False, ignore_index=True))
