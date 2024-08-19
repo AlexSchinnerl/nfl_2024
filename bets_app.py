@@ -7,6 +7,9 @@ from mail_function import send_mail_function
 st.set_page_config(layout="wide")
 # st.set_page_config(runOnSave = True)
 
+MYKEY = st.secrets["my_key"]
+
+
 thisDay = datetime.today().strftime("%Y-%m-%d")
 thisDay = datetime(2024, 9, 6)
 st.write(thisDay)
@@ -62,7 +65,7 @@ with colB:
             submitted = st.form_submit_button("Tipps absenden")
 if submitted:
     selected_teams.append(player_name)
-    send_mail_function(mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
+    send_mail_function(mail_key=MYKEY, mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
     # with open(f"submitted_bets/{selected_teams[-1]}_week_{thisWeek}_{datetime.now().strftime('%Y-%m-%d %H-%M-%S-%f')}.txt", "w") as f:
     #     for team in selected_teams[:-1]:
     #         f.write(f"{team},")

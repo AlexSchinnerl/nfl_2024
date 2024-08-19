@@ -4,12 +4,12 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-import keyring
+# import keyring
 
-MYKEY = keyring.get_password("alxMail", "alex")
+# MYKEY = keyring.get_password("alxMail", "alex")
 MYMAIL = "alex.itsme@gmx.at"
 
-def send_mail_function(mailText, subject):
+def send_mail_function(mail_key, mailText, subject):
 
     msg = MIMEMultipart()
     # -----Textbausteine
@@ -39,7 +39,7 @@ def send_mail_function(mailText, subject):
     # --------Verbindung zu Server und wegschicken
     server = smtplib.SMTP("mail.gmx.net", 587)
     server.starttls()
-    server.login(MYMAIL, MYKEY)
+    server.login(MYMAIL, mail_key)
     text = msg.as_string()
     server.sendmail(from_addr=MYMAIL, to_addrs="alexander.schinnerl@jku.at", msg=text)
     server.quit
