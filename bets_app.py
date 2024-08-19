@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 from load_and_transform import schedule, my_bets, player_list, scoringDF, playerDF, team_list
+from mail_function import send_mail_function
 
 st.set_page_config(layout="wide")
 # st.set_page_config(runOnSave = True)
@@ -61,9 +62,10 @@ with colB:
             submitted = st.form_submit_button("Tipps absenden")
 if submitted:
     selected_teams.append(player_name)
-    with open(f"submitted_bets/{selected_teams[-1]}_week_{thisWeek}_{datetime.now().strftime('%Y-%m-%d %H-%M-%S-%f')}.txt", "w") as f:
-        for team in selected_teams[:-1]:
-            f.write(f"{team},")
+    send_mail_function(mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
+    # with open(f"submitted_bets/{selected_teams[-1]}_week_{thisWeek}_{datetime.now().strftime('%Y-%m-%d %H-%M-%S-%f')}.txt", "w") as f:
+    #     for team in selected_teams[:-1]:
+    #         f.write(f"{team},")
     st.write(selected_teams)
     my_bets.loc[my_bets["Week"]==thisWeek, f"{selected_teams[-1]}"] = selected_teams[:-1]
     my_bets.to_csv(f"data/betsDF.csv", index=False)
