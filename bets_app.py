@@ -33,9 +33,9 @@ def playoff_checkboxes(df):
 st.set_page_config(layout="wide")
 # st.set_page_config(runOnSave = True)
 
-import keyring
-MYKEY = keyring.get_password("alxMail", "alex")
-# MYKEY = st.secrets["my_key"]
+# import keyring
+# MYKEY = keyring.get_password("alxMail", "alex")
+MYKEY = st.secrets["my_key"]
 
 # thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 thisDay = datetime(2024, 9, 6)
