@@ -29,8 +29,10 @@ def playoff_checkboxes(df):
             if check_team:
                 selected_playoff_teams.append(team)
 
-st.set_page_config(layout="wide")
-# st.set_page_config(runOnSave = True)
+st.set_page_config(
+    page_title="NFL Tippspiel",
+    layout="wide"
+    )
 
 # import keyring
 # MYKEY = keyring.get_password("alxMail", "alex")
@@ -52,6 +54,14 @@ lastWeek_DF = my_bets.loc[my_bets["Week"]==lastWeek, ["Game Nr.", "Home Team", "
 afc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="AFC"]
 nfc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="NFC"]
 
+with open("voarb_explain.md") as f:
+    text = f.read()
+
+
+
+
+
+
 st.title("NFL Tippspiel 2024")
 
 vorab, weekly, standings, help_page = st.tabs(["Vorab Tipps", "Wöchentliche Tipps", "Zwischenstand", "Anleitung"])
@@ -67,6 +77,9 @@ with vorab:
             player_name, superbowl_submitted = name_submit("Superbowl Tipp absenden")
         if superbowl_submitted:
             send_form(mailText=f"{player_name}: {superbowl_bet}", subject=f"Superbowl_vorab_{player_name}")
+
+        st.divider()
+        st.markdown(text)
 
     with playoff:
         st.subheader("Playoff Vorab Tipp")
