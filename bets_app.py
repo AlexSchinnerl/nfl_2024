@@ -14,7 +14,7 @@ def send_form(mailText, subject):
 def name_submit(button_description):
     col1a, col1b = st.columns(2)
     with col1a:
-        player_name = st.text_input("Name eingeben")
+        player_name = st.text_input("Name eingeben", placeholder="Hier euren Namen eintragen")
     with col1b:
         st.write("\n")
         st.write("\n")
@@ -54,9 +54,11 @@ lastWeek_DF = my_bets.loc[my_bets["Week"]==lastWeek, ["Game Nr.", "Home Team", "
 afc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="AFC"]
 nfc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="NFC"]
 
-with open("voarb_explain.md") as f:
-    text = f.read()
+with open("textfiles/vorab_explain.md") as f:
+    vorab_text = f.read()
 
+with open("textfiles/ablauf_tippspiel.md") as f:
+    how2_text = f.read()
 
 
 
@@ -79,7 +81,15 @@ with vorab:
             send_form(mailText=f"{player_name}: {superbowl_bet}", subject=f"Superbowl_vorab_{player_name}")
 
         st.divider()
-        st.markdown(text)
+        st.markdown(vorab_text)
+
+
+
+
+
+
+
+
 
     with playoff:
         st.subheader("Playoff Vorab Tipp")
@@ -95,6 +105,15 @@ with vorab:
             player_name, playoff_submitted = name_submit("Playoff Tipps absenden")      
         if playoff_submitted:
             send_form(mailText=f"{player_name}: {selected_playoff_teams}", subject=f"Playoff_vorab_{player_name}")
+
+
+
+
+
+
+
+
+
 
 with weekly:
     st.header("Wöchentliche Tipps")
@@ -127,13 +146,31 @@ with weekly:
             selected_teams.append(player_name)
             send_form(mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
 
-        
+
+
+
+
+
+
+
+
+
 with standings:
+    st.text("Hier wird gezeigt, wie ihr abgeschnitten habt")
     st.header("Zwischenstand")
 
 
+
+
+
+
+
+
+
+
+
 with help_page:
-    st.header("So läufts")
+    st.markdown(how2_text)
 
 # placed_bets = []
 
