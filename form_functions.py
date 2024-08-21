@@ -1,9 +1,9 @@
 import streamlit as st
 from mail_function import send_mail_function
 
-import keyring
-MYKEY = keyring.get_password("alxMail", "alex")
-# MYKEY = st.secrets["my_key"]
+# import keyring
+# MYKEY = keyring.get_password("alxMail", "alex")
+MYKEY = st.secrets["my_key"]
 
 def name_submit(button_description):
     col1a, col1b = st.columns(2)
