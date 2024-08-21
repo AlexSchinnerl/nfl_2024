@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from load_and_transform import schedule, my_bets, playoff_teams_DF, player_list, scoringDF, playerDF, team_list
+from load_and_transform import playoff_teams_DF, team_list
 from form_functions import name_submit, send_form
 
 st.set_page_config(
