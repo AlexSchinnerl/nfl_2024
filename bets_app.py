@@ -54,6 +54,7 @@ lastWeek_DF = my_bets.loc[my_bets["Week"]==lastWeek, ["Game Nr.", "Home Team", "
 afc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="AFC"]
 nfc_DF = playoff_teams_DF.loc[playoff_teams_DF["Division"]=="NFC"]
 
+
 with open("textfiles/vorab_explain.md") as f:
     vorab_text = f.read()
 
@@ -156,11 +157,26 @@ with weekly:
 
 
 with standings:
-    st.text("Hier wird gezeigt, wie ihr abgeschnitten habt")
     st.header("Zwischenstand")
 
+    selected_week = st.slider(label="Woche auswählen",value=17, min_value=1, max_value=18) # value=thisWeek
+
+    playerDF["Gesamtpunkte"] = scoringDF.loc[scoringDF["Week"]<=selected_week, player_list].sum().to_list()
+    # playerDF["Last Week"] = scoringDF.loc[scoringDF["Week"]<=selected_week-1, player_list].sum().to_list()
+    playerDF["Wöchentliche Punkte"] = scoringDF.loc[scoringDF["Week"]==selected_week, player_list].sum().to_list()
 
 
+    cols1, cols2 = st.columns([1,2])
+
+    with cols1:
+        st.dataframe(playerDF, hide_index=True)
+
+    with cols2:
+        y_options = st.multiselect(label="Graph filtern", options=["Gesamtpunkte", "Wöchentliche Punkte"], default=["Gesamtpunkte"])
+        st.bar_chart(playerDF, x="Spieler", y=y_options, stack=False)
+# ["Zuwachs", "Last Week"]
+
+# maximal mögliche Punkte
 
 
 
@@ -178,9 +194,7 @@ with help_page:
 #     placed_bets.append(filtered_bets[player].value_counts().sum())
 #     scoringDF[player] = filtered_bets.apply(calc_score, axis=1)
 
-# playerDF["Gesamtpunkte"] = scoringDF[player_list].sum().to_list()
-# playerDF["Last Week"] = scoringDF.loc[scoringDF["Week Count"]<=lastWeek, player_list].sum().to_list()
-# playerDF["Zuwachs"] = playerDF["Gesamtpunkte"]-playerDF["Last Week"]
+
 
 # st.dataframe(scoringDF.loc[scoringDF["Week Count"]<=lastWeek])
 
@@ -202,16 +216,6 @@ with help_page:
 # weekly_groupedDF = scoringDF.groupby("Week Count", as_index=False).sum()
 
 
-
-
-# col1, col2 = st.columns(2)
-
-# with col1:
-#     st.subheader(f"Spielplan für Woche {thisWeek}")
-#     st.dataframe(thisWeek_DF, hide_index=True)
-# with col2:
-#     st.subheader(f"Ergebnisse für Woche {lastWeek}")
-#     st.dataframe(lastWeek_DF, hide_index=True)
 
 
 # st.data_editor(

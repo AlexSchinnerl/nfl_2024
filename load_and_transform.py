@@ -2,13 +2,18 @@ import pandas as pd
 
 # Helper functions to apply on the different DFs
 # Most of them use a player variable, which will come from a loop through all players
+
+# def check_winner(row): # winner column in game Data
+#     if row["Score Home"] > row["Score Guest"]:
+#         return row["Home Team"]
+#     else:
+#         return row["Away Team"]
+    
 def check_winner(row): # winner column in game Data
     if row["Score Home"] > row["Score Guest"]:
-        return row["Home Team"]
+        return 1
     else:
-        return row["Away Team"]
-    
-
+        return 2
 
 
 
@@ -54,8 +59,10 @@ def teamCount_per_player(row):
         return row["Away Team"]
 
 # Load Data
-# betsDF = pd.read_csv("data/bets.csv", delimiter=";")
-# betsDF["Date"] = pd.to_datetime(betsDF["Date"], format="%d.%m.%Y %H:%M")
+betsDF = pd.read_csv("data/bets.csv", delimiter=";")
+betsDF["Date"] = pd.to_datetime(betsDF["Date"], format="%d.%m.%Y %H:%M")
+betsDF["Winner"] = betsDF.apply(check_winner, axis=1)
+
 schedule = pd.read_csv("data/schedule.csv", delimiter=";")
 schedule["Date"] = pd.to_datetime(schedule["Date"], format="%Y.%m.%d %H:%M")
 schedule["Score Home"] = 0
@@ -71,7 +78,7 @@ player_list = ["Alex", "Alina", "Evelyn", "Christopher", "Ludwig", "Manu", "Nata
 team_list = schedule["Home Team"].unique()
 
 # # create additional Dataframes
-playerDF = pd.DataFrame(data={"Player":player_list}) # sums up 
+playerDF = pd.DataFrame(data={"Spieler":player_list}) # sums up 
 scoringDF = pd.DataFrame(columns=player_list) # collect the points for each game
 scoringDF["Week"] = schedule["Week"]
 
@@ -81,7 +88,11 @@ my_bets = pd.concat([schedule, my_bets], axis=1)
 
 
 for player in player_list:
-    scoringDF[player] = my_bets.apply(calc_score, axis=1)
+    scoringDF[player] = betsDF.apply(calc_score, axis=1)
+
+
+
+
 
 
 # playoffScoresDF = pd.DataFrame(columns=player_list) # playoff pre-bets
