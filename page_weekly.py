@@ -20,18 +20,9 @@ lastWeek_DF = my_bets.loc[my_bets["Week"]==lastWeek, ["Game Nr.", "Home Team", "
 
 
 
-
-
-
-
-
-
-
-
-
 st.header("Wöchentliche Tipps")
 
-colA, colB = st.columns(2)
+colA, colB = st.columns([2,1])
 with colA:
     if thisWeek == 1:
         pass
