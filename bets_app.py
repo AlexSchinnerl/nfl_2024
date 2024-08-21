@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 from datetime import datetime
 from load_and_transform import schedule, my_bets, playoff_teams_DF, player_list, scoringDF, playerDF, team_list
 from mail_function import send_mail_function
@@ -34,9 +33,9 @@ st.set_page_config(
     layout="wide"
     )
 
-# import keyring
-# MYKEY = keyring.get_password("alxMail", "alex")
-MYKEY = st.secrets["my_key"]
+import keyring
+MYKEY = keyring.get_password("alxMail", "alex")
+# MYKEY = st.secrets["my_key"]
 
 # thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 thisDay = datetime(2024, 9, 6)
@@ -73,6 +72,7 @@ with vorab:
     st.header("Vorab Tipps")
 
     superbowl, playoff = st.columns(2)
+    
     with superbowl:
         st.subheader("Superbowl Vorab Tipp")
         with st.form("Place Superbowl Bet"):
@@ -83,14 +83,6 @@ with vorab:
 
         st.divider()
         st.markdown(vorab_text)
-
-
-
-
-
-
-
-
 
     with playoff:
         st.subheader("Playoff Vorab Tipp")
@@ -181,52 +173,5 @@ with standings:
 
 
 
-
-
-
-
 with help_page:
     st.markdown(how2_text)
-
-# placed_bets = []
-
-# for player in player_list:
-#     placed_bets.append(filtered_bets[player].value_counts().sum())
-#     scoringDF[player] = filtered_bets.apply(calc_score, axis=1)
-
-
-
-# st.dataframe(scoringDF.loc[scoringDF["Week Count"]<=lastWeek])
-
-
-
-# gameCount = filtered_bets["Match Number"].max()
-# playerCount = len(player_list)
-
-# # st.write(f"Bisher absolvierte Spiele: {filtered_bets['Match Number'].max()}")
-
-
-
-# col1, col2 = st.columns(2)
-# with col1:
-#     st.dataframe(playerDF.sort_values(by="Gesamtpunkte", ascending=False, ignore_index=True))
-# with col2:
-#     st.bar_chart(data=playerDF, x="Player", y=["Gesamtpunkte", "Last Week"]) #, stack=False
-
-# weekly_groupedDF = scoringDF.groupby("Week Count", as_index=False).sum()
-
-
-
-
-# st.data_editor(
-#     thisWeek_DF,
-#     column_config={
-#         "Tipp": st.column_config.SelectboxColumn(
-#             "Tipp",
-#             help="Place Bets",
-#             width="medium",
-#             options=[["Team A", "Team B"]]
-#         )
-#     },
-#     hide_index=True,
-# )
