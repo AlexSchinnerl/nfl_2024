@@ -4,11 +4,11 @@ from functions_load_and_transform import schedule, my_bets
 from functions_form import name_submit, send_form
 
 thisDay = datetime.today().strftime("%Y-%m-%d") # for live
-week_count = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
-if week_count > 1:
-    thisWeek = week_count
-else:
+# week_count = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
+if thisDay <= schedule.iloc[15][6].strftime("%Y-%m-%d"):
     thisWeek = 1
+else:
+    list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
 
 # thisWeek = 2 # for testing
 
