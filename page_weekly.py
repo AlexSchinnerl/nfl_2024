@@ -3,11 +3,15 @@ from datetime import datetime
 from functions_load_and_transform import schedule, my_bets
 from functions_form import name_submit, send_form
 
-# thisDay = datetime.today().strftime("%Y-%m-%d") # for live
-thisDay = datetime(2024, 9, 6)
+thisDay = datetime.today().strftime("%Y-%m-%d") # for live
+week_count = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
+if week_count > 1:
+    thisWeek = week_count
+else:
+    thisWeek = 1
 
-thisWeek = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
-thisWeek = 2
+# thisWeek = 2 # for testing
+
 lastWeek = thisWeek-1
 
 thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Location", "Home Team", "Away Team"]]
