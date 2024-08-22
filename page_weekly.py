@@ -7,7 +7,7 @@ from functions_form import name_submit, send_form
 thisDay = datetime(2024, 9, 6)
 
 thisWeek = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
-thisWeek = 1
+thisWeek = 2
 lastWeek = thisWeek-1
 
 thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Location", "Home Team", "Away Team"]]

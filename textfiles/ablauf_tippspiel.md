@@ -1,4 +1,4 @@
-# Ablauf des Tippspiels
+# NFL Tippspiel 2024/25
 
 Ich habe unser Tippspiel auf diese Seite ausgelagert, um es für euch (hoffentlich) übersichtlicher zu gestalten und für mich wird es (hoffentlich) die Administration erleichtern.
 

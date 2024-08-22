@@ -3,7 +3,6 @@ import streamlit as st
 st.set_page_config(
     layout="wide"
     )
-
 pg = st.navigation([
     st.Page(page="page_help.py", title="Anleitung", url_path="help"),
     st.Page(page="page_vorab.py", title="Vorab Tipps", url_path="vorab"),
