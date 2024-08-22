@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime
-from load_and_transform import schedule, my_bets, playoff_teams_DF, player_list, scoringDF, playerDF, team_list
-from mail_function import send_mail_function
+from functions_load_and_transform import schedule, my_bets, playoff_teams_DF, player_list, scoringDF, playerDF, team_list
+from functions_mail import send_mail_function
 
 def send_form(mailText, subject):
     try:

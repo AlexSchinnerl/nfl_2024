@@ -1,12 +1,7 @@
 import streamlit as st
 from datetime import datetime
-from load_and_transform import schedule, my_bets
-from form_functions import name_submit, send_form
-
-st.set_page_config(
-    page_title="Wöchentliche Tipps",
-    layout="wide"
-    )
+from functions_load_and_transform import schedule, my_bets
+from functions_form import name_submit, send_form
 
 # thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 thisDay = datetime(2024, 9, 6)

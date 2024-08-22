@@ -1,10 +1,5 @@
 import streamlit as st
-from load_and_transform import player_list, scoringDF, playerDF
-
-st.set_page_config(
-    # page_title="Zwischenstand",
-    layout="wide"
-    )
+from functions_load_and_transform import player_list, scoringDF, playerDF
 
 # CSS hack für Sidebar Größe
 st.markdown(

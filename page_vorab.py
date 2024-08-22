@@ -1,11 +1,6 @@
 import streamlit as st
-from load_and_transform import playoff_teams_DF, team_list
-from form_functions import name_submit, send_form
-
-st.set_page_config(
-    # page_title="Vorab Tipps",
-    layout="wide"
-    )
+from functions_load_and_transform import playoff_teams_DF, team_list
+from functions_form import name_submit, send_form
 
 def playoff_checkboxes(df):
     for subdivision in sorted(df["Subdivision"].unique()):
