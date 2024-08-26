@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime
 from functions_load_and_transform import schedule, my_bets
-from functions_form import name_submit, send_form, bets_input
+from functions_form import name_submit, send_form
 
 thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 # week_count = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
@@ -48,4 +48,3 @@ with colB:
     if weekly_submitted:
         selected_teams.append(player_name)
         send_form(mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
-        bets_input(week_nr=thisWeek, player=selected_teams[-1], bets=selected_teams[:-1])

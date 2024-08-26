@@ -1,4 +1,3 @@
-import pandas as pd
 import streamlit as st
 from functions_mail import send_mail_function
 from functions_key import MYKEY
@@ -19,8 +18,3 @@ def send_form(mailText, subject):
         st.success("Tipps abgeschickt!")
     except Exception:
         st.error("Fehler beim Übermitteln")
-
-def bets_input(week_nr, player, bets):
-    df = pd.read_csv("data/bets_2024.csv")
-    df.loc[df["Week"] == week_nr, player] = bets
-    df.to_csv("data/bets_2024.csv", index=False)
