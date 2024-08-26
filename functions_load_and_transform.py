@@ -42,13 +42,12 @@ team_list = schedule["Home Team"].unique()
 
 # # create additional Dataframes
 playerDF = pd.DataFrame(data={"Spieler":player_list}) # sums up 
+
+
 scoringDF = pd.DataFrame(columns=player_list) # collect the points for each game
 scoringDF["Week"] = schedule["Week"]
 
-my_bets = pd.DataFrame(columns=player_list)
-my_bets = pd.concat([schedule, my_bets], axis=1)
-
-
+my_bets = pd.read_csv("data/bets.csv", delimiter=";") # placholder
 
 for player in player_list:
     scoringDF[player] = betsDF.apply(calc_score, axis=1)
