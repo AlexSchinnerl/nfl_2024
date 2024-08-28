@@ -1,6 +1,6 @@
 import streamlit as st
 from datetime import datetime
-from functions_load_and_transform import schedule, my_bets
+from functions_load_and_transform import schedule, resultsDF
 from functions_form import name_submit, send_form
 
 thisDay = datetime.today().strftime("%Y-%m-%d") # for live
@@ -15,7 +15,7 @@ else:
 lastWeek = thisWeek-1
 
 thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Location", "Home Team", "Away Team"]]
-lastWeek_DF = my_bets.loc[my_bets["Week"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
+lastWeek_DF = resultsDF.loc[resultsDF["Week"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
 
 
 

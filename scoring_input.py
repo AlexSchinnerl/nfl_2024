@@ -9,6 +9,13 @@ def check_winner(row): # winner column in game Data
         return row["Away Team"]
     else:
         return "Draw"
+    
+def check_score(row): # check if player guessed correctly
+    for player in player_list:
+        if row[f"bet_{player}"] == row["Winner"]:
+            return 1
+        else:
+            return 0
 
 def bets_input(week_nr, player, bets):
     df = pd.read_csv("data/bets_2024.csv")
@@ -22,6 +29,17 @@ def score_input(week_nr, home_team_list, away_team_list):
     df.loc[df["Week"] == week_nr, "Winner"] = df.apply(check_winner, axis=1)
     df.to_csv("data/results.csv", index=False)
 
+def calc_scoring_csv():
+    betsDF = pd.read_csv("data/bets_2024.csv")
+    resultsDF = pd.read_csv("data/results.csv")
+    scoringDF = pd.read_csv("data/scoring.csv")
+    
+    scoringDF["Winner"] = resultsDF["Winner"]
+    for player in player_list:
+        scoringDF[f"bet_{player}"] = betsDF[player]
+    scoringDF[player] = scoringDF.apply(check_score, axis=1)
+
+    scoringDF.to_csv("data/scoring.csv", index=False)
 
 st.header("Admin Tool")
 st.subheader("Bets Eingabe")
@@ -60,4 +78,11 @@ with st.form("Score"):
 
 if score_submit:
     score_input(week_nr=week_nr_score, home_team_list=score_home_list, away_team_list=score_away_list)
+    calc_scoring_csv()
+    st.dataframe(pd.read_csv("data/scoring.csv"))
     st.dataframe(pd.read_csv("data/results.csv"))
+
+calc_scores = st.checkbox("Score Calculator")
+if calc_scores:
+    calc_scoring_csv()
+    st.dataframe(pd.read_csv("data/scoring.csv"))
