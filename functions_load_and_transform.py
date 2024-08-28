@@ -28,9 +28,13 @@ betsDF["Winner"] = betsDF.apply(check_winner, axis=1)
 
 schedule = pd.read_csv("data/schedule.csv", delimiter=";")
 schedule["Date"] = pd.to_datetime(schedule["Date"], format="%Y.%m.%d %H:%M")
-schedule["Score Home"] = 0
-schedule["Score Guest"] = 0
-schedule["Winner"] = schedule.apply(check_winner, axis=1)
+
+resultsDF = pd.read_csv("data/results.csv")
+# betsDF = pd.read_csv("data/bets_2024.csv")
+
+# schedule["Score Home"] = 0
+# schedule["Score Guest"] = 0
+# schedule["Winner"] = schedule.apply(check_winner, axis=1)
 
 playoff_teams_DF = pd.read_csv("data/playoffTipps.csv", delimiter=";")
 
