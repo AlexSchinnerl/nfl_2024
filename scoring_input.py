@@ -10,12 +10,6 @@ def check_winner(row): # winner column in game Data
     else:
         return "Draw"
     
-# def check_score(row): # check if player guessed correctly
-#     if row[plyer] == row["Winner"]:
-#         return 1
-#     else:
-#         return 0
-
 def bets_input(week_nr, player, bets):
     df = pd.read_csv("data/bets_2024.csv")
     df.loc[df["Week"] == week_nr, player] = bets
