@@ -14,6 +14,9 @@ team_list = schedule["Home Team"].unique()
 resultsDF = pd.read_csv("data/results.csv")
 betsDF = pd.read_csv("data/bets_2024.csv")
 scoringDF = pd.read_csv("data/scoring.csv")
+scoringDF = scoringDF.drop(player_list, axis=1)
+for player in player_list:
+    scoringDF = scoringDF.rename(columns={f"score_{player}":player})
 
 # playoff_teams_DF = pd.read_csv("data/playoffTipps.csv", delimiter=";")
 

@@ -1,14 +1,17 @@
 import streamlit as st
 import pandas as pd
-from functions_load_and_transform import schedule, player_list
+from functions_load_and_transform import schedule, player_list, team_list
 
 def check_winner(row): # winner column in game Data
-    if row["Score Home"] > row["Score Guest"]:
-        return row["Home Team"]
-    elif row["Score Home"] < row["Score Guest"]:
-        return row["Away Team"]
+    if row["Score Home"] == 0 and row["Score Guest"] == 0:
+        return 0
     else:
-        return "Draw"
+        if row["Score Home"] > row["Score Guest"]:
+            return row["Home Team"]
+        elif row["Score Home"] < row["Score Guest"]:
+            return row["Away Team"]
+        else:
+            return "Draw"
     
 def bets_input(week_nr, player, bets):
     df = pd.read_csv("data/bets_2024.csv")
@@ -27,9 +30,35 @@ def calc_scoring_csv():
     resultsDF = pd.read_csv("data/results.csv")
     scoringDF = pd.concat([betsDF[player_list], resultsDF[["Winner", "Week", "Game Nr."]]], axis=1)
     for player in player_list:
+        # scoringDF[f"score_{player}"] = scoringDF.apply(lambda row: 1 if row[player] == row["Winner"] else 0, axis=1)
         scoringDF[f"score_{player}"] = scoringDF.apply(lambda row: 1 if row[player] == row["Winner"] else 0, axis=1)
 
     scoringDF.to_csv("data/scoring.csv", index=False)
+
+def team_score_counter(row, teams_dict):
+    if not row["Winner"] == "0":
+        teams_dict[row["Home Team"]][3] +=1
+        teams_dict[row["Away Team"]][3] +=1
+        if row["Winner"] == "Draw":
+            teams_dict[row["Home Team"]][1] +=1
+            teams_dict[row["Away Team"]][1] +=1
+        else:
+            # teams_dict[row["Winner"]][0] +=1
+            if row["Home Team"] == row["Winner"]:
+                # print("a")
+                teams_dict[row["Home Team"]][0] +=1
+            else:
+                teams_dict[row["Away Team"]][2] +=1
+
+def get_team_scoring():
+    df = pd.read_csv("data/results.csv")
+    teams_dict = {}
+    for team in team_list:
+        teams_dict[team] = [0, 0, 0, 0] # Wins, Draws, Losses, Games Played
+    df.apply(team_score_counter, teams_dict=teams_dict, axis=1)
+    team_scores_DF = pd.DataFrame.from_dict(teams_dict, orient="index", columns=["Wins", "Draws", "Losses", "Games Played"])
+    team_scores_DF["Team"] = team_scores_DF.index
+    team_scores_DF.to_csv("data/teams_scores.csv", index=False)
 
 st.header("Admin Tool")
 st.subheader("Bets Eingabe")
@@ -69,10 +98,6 @@ with st.form("Score"):
 if score_submit:
     score_input(week_nr=week_nr_score, home_team_list=score_home_list, away_team_list=score_away_list)
     calc_scoring_csv()
+    get_team_scoring()
     st.dataframe(pd.read_csv("data/scoring.csv"))
     st.dataframe(pd.read_csv("data/results.csv"))
-
-# calc_scores = st.checkbox("Score Calculator")
-# if calc_scores:
-#     calc_scoring_csv()
-#     st.dataframe(pd.read_csv("data/scoring.csv"))
