@@ -18,6 +18,8 @@ scoringDF = scoringDF.drop(player_list, axis=1)
 for player in player_list:
     scoringDF = scoringDF.rename(columns={f"score_{player}":player})
 
+team_scores_DF = pd.read_csv("data/teams_scores.csv")
+
 # playoff_teams_DF = pd.read_csv("data/playoffTipps.csv", delimiter=";")
 
 # # create additional Dataframes

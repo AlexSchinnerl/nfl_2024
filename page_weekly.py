@@ -1,6 +1,6 @@
 import streamlit as st
 from datetime import datetime
-from functions_load_and_transform import schedule, resultsDF
+from functions_load_and_transform import schedule, resultsDF, team_scores_DF
 from functions_form import name_submit, send_form
 
 thisDay = datetime.today().strftime("%Y-%m-%d") # for live
@@ -14,7 +14,17 @@ else:
 
 lastWeek = thisWeek-1
 
-thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Location", "Home Team", "Away Team"]]
+def change_home_team_name(row):
+    return team_scores_DF.loc[team_scores_DF["Team"] == row["Home Team"], "Teams (w-d-l)"].values[0]
+
+def change_away_team_name(row):
+    return team_scores_DF.loc[team_scores_DF["Team"] == row["Away Team"], "Teams (w-d-l)"].values[0]
+
+thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Home Team", "Away Team", "Location"]]
+thisWeek_DF["Home Team"] = thisWeek_DF.apply(change_home_team_name, axis=1)
+thisWeek_DF["Away Team"] = thisWeek_DF.apply(change_away_team_name, axis=1)
+
+
 lastWeek_DF = resultsDF.loc[resultsDF["Week"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
 
 
