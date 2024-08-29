@@ -20,5 +20,5 @@ def create_empty_results_csv():
 #     scoringDF.to_csv("data/scoring.csv", index=False)
     
 # create_empty_bets_csv()
-# create_empty_results_csv()
+create_empty_results_csv()
 # create_empty_scoring_csv()

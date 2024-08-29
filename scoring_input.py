@@ -43,12 +43,12 @@ def team_score_counter(row, teams_dict):
             teams_dict[row["Home Team"]][1] +=1
             teams_dict[row["Away Team"]][1] +=1
         else:
-            # teams_dict[row["Winner"]][0] +=1
-            if row["Home Team"] == row["Winner"]:
-                # print("a")
+            if row["Winner"] == row["Home Team"]:
                 teams_dict[row["Home Team"]][0] +=1
-            else:
                 teams_dict[row["Away Team"]][2] +=1
+            else:
+                teams_dict[row["Away Team"]][0] +=1
+                teams_dict[row["Home Team"]][2] +=1
 
 def get_team_scoring():
     df = pd.read_csv("data/results.csv")
@@ -56,14 +56,12 @@ def get_team_scoring():
     for team in team_list:
         teams_dict[team] = [0, 0, 0, 0] # Wins, Draws, Losses, Games Played
     df.apply(team_score_counter, teams_dict=teams_dict, axis=1)
-    team_scores_DF = pd.DataFrame.from_dict(teams_dict, orient="index", columns=["Wins", "Draws", "Losses", "Games Played"])
-    team_scores_DF["Team"] = team_scores_DF.index
-    team_scores_DF.to_csv("data/teams_scores.csv", index=False)
+    return teams_dict
 
 st.header("Admin Tool")
 st.subheader("Bets Eingabe")
 week_nr_tipps = st.number_input("Spielwoche:", value=0, key="Spielwoche_bets")
-with st.form("Tipps"):
+with st.form("Tipps", clear_on_submit=True):
     cola, colb = st.columns([1,2])
     with cola:
         player = st.selectbox("Spieler auswählen", player_list, index=None, placeholder="Pick one")
@@ -80,9 +78,8 @@ if bets_submit:
 
 
 st.subheader("Ergebnis Eingeben")
-week_nr_score = st.number_input("Spielwoche:", value=0)
-with st.form("Score"):
-    
+week_nr_score = st.number_input("Spielwoche:", value=0)    
+with st.form("Score", clear_on_submit=True):
     col1, col2 = st.columns(2)
     score_home_list = []
     score_away_list = []
@@ -98,6 +95,10 @@ with st.form("Score"):
 if score_submit:
     score_input(week_nr=week_nr_score, home_team_list=score_home_list, away_team_list=score_away_list)
     calc_scoring_csv()
-    get_team_scoring()
+    teams_dict = get_team_scoring()
+    team_scores_DF = pd.DataFrame.from_dict(teams_dict, orient="index", columns=["Wins", "Draws", "Losses", "Games Played"])
+    team_scores_DF["Team"] = team_scores_DF.index
+    team_scores_DF.to_csv("data/teams_scores.csv", index=False)
+
     st.dataframe(pd.read_csv("data/scoring.csv"))
     st.dataframe(pd.read_csv("data/results.csv"))
