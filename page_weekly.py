@@ -1,6 +1,6 @@
 import streamlit as st
 from datetime import datetime
-from functions_load_and_transform import schedule, resultsDF, team_scores_DF
+from functions_load_and_transform import schedule, team_scores_DF, resultsDF
 from functions_form import name_submit, send_form
 
 thisDay = datetime.today().strftime("%Y-%m-%d") # for live
