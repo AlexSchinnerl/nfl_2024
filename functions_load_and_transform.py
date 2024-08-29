@@ -19,6 +19,8 @@ for player in player_list:
     scoringDF = scoringDF.rename(columns={f"score_{player}":player})
 
 team_scores_DF = pd.read_csv("data/teams_scores.csv")
+team_scores_DF["w-d-l"] = "(" + team_scores_DF["Wins"].astype((str)) + "-" + team_scores_DF["Draws"].astype((str)) + "-" + team_scores_DF["Losses"].astype((str)) + ")"
+team_scores_DF["Teams (w-d-l)"] = team_scores_DF["Team"] + " " + team_scores_DF["w-d-l"]
 
 # playoff_teams_DF = pd.read_csv("data/playoffTipps.csv", delimiter=";")
 
