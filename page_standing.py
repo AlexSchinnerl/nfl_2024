@@ -1,5 +1,22 @@
 import streamlit as st
-from functions_load_and_transform import player_list, scoringDF, playerDF
+from functions_load_and_transform import player_list, playerDF, schedule, betsDF #, scoringDF
+
+
+# -------------------------
+import pandas as pd
+
+def calc_score(row): # check if player guessed correctly
+    if row[player] == row["Winner"]:
+        return 1
+    else:
+        return 0
+
+scoringDF = pd.DataFrame(columns=player_list) # collect the points for each game
+scoringDF["Week"] = schedule["Week"]
+for player in player_list:
+    scoringDF[player] = betsDF.apply(calc_score, axis=1)
+
+# ---------------------------------
 
 # CSS hack für Sidebar Größe
 st.markdown(
