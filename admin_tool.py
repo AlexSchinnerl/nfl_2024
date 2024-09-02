@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import re
 from functions_load_and_transform import schedule, player_list, team_list
 
 def check_winner(row): # winner column in game Data
@@ -68,6 +69,7 @@ with st.form("Tipps", clear_on_submit=True):
     with colb:
         bets_list = st.text_input("Tipps eingeben", placeholder="Liste aus der Mail kopieren")
         bets_list = bets_list.replace("[", "").replace("'", "").replace("]", "").replace("\n", "")
+        bets_list = re.sub(" \(\d-\d-\d\)", "", bets_list)
         bets_list = [x.strip() for x in bets_list.split(",")]
 
     bets_submit = st.form_submit_button("Tipps erfassen")
@@ -75,7 +77,6 @@ with st.form("Tipps", clear_on_submit=True):
 if bets_submit:
     bets_input(week_nr=week_nr_tipps, player=player, bets=bets_list)
     st.dataframe(pd.read_csv("data/bets_2024.csv"))
-
 
 st.subheader("Ergebnis Eingeben")
 week_nr_score = st.number_input("Spielwoche:", value=0)    
