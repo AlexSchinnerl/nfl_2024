@@ -30,4 +30,4 @@ def create_empty_teams_scores_csv():
 # create_empty_bets_csv()
 # create_empty_results_csv()
 # create_empty_scoring_csv()
-create_empty_teams_scores_csv()
+# create_empty_teams_scores_csv()

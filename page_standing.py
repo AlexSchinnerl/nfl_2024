@@ -42,7 +42,7 @@ with st.sidebar:
 
 playerDF["Gesamtpunkte"] = scoringDF.loc[scoringDF["Week"]<=selected_week, player_list].sum().to_list()
 # playerDF["Last Week"] = scoringDF.loc[scoringDF["Week"]<=selected_week-1, player_list].sum().to_list()
-playerDF["Wöchentliche Punkte"] = scoringDF.loc[scoringDF["Week"]==selected_week, player_list].sum().to_list()
+playerDF[f"Punkte in Woche: {selected_week}"] = scoringDF.loc[scoringDF["Week"]==selected_week, player_list].sum().to_list()
 
 
 cols1, cols2 = st.columns([1,2])
