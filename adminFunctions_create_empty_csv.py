@@ -8,7 +8,7 @@ def create_empty_bets_csv():
 
 def create_empty_results_csv():
     resultsDF = schedule[["Week", "Game Nr.", "Home Team", "Away Team"]].copy()
-    resultsDF[["Score Home", "Score Guest", "Winner"]] = 0
+    resultsDF[["Score Home", "Score Guest", "Winner", "Looser"]] = 0
     resultsDF.to_csv("data/results.csv", index=False)
 
 def create_empty_teams_scores_csv():
@@ -21,18 +21,8 @@ def create_empty_po_csv():
     po_DF = pd.DataFrame(columns=player_list)
     po_DF["PO Participant"] = 0
     po_DF.to_csv("data/playoffBets.csv", index=False)
-    
-
-# def create_empty_scoring_csv():
-#     scoringDF = pd.DataFrame(columns=player_list) # collect the points for each game
-#     scoringDF[["Week", "Game Nr."]] = schedule[["Week", "Game Nr."]]
-#     scoringDF["Winner"] = 0
-#     for player in player_list:
-#         scoringDF[f"bet_{player}"] = 0
-#     scoringDF.to_csv("data/scoring.csv", index=False)
-    
+      
 # create_empty_bets_csv()
 # create_empty_results_csv()
-# create_empty_scoring_csv()
 # create_empty_teams_scores_csv()
-create_empty_po_csv()
+# create_empty_po_csv()

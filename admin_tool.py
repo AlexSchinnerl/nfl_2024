@@ -35,6 +35,17 @@ def check_winner(row): # winner column in game Data
             return row["Away Team"]
         else:
             return "Draw"
+
+def check_looser(row):
+    if row["Score Home"] == 0 and row["Score Guest"] == 0:
+        return 0
+    else:
+        if row["Score Home"] > row["Score Guest"]:
+            return row["Away Team"]
+        elif row["Score Home"] < row["Score Guest"]:
+            return row["Home Team"]
+        else:
+            return "Draw"    
     
 def bets_input(week_nr, player, bets):
     df = pd.read_csv("data/bets_2024.csv")
@@ -51,6 +62,7 @@ def score_input(week_nr, home_team_list, away_team_list):
     df.loc[df["Week"] == week_nr, "Score Home"] = home_team_list
     df.loc[df["Week"] == week_nr, "Score Guest"] = away_team_list
     df.loc[df["Week"] == week_nr, "Winner"] = df.apply(check_winner, axis=1)
+    df.loc[df["Week"] == week_nr, "Looser"] = df.apply(check_looser, axis=1)
     df.to_csv("data/results.csv", index=False)
 
 def calc_scoring_csv():
