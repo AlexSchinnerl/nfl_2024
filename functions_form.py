@@ -1,6 +1,5 @@
 import streamlit as st
 from functions_mail import send_mail_function
-from functions_key import MYKEY
 
 def name_submit(button_description):
     col1a, col1b = st.columns(2)
@@ -14,7 +13,7 @@ def name_submit(button_description):
 
 def send_form(mailText, subject):
     try:
-        send_mail_function(mail_key=MYKEY, mailText=mailText, subject=subject)
+        send_mail_function(mailText=mailText, subject=subject)
         st.success("Tipps abgeschickt!")
     except Exception:
         st.error("Fehler beim Übermitteln")

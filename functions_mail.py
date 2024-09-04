@@ -1,21 +1,37 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from functions_key import MYKEY
 # from email.mime.base import MIMEBase
 # from email import encoders
 
 MYMAIL = "alex.itsme@gmx.at"
 
-def send_mail_function(mail_key, mailText, subject):
+def server_details(myMail, myKey, message):
+    server = smtplib.SMTP("mail.gmx.net", 587)
+    server.starttls()
+    server.login(myMail, myKey)
+    text = message.as_string()
+    server.sendmail(from_addr=myMail, to_addrs="alexander.schinnerl@jku.at", msg=text)
+    server.quit()
+
+def send_mail_function(mailText, subject):
 
     msg = MIMEMultipart()
     # -----Textbausteine
     msg["Subject"] = subject
     msg["From"] = MYMAIL
-    # msg["To"] = MYMAIL #"alexander.schinnerl@jku.at"
 
     body = str(mailText) # der Mailtext
     msg.attach(MIMEText(body, "plain"))
+
+    # --------Verbindung zu Server und wegschicken
+    server = smtplib.SMTP("mail.gmx.net", 587)
+    server.starttls()
+    server.login(MYMAIL, MYKEY)
+    text = msg.as_string()
+    server.sendmail(from_addr=MYMAIL, to_addrs="alexander.schinnerl@jku.at", msg=text)
+    server.quit()
 
 # --------Attachement
 # filename = "mail_text.txt"
@@ -32,19 +48,6 @@ def send_mail_function(mail_key, mailText, subject):
 # p.add_header("Content-Disposition", "attachment; filename= %s" % filename)
 
 # msg.attach(p)
-
-    # --------Verbindung zu Server und wegschicken
-    server = smtplib.SMTP("mail.gmx.net", 587)
-    server.starttls()
-    server.login(MYMAIL, mail_key)
-    text = msg.as_string()
-    server.sendmail(from_addr=MYMAIL, to_addrs="alexander.schinnerl@jku.at", msg=text)
-    server.quit
-
-# some_list = [1,2,3]
-
-# send_mail_function(some_list)
-
 
 # # https://www.geeksforgeeks.org/send-mail-attachment-gmail-account-using-python/
 # # https://codingworld.io/project/e-mails-versenden-mit-python
