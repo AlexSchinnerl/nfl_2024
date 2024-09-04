@@ -17,6 +17,10 @@ def create_empty_teams_scores_csv():
     team_scores_DF[["Wins", "Draws", "Losses", "Games Played"]] = 0
     team_scores_DF.to_csv("data/teams_scores.csv", index=False)
 
+def create_empty_po_csv():
+    po_DF = pd.DataFrame(columns=player_list)
+    po_DF["PO Participant"] = 0
+    po_DF.to_csv("data/playoffBets.csv", index=False)
     
 
 # def create_empty_scoring_csv():
@@ -31,3 +35,4 @@ def create_empty_teams_scores_csv():
 # create_empty_results_csv()
 # create_empty_scoring_csv()
 # create_empty_teams_scores_csv()
+create_empty_po_csv()

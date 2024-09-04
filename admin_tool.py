@@ -25,8 +25,6 @@ html = f"""\
 </html>
 """
 
-
-
 def check_winner(row): # winner column in game Data
     if row["Score Home"] == 0 and row["Score Guest"] == 0:
         return 0
@@ -42,6 +40,11 @@ def bets_input(week_nr, player, bets):
     df = pd.read_csv("data/bets_2024.csv")
     df.loc[df["Week"] == week_nr, player] = bets
     df.to_csv("data/bets_2024.csv", index=False)
+
+def po_input(player, bets):
+    df = pd.read_csv("data/playoffBets.csv")
+    df[player] = bets
+    df.to_csv("data/playoffBets.csv", index=False)
 
 def score_input(week_nr, home_team_list, away_team_list):
     df = pd.read_csv("data/results.csv")
@@ -123,6 +126,25 @@ with betsInput:
         # bets_input(week_nr=week_nr_tipps, player=player, bets=bets_list)
         bets_input(week_nr=week_nr, player=player, bets=bets_list)
         st.dataframe(pd.read_csv("data/bets_2024.csv"))
+    
+    st.subheader("Playoff vorab Input")
+    st.write("Vorab Tipps eingeben")
+    with st.form("Playoff Vorab", clear_on_submit=True):
+        cola1, colb1 = st.columns([1,2])
+        with cola1:
+            player = st.selectbox("Spieler auswählen", player_list, index=None, placeholder="Pick one", key="Player_PO_vorab")
+        with colb1:
+            po_list = st.text_input("Playoff Tipps eingeben", placeholder="Liste aus der Mail kopieren")
+            po_list = po_list.replace("[", "").replace("'", "").replace("]", "").replace("\n", "")
+            # po_list = re.sub(" \(\d-\d-\d\)", "", po_list)
+            po_list = [x.strip() for x in po_list.split(",")]
+
+        playoff_submit = st.form_submit_button("Playoff Tipps erfassen")
+
+    if playoff_submit:
+        po_input(player=player, bets=po_list)
+        st.dataframe(pd.read_csv("data/playoffBets.csv"))
+
 
 with scoreInput:
     st.subheader("Ergebnis Eingeben")

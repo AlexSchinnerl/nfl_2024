@@ -6,6 +6,11 @@ player_list = ["Alex", "Alina", "Evelyn", "Christopher", "Ludwig", "Manu", "Nata
 # player_list_with_MrMedian = player_list.copy()
 # player_list_with_MrMedian.append("Mr.Median")
 
+playerDF = pd.DataFrame(data={"Spieler":player_list}) # sums up 
+
+playoff_teams_DF = pd.read_csv("data/all_teams.csv", delimiter=";")
+team_list = playoff_teams_DF["Teams"].unique()
+
 # Load Data
 schedule = pd.read_csv("data/schedule.csv", delimiter=";")
 schedule["Date"] = pd.to_datetime(schedule["Date"], format="%Y.%m.%d %H:%M")
@@ -19,8 +24,6 @@ else:
 
 # thisWeek = 2 # for testing
 lastWeek = thisWeek-1
-
-team_list = schedule["Home Team"].unique()
 
 resultsDF = pd.read_csv("data/results.csv")
 betsDF = pd.read_csv("data/bets_2024.csv")
@@ -45,15 +48,3 @@ thisWeek_DF["Away Team"] = thisWeek_DF.apply(change_away_team_name, axis=1)
 
 
 lastWeek_DF = resultsDF.loc[resultsDF["Week"]==lastWeek, ["Game Nr.", "Home Team", "Score Home", "Score Guest", "Away Team"]]
-
-playoff_teams_DF = pd.read_csv("data/playoffTipps.csv", delimiter=";")
-
-# # create additional Dataframes
-playerDF = pd.DataFrame(data={"Spieler":player_list}) # sums up 
-
-
-# my_bets = pd.DataFrame(columns=player_list)
-# my_bets = pd.concat([schedule, my_bets], axis=1)
-
-# for player in player_list:
-#     scoringDF[player] = betsDF.apply(calc_score, axis=1)
