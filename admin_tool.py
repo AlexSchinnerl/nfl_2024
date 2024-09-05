@@ -45,8 +45,31 @@ def check_looser(row):
         elif row["Score Home"] < row["Score Guest"]:
             return row["Home Team"]
         else:
-            return "Draw"    
+            return "Draw"
+            
+def calculate_w_d_l():
+    team_scores_DF = pd.read_csv("data/teams.csv")
+    results_DF = pd.read_csv("data/results.csv")
+
+    count_draws = dict(zip(team_list, [0]*len(team_list)))
+    draw_dict = results_DF.loc[results_DF["Winner"]=="Draw", ["Home Team", "Away Team"]].value_counts().to_dict()
+
+    for team in draw_dict:
+        count_draws[team[0]] += 1
+        count_draws[team[1]] += 1
+
+    for team in team_list:
+        if team in list(results_DF.loc[results_DF["Winner"]==team, "Winner"]):
+            team_scores_DF.loc[team_scores_DF["Team"]==team, "Wins"] = results_DF.loc[results_DF["Winner"]==team, "Winner"].value_counts()[0]
+        if team in list(results_DF.loc[results_DF["Looser"]==team, "Looser"]):
+            team_scores_DF.loc[team_scores_DF["Team"]==team, "Losses"] = results_DF.loc[results_DF["Looser"]==team, "Looser"].value_counts()[0]
+        team_scores_DF.loc[team_scores_DF["Team"]==team, "Draws"] = count_draws[team]
     
+    team_scores_DF["Games Played"] = team_scores_DF["Wins"]+team_scores_DF["Draws"]+team_scores_DF["Losses"]
+
+    team_scores_DF.to_csv("data/teams.csv", index=False)
+    # return team_scores_DF
+
 def bets_input(week_nr, player, bets):
     df = pd.read_csv("data/bets_2024.csv")
     df.loc[df["Week"] == week_nr, player] = bets
@@ -74,29 +97,6 @@ def calc_scoring_csv():
         scoringDF[f"score_{player}"] = scoringDF.apply(lambda row: 1 if row[player] == row["Winner"] else 0, axis=1)
 
     scoringDF.to_csv("data/scoring.csv", index=False)
-
-def team_score_counter(row, teams_dict):
-    if not row["Winner"] == "0":
-        teams_dict[row["Home Team"]][3] +=1
-        teams_dict[row["Away Team"]][3] +=1
-        if row["Winner"] == "Draw":
-            teams_dict[row["Home Team"]][1] +=1
-            teams_dict[row["Away Team"]][1] +=1
-        else:
-            if row["Winner"] == row["Home Team"]:
-                teams_dict[row["Home Team"]][0] +=1
-                teams_dict[row["Away Team"]][2] +=1
-            else:
-                teams_dict[row["Away Team"]][0] +=1
-                teams_dict[row["Home Team"]][2] +=1
-
-def get_team_scoring():
-    df = pd.read_csv("data/results.csv")
-    teams_dict = {}
-    for team in team_list:
-        teams_dict[team] = [0, 0, 0, 0] # Wins, Draws, Losses, Games Played
-    df.apply(team_score_counter, teams_dict=teams_dict, axis=1)
-    return teams_dict
 
 st.set_page_config(
     layout="wide"
@@ -179,10 +179,7 @@ with scoreInput:
         # score_input(week_nr=week_nr_score, home_team_list=score_home_list, away_team_list=score_away_list)
         score_input(week_nr=week_nr, home_team_list=score_home_list, away_team_list=score_away_list)
         calc_scoring_csv()
-        teams_dict = get_team_scoring()
-        team_scores_DF = pd.DataFrame.from_dict(teams_dict, orient="index", columns=["Wins", "Draws", "Losses", "Games Played"])
-        team_scores_DF["Team"] = team_scores_DF.index
-        team_scores_DF.to_csv("data/teams_scores.csv", index=False)
-
+        calculate_w_d_l()
         st.dataframe(pd.read_csv("data/scoring.csv"))
         st.dataframe(pd.read_csv("data/results.csv"))
+        st.dataframe(pd.read_csv("data/teams.csv"))
