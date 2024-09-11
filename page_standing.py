@@ -19,16 +19,16 @@ import pandas as pd
 # ---------------------------------
 
 # CSS hack für Sidebar Größe
-st.markdown(
-    """
-    <style>
-        section[data-testid="stSidebar"] {
-            width: 400px !important; # Set the width to your desired value
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+# st.markdown(
+#     """
+#     <style>
+#         section[data-testid="stSidebar"] {
+#             width: 400px !important; # Set the width to your desired value
+#         }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
 
 st.header("Zwischenstand")
@@ -43,11 +43,14 @@ playerDF["Gesamtpunkte"] = scoringDF.loc[scoringDF["Week"]<=selected_week, playe
 playerDF["Wöchentliche Punkte"] = scoringDF.loc[scoringDF["Week"]==selected_week, player_list].sum().to_list()
 
 
-cols1, cols2 = st.columns([1,2])
+# cols1, cols2 = st.columns([1,2])
 
-with cols1:
-    st.write(f"Ausgewählte Woche: {selected_week}")
-    st.dataframe(playerDF, hide_index=True)
+# with cols1:
+#     st.write(f"Ausgewählte Woche: {selected_week}")
+#     st.dataframe(playerDF, hide_index=True)
 
-with cols2:
-    st.bar_chart(playerDF, x="Spieler", y=y_options, stack=False)
+# with cols2:
+#     st.bar_chart(playerDF, x="Spieler", y=y_options, stack=False)
+st.write(f"Ausgewählte Woche: {selected_week}")
+st.dataframe(playerDF, hide_index=True)
+st.bar_chart(playerDF, x="Spieler", y=y_options, stack=False)
