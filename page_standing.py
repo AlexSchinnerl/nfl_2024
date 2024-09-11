@@ -1,5 +1,5 @@
 import streamlit as st
-from functions_load_and_transform import player_list, playerDF, schedule, betsDF, scoringDF
+from functions_load_and_transform import player_list, playerDF, schedule, betsDF, scoringDF, lastWeek
 
 
 # -------------------------
@@ -36,7 +36,7 @@ st.header("Zwischenstand")
 st.write("Im Moment noch Testdaten aus der Saison 2023/24")
 
 with st.sidebar:
-    selected_week = st.slider(label="Woche auswählen",value=17, min_value=1, max_value=18) # value=thisWeek
+    selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=18) # value=thisWeek
     y_options = st.multiselect(label="Graph filtern", options=["Gesamtpunkte", "Wöchentliche Punkte"], default=["Gesamtpunkte"])
 
 
