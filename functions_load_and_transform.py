@@ -8,8 +8,8 @@ player_list = ["Alex", "Alina", "Evelyn", "Christopher", "Ludwig", "Manu", "Nata
 
 playerDF = pd.DataFrame(data={"Spieler":player_list}) # sums up 
 
-playoff_teams_DF = pd.read_csv("data/all_teams.csv", delimiter=";")
-team_list = playoff_teams_DF["Teams"].unique()
+playoff_teams_DF = pd.read_csv("data/teams.csv", delimiter=",")
+team_list = playoff_teams_DF["Team"].unique()
 
 # Load Data
 schedule = pd.read_csv("data/schedule.csv", delimiter=";")
@@ -20,7 +20,7 @@ thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 if thisDay <= schedule.iloc[15][6].strftime("%Y-%m-%d"):
     thisWeek = 1
 else:
-    list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
+    thisWeek = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
 
 # thisWeek = 2 # for testing
 lastWeek = thisWeek-1
