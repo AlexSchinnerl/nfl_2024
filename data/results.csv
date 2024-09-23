@@ -15,22 +15,22 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 1,14,Tampa Bay Buccaneers,Washington Commanders,37,20,Tampa Bay Buccaneers,Washington Commanders
 1,15,Detroit Lions,Los Angeles Rams,26,20,Detroit Lions,Los Angeles Rams
 1,16,San Francisco 49ers,New York Jets,32,19,San Francisco 49ers,New York Jets
-2,1,Miami Dolphins,Buffalo Bills,0,0,0,0
-2,2,Dallas Cowboys,New Orleans Saints,0,0,0,0
-2,3,Detroit Lions,Tampa Bay Buccaneers,0,0,0,0
-2,4,Green Bay Packers,Indianapolis Colts,0,0,0,0
-2,5,Tennessee Titans,New York Jets,0,0,0,0
-2,6,Minnesota Vikings,San Francisco 49ers,0,0,0,0
-2,7,New England Patriots,Seattle Seahawks,0,0,0,0
-2,8,Washington Commanders,New York Giants,0,0,0,0
-2,9,Carolina Panthers,Los Angeles Chargers,0,0,0,0
-2,10,Jacksonville Jaguars,Cleveland Browns,0,0,0,0
-2,11,Baltimore Ravens,Las Vegas Raiders,0,0,0,0
-2,12,Arizona Cardinals,Los Angeles Rams,0,0,0,0
-2,13,Denver Broncos,Pittsburgh Steelers,0,0,0,0
-2,14,Kansas City Chiefs,Cincinnati Bengals,0,0,0,0
-2,15,Houston Texans,Chicago Bears,0,0,0,0
-2,16,Philadelphia Eagles,Atlanta Falcons,0,0,0,0
+2,1,Miami Dolphins,Buffalo Bills,10,31,Buffalo Bills,Miami Dolphins
+2,2,Dallas Cowboys,New Orleans Saints,19,44,New Orleans Saints,Dallas Cowboys
+2,3,Detroit Lions,Tampa Bay Buccaneers,16,20,Tampa Bay Buccaneers,Detroit Lions
+2,4,Green Bay Packers,Indianapolis Colts,16,10,Green Bay Packers,Indianapolis Colts
+2,5,Tennessee Titans,New York Jets,17,24,New York Jets,Tennessee Titans
+2,6,Minnesota Vikings,San Francisco 49ers,23,17,Minnesota Vikings,San Francisco 49ers
+2,7,New England Patriots,Seattle Seahawks,20,23,Seattle Seahawks,New England Patriots
+2,8,Washington Commanders,New York Giants,21,18,Washington Commanders,New York Giants
+2,9,Carolina Panthers,Los Angeles Chargers,3,26,Los Angeles Chargers,Carolina Panthers
+2,10,Jacksonville Jaguars,Cleveland Browns,13,18,Cleveland Browns,Jacksonville Jaguars
+2,11,Baltimore Ravens,Las Vegas Raiders,23,26,Las Vegas Raiders,Baltimore Ravens
+2,12,Arizona Cardinals,Los Angeles Rams,41,10,Arizona Cardinals,Los Angeles Rams
+2,13,Denver Broncos,Pittsburgh Steelers,6,13,Pittsburgh Steelers,Denver Broncos
+2,14,Kansas City Chiefs,Cincinnati Bengals,26,25,Kansas City Chiefs,Cincinnati Bengals
+2,15,Houston Texans,Chicago Bears,19,13,Houston Texans,Chicago Bears
+2,16,Philadelphia Eagles,Atlanta Falcons,21,22,Atlanta Falcons,Philadelphia Eagles
 3,1,New York Jets,New England Patriots,0,0,0,0
 3,2,Cleveland Browns,New York Giants,0,0,0,0
 3,3,Tennessee Titans,Green Bay Packers,0,0,0,0
