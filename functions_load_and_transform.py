@@ -6,8 +6,6 @@ player_list = ["Alex", "Alina", "Evelyn", "Christopher", "Ludwig", "Manu", "Nata
 # player_list_with_MrMedian = player_list.copy()
 # player_list_with_MrMedian.append("Mr.Median")
 
-playerDF = pd.DataFrame(data={"Spieler":player_list}) # sums up 
-
 playoff_teams_DF = pd.read_csv("data/teams.csv", delimiter=",")
 team_list = playoff_teams_DF["Team"].unique()
 
