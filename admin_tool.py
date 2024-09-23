@@ -137,7 +137,8 @@ with betsInput:
     if bets_submit:
         # bets_input(week_nr=week_nr_tipps, player=player, bets=bets_list)
         bets_input(week_nr=week_nr, player=player, bets=bets_list)
-        st.dataframe(pd.read_csv("data/bets_2024.csv"))
+        new_betsDF = pd.read_csv("data/bets_2024.csv")
+        st.dataframe(new_betsDF.loc[new_betsDF["Week"] == week_nr])
     
     st.subheader("Playoff vorab Input")
     st.write("Vorab Tipps eingeben")

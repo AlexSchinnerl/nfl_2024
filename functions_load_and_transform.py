@@ -14,11 +14,6 @@ schedule = pd.read_csv("data/schedule.csv", delimiter=";")
 schedule["Date"] = pd.to_datetime(schedule["Date"], format="%Y.%m.%d %H:%M")
 
 thisDay = datetime.today().strftime("%Y-%m-%d") # for live
-# # week_count = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]
-# if thisDay <= schedule.iloc[15][6].strftime("%Y-%m-%d"):
-#     thisWeek = 1
-# else:
-#     thisWeek = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]+1
 
 thisWeek = list(schedule.loc[schedule["Date"]>=thisDay, "Week"])[0]
 # thisWeek = 3 # for testing
