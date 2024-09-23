@@ -21,7 +21,7 @@ thisDay = datetime.today().strftime("%Y-%m-%d") # for live
 #     thisWeek = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]+1
 
 thisWeek = list(schedule.loc[schedule["Date"]<thisDay, "Week"])[-1]+1
-# thisWeek = 2 # for testing
+thisWeek = 3 # for testing
 lastWeek = thisWeek-1
 
 resultsDF = pd.read_csv("data/results.csv")

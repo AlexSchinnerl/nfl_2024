@@ -3,8 +3,6 @@ import streamlit as st
 from functions_load_and_transform import thisWeek, lastWeek, thisWeek_DF, lastWeek_DF
 from functions_form import name_submit, send_form
 
-thisWeek = 3
-
 st.header("Wöchentliche Tipps")
 
 colA, colB = st.columns([2,1])
