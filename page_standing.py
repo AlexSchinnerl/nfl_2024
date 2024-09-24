@@ -1,56 +1,17 @@
 import streamlit as st
-from functions_load_and_transform import player_list, schedule, betsDF, scoringDF, lastWeek
-
-
-# -------------------------
+from functions_load_and_transform import player_list, schedule, betsDF, scoringDF, lastWeek, thisWeek
 import pandas as pd
-
-# def calc_score(row): # check if player guessed correctly
-#     if row[player] == row["Winner"]:
-#         return 1
-#     else:
-#         return 0
-
-# scoringDF = pd.DataFrame(columns=player_list) # collect the points for each game
-# scoringDF["Week"] = schedule["Week"]
-# for player in player_list:
-#     scoringDF[player] = betsDF.apply(calc_score, axis=1)
-
-# ---------------------------------
-
-# CSS hack für Sidebar Größe
-# st.markdown(
-#     """
-#     <style>
-#         section[data-testid="stSidebar"] {
-#             width: 400px !important; # Set the width to your desired value
-#         }
-#     </style>
-#     """,
-#     unsafe_allow_html=True,
-# )
-
 
 st.header("Zwischenstand")
 
 with st.sidebar:
-    selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=18) # value=thisWeek
+    selected_week = st.slider(label="Woche auswählen",value=thisWeek, min_value=1, max_value=18) # value=thisWeek
     y_options = st.multiselect(label="Graph filtern", options=["Gesamtpunkte", "Wöchentliche Punkte"], default=["Gesamtpunkte"])
 
 playerDF = pd.DataFrame(data={"Spieler":player_list}) # sums up 
 playerDF["Gesamtpunkte"] = scoringDF.loc[scoringDF["Week"]<=selected_week, player_list].sum().to_list()
-# playerDF["Last Week"] = scoringDF.loc[scoringDF["Week"]<=selected_week-1, player_list].sum().to_list()
 playerDF["Wöchentliche Punkte"] = scoringDF.loc[scoringDF["Week"]==selected_week, player_list].sum().to_list()
 
-
-# cols1, cols2 = st.columns([1,2])
-
-# with cols1:
-#     st.write(f"Ausgewählte Woche: {selected_week}")
-#     st.dataframe(playerDF, hide_index=True)
-
-# with cols2:
-#     st.bar_chart(playerDF, x="Spieler", y=y_options, stack=False)
 st.write(f"Ausgewählte Woche: {selected_week}")
 st.dataframe(playerDF, hide_index=True)
 st.bar_chart(playerDF, x="Spieler", y=y_options, stack=False)

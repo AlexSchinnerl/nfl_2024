@@ -10,3 +10,19 @@ pg = st.navigation([
     st.Page(page="page_standing.py", title="Zwischenstand", url_path="standing"),
     ])
 pg.run()
+
+
+# ---------------------------------
+
+# CSS hack für Sidebar Größe
+# st.markdown(
+#     """
+#     <style>
+#         section[data-testid="stSidebar"] {
+#             width: 400px !important; # Set the width to your desired value
+#         }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
+
