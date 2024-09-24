@@ -31,22 +31,22 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 2,14,Kansas City Chiefs,Cincinnati Bengals,26,25,Kansas City Chiefs,Cincinnati Bengals
 2,15,Houston Texans,Chicago Bears,19,13,Houston Texans,Chicago Bears
 2,16,Philadelphia Eagles,Atlanta Falcons,21,22,Atlanta Falcons,Philadelphia Eagles
-3,1,New York Jets,New England Patriots,0,0,0,0
-3,2,Cleveland Browns,New York Giants,0,0,0,0
-3,3,Tennessee Titans,Green Bay Packers,0,0,0,0
-3,4,Indianapolis Colts,Chicago Bears,0,0,0,0
-3,5,Minnesota Vikings,Houston Texans,0,0,0,0
-3,6,New Orleans Saints,Philadelphia Eagles,0,0,0,0
-3,7,Pittsburgh Steelers,Los Angeles Chargers,0,0,0,0
-3,8,Tampa Bay Buccaneers,Denver Broncos,0,0,0,0
-3,9,Las Vegas Raiders,Carolina Panthers,0,0,0,0
-3,10,Seattle Seahawks,Miami Dolphins,0,0,0,0
-3,11,Dallas Cowboys,Baltimore Ravens,0,0,0,0
-3,12,Los Angeles Rams,San Francisco 49ers,0,0,0,0
-3,13,Arizona Cardinals,Detroit Lions,0,0,0,0
-3,14,Atlanta Falcons,Kansas City Chiefs,0,0,0,0
-3,15,Buffalo Bills,Jacksonville Jaguars,0,0,0,0
-3,16,Cincinnati Bengals,Washington Commanders,0,0,0,0
+3,1,New York Jets,New England Patriots,24,3,New York Jets,New England Patriots
+3,2,Cleveland Browns,New York Giants,15,21,New York Giants,Cleveland Browns
+3,3,Tennessee Titans,Green Bay Packers,14,30,Green Bay Packers,Tennessee Titans
+3,4,Indianapolis Colts,Chicago Bears,21,16,Indianapolis Colts,Chicago Bears
+3,5,Minnesota Vikings,Houston Texans,34,7,Minnesota Vikings,Houston Texans
+3,6,New Orleans Saints,Philadelphia Eagles,12,15,Philadelphia Eagles,New Orleans Saints
+3,7,Pittsburgh Steelers,Los Angeles Chargers,20,10,Pittsburgh Steelers,Los Angeles Chargers
+3,8,Tampa Bay Buccaneers,Denver Broncos,7,26,Denver Broncos,Tampa Bay Buccaneers
+3,9,Las Vegas Raiders,Carolina Panthers,22,36,Carolina Panthers,Las Vegas Raiders
+3,10,Seattle Seahawks,Miami Dolphins,24,3,Seattle Seahawks,Miami Dolphins
+3,11,Dallas Cowboys,Baltimore Ravens,25,28,Baltimore Ravens,Dallas Cowboys
+3,12,Los Angeles Rams,San Francisco 49ers,27,24,Los Angeles Rams,San Francisco 49ers
+3,13,Arizona Cardinals,Detroit Lions,13,20,Detroit Lions,Arizona Cardinals
+3,14,Atlanta Falcons,Kansas City Chiefs,17,22,Kansas City Chiefs,Atlanta Falcons
+3,15,Buffalo Bills,Jacksonville Jaguars,47,10,Buffalo Bills,Jacksonville Jaguars
+3,16,Cincinnati Bengals,Washington Commanders,33,38,Washington Commanders,Cincinnati Bengals
 4,1,New York Giants,Dallas Cowboys,0,0,0,0
 4,2,Atlanta Falcons,New Orleans Saints,0,0,0,0
 4,3,Chicago Bears,Los Angeles Rams,0,0,0,0

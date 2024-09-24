@@ -1,33 +1,33 @@
 Wins,Draws,Losses,Games Played,Team,Division,Subdivision
-1,0,1,2,Arizona Cardinals,NFC,West
-1,0,1,2,Atlanta Falcons,NFC,South
-0,0,2,2,Carolina Panthers,NFC,South
-1,0,1,2,Chicago Bears,NFC,North
-1,0,1,2,Dallas Cowboys,NFC,East
-1,0,1,2,Detroit Lions,NFC,North
-1,0,1,2,Green Bay Packers,NFC,North
-0,0,2,2,Los Angeles Rams,NFC,West
-2,0,0,2,Minnesota Vikings,NFC,North
-2,0,0,2,New Orleans Saints,NFC,South
-0,0,2,2,New York Giants,NFC,East
-1,0,1,2,Philadelphia Eagles,NFC,East
-1,0,1,2,San Francisco 49ers,NFC,West
-2,0,0,2,Seattle Seahawks,NFC,West
-2,0,0,2,Tampa Bay Buccaneers,NFC,South
-1,0,1,2,Washington Commanders,NFC,East
-0,0,2,2,Baltimore Ravens,AFC,North
-2,0,0,2,Buffalo Bills,AFC,East
-0,0,2,2,Cincinnati Bengals,AFC,North
-1,0,1,2,Cleveland Browns,AFC,North
-0,0,2,2,Denver Broncos,AFC,West
-2,0,0,2,Houston Texans,AFC,South
-0,0,2,2,Indianapolis Colts,AFC,South
-0,0,2,2,Jacksonville Jaguars,AFC,South
-2,0,0,2,Kansas City Chiefs,AFC,West
-1,0,1,2,Las Vegas Raiders,AFC,West
-2,0,0,2,Los Angeles Chargers,AFC,West
-1,0,1,2,Miami Dolphins,AFC,East
-1,0,1,2,New England Patriots,AFC,East
-1,0,1,2,New York Jets,AFC,East
-2,0,0,2,Pittsburgh Steelers,AFC,North
-0,0,2,2,Tennessee Titans,AFC,South
+1,0,2,3,Arizona Cardinals,NFC,West
+1,0,2,3,Atlanta Falcons,NFC,South
+1,0,2,3,Carolina Panthers,NFC,South
+1,0,2,3,Chicago Bears,NFC,North
+1,0,2,3,Dallas Cowboys,NFC,East
+2,0,1,3,Detroit Lions,NFC,North
+2,0,1,3,Green Bay Packers,NFC,North
+1,0,2,3,Los Angeles Rams,NFC,West
+3,0,0,3,Minnesota Vikings,NFC,North
+2,0,1,3,New Orleans Saints,NFC,South
+1,0,2,3,New York Giants,NFC,East
+2,0,1,3,Philadelphia Eagles,NFC,East
+1,0,2,3,San Francisco 49ers,NFC,West
+3,0,0,3,Seattle Seahawks,NFC,West
+2,0,1,3,Tampa Bay Buccaneers,NFC,South
+2,0,1,3,Washington Commanders,NFC,East
+1,0,2,3,Baltimore Ravens,AFC,North
+3,0,0,3,Buffalo Bills,AFC,East
+0,0,3,3,Cincinnati Bengals,AFC,North
+1,0,2,3,Cleveland Browns,AFC,North
+1,0,2,3,Denver Broncos,AFC,West
+2,0,1,3,Houston Texans,AFC,South
+1,0,2,3,Indianapolis Colts,AFC,South
+0,0,3,3,Jacksonville Jaguars,AFC,South
+3,0,0,3,Kansas City Chiefs,AFC,West
+1,0,2,3,Las Vegas Raiders,AFC,West
+2,0,1,3,Los Angeles Chargers,AFC,West
+1,0,2,3,Miami Dolphins,AFC,East
+1,0,2,3,New England Patriots,AFC,East
+2,0,1,3,New York Jets,AFC,East
+3,0,0,3,Pittsburgh Steelers,AFC,North
+0,0,3,3,Tennessee Titans,AFC,South
