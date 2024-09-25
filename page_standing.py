@@ -4,11 +4,7 @@ import pandas as pd
 
 st.header("Zwischenstand")
 
-with st.sidebar:
-    selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=18)
-
-
-week_view_list = list(range(1, thisWeek))#selected_week+1))
+week_view_list = list(range(1, thisWeek))
 week_view_list.append("Summe")
 
 scoringDF = scoringDF.drop("Game Nr.", axis=1)
