@@ -9,8 +9,10 @@ html = f"""\
 <html lang="de">
   <body>
   <h2>Link zur Übersicht:</h2>
-  <br>
   <a href="https://nfl2024-tippspiel.streamlit.app/standing">https://nfl2024-tippspiel.streamlit.app/standing</a> 
+  <br>
+  <h2>Link zur Tippabgabe:</h2>
+  <a href="https://nfl2024-tippspiel.streamlit.app/weekly">https://nfl2024-tippspiel.streamlit.app/weekly</a> 
   <br>
   <br>
   <h2>Ergebnisse der Woche {lastWeek}:</h2>
