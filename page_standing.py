@@ -21,7 +21,7 @@ st.dataframe(week_view.sort_values("Summe", ascending=False), height=((11 + 1) *
 st.subheader("Gesamtpunkte")
 st.bar_chart(week_view, y="Summe", y_label="Gesamtpunkte")
 
-selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=thisWeek)
+selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=lastWeek)
 st.subheader(f"Punkte Woche: {selected_week}")
 st.bar_chart(week_view, y=str(selected_week), y_label=f"Punkte", color=(53, 94, 59))
 
