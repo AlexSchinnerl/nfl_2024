@@ -29,10 +29,10 @@ with st.sidebar:
 
 week_view_list = list(range(1, selected_week+1))
 week_view_list.append("Summe")
-
+scoringDF = scoringDF.drop("Game Nr.").drop("Winner")
 # weekly_group = scoringDF.groupby("Week", as_index=False).sum()
 weekly_group = scoringDF.groupby("Week").sum()
-week_view = weekly_group.transpose()#.drop("Game Nr.")
+week_view = weekly_group.transpose()#
 week_view["Summe"] = week_view.sum(axis=1)
 week_view = week_view[week_view_list]
 week_view.columns = week_view.columns.map(str)
