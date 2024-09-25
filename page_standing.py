@@ -16,16 +16,14 @@ week_view["Summe"] = week_view.sum(axis=1)
 week_view = week_view[week_view_list]
 week_view.columns = week_view.columns.map(str)
 
-st.dataframe(week_view.sort_values("Summe", ascending=False))
+st.dataframe(week_view.sort_values("Summe", ascending=False), height=((11 + 1) * 35 + 3)) # 11 Reihen + 1 Überschrift * 35 für die Reihenhöhe + 3 für die Borders
 
 st.subheader("Gesamtpunkte")
 st.bar_chart(week_view, y="Summe", y_label="Gesamtpunkte")
 
-selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=18)
+selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=thisWeek)
 st.subheader(f"Punkte Woche: {selected_week}")
 st.bar_chart(week_view, y=str(selected_week), y_label=f"Punkte", color=(53, 94, 59))
-
-
 
 
 
