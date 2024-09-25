@@ -37,7 +37,7 @@ week_view["Summe"] = week_view.sum(axis=1)
 week_view = week_view[week_view_list]
 week_view.columns = week_view.columns.map(str)
 
-st.dataframe(week_view.sort_values("Summe", ascending=False))
+st.dataframe(week_view)#.sort_values("Summe", ascending=False))
 
 st.subheader("Gesamtpunkte")
 st.bar_chart(week_view, y="Summe", y_label="Gesamtpunkte")
