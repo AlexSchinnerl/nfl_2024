@@ -47,22 +47,22 @@ Detroit Lions,Detroit Lions,Detroit Lions,Detroit Lions,,,Detroit Lions,,Arizona
 Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,,,Kansas City Chiefs,,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,3,14
 Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,,,Buffalo Bills,,Jacksonville Jaguars,Buffalo Bills,Jacksonville Jaguars,Buffalo Bills,3,15
 Cincinnati Bengals,Cincinnati Bengals,Cincinnati Bengals,Cincinnati Bengals,,,Cincinnati Bengals,,Washington Commanders,Cincinnati Bengals,Washington Commanders,Cincinnati Bengals,3,16
-Dallas Cowboys,,Dallas Cowboys,Dallas Cowboys,,New York Giants,,,,,Dallas Cowboys,,4,1
-New Orleans Saints,,Atlanta Falcons,Atlanta Falcons,,New Orleans Saints,,,,,Atlanta Falcons,,4,2
-Los Angeles Rams,,Chicago Bears,Los Angeles Rams,,Chicago Bears,,,,,Los Angeles Rams,,4,3
-Minnesota Vikings,,Green Bay Packers,Green Bay Packers,,Minnesota Vikings,,,,,Minnesota Vikings,,4,4
-Pittsburgh Steelers,,Pittsburgh Steelers,Pittsburgh Steelers,,Pittsburgh Steelers,,,,,Indianapolis Colts,,4,5
-Denver Broncos,,New York Jets,New York Jets,,New York Jets,,,,,New York Jets,,4,6
-Philadelphia Eagles,,Philadelphia Eagles,Philadelphia Eagles,,Philadelphia Eagles,,,,,Philadelphia Eagles,,4,7
-Cincinnati Bengals,,Cincinnati Bengals,Carolina Panthers,,Carolina Panthers,,,,,Cincinnati Bengals,,4,8
-Houston Texans,,Houston Texans,Houston Texans,,Houston Texans,,,,,Jacksonville Jaguars,,4,9
-Arizona Cardinals,,Arizona Cardinals,Washington Commanders,,Arizona Cardinals,,,,,Arizona Cardinals,,4,10
-San Francisco 49ers,,San Francisco 49ers,San Francisco 49ers,,New England Patriots,,,,,San Francisco 49ers,,4,11
-Cleveland Browns,,Las Vegas Raiders,Las Vegas Raiders,,Las Vegas Raiders,,,,,Las Vegas Raiders,,4,12
-Kansas City Chiefs,,Kansas City Chiefs,Kansas City Chiefs,,Los Angeles Chargers,,,,,Kansas City Chiefs,,4,13
-Buffalo Bills,,Baltimore Ravens,Buffalo Bills,,Buffalo Bills,,,,,Baltimore Ravens,,4,14
-Miami Dolphins,,Tennessee Titans,Tennessee Titans,,Miami Dolphins,,,,,Miami Dolphins,,4,15
-Detroit Lions,,Detroit Lions,Detroit Lions,,Detroit Lions,,,,,Detroit Lions,,4,16
+Dallas Cowboys,None,Dallas Cowboys,Dallas Cowboys,Dallas Cowboys,New York Giants,Dallas Cowboys,Dallas Cowboys,New York Giants,Dallas Cowboys,Dallas Cowboys,Dallas Cowboys,4,1
+New Orleans Saints,New Orleans Saints,Atlanta Falcons,Atlanta Falcons,New Orleans Saints,New Orleans Saints,New Orleans Saints,New Orleans Saints,New Orleans Saints,New Orleans Saints,Atlanta Falcons,New Orleans Saints,4,2
+Los Angeles Rams,Chicago Bears,Chicago Bears,Los Angeles Rams,Chicago Bears,Chicago Bears,Los Angeles Rams,Los Angeles Rams,Los Angeles Rams,Los Angeles Rams,Los Angeles Rams,Los Angeles Rams,4,3
+Minnesota Vikings,Green Bay Packers,Green Bay Packers,Green Bay Packers,Minnesota Vikings,Minnesota Vikings,Green Bay Packers,Green Bay Packers,Minnesota Vikings,Green Bay Packers,Minnesota Vikings,Minnesota Vikings,4,4
+Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Indianapolis Colts,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Indianapolis Colts,Pittsburgh Steelers,4,5
+Denver Broncos,New York Jets,New York Jets,New York Jets,New York Jets,New York Jets,New York Jets,New York Jets,New York Jets,New York Jets,New York Jets,New York Jets,4,6
+Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Tampa Bay Buccaneers,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,4,7
+Cincinnati Bengals,Cincinnati Bengals,Cincinnati Bengals,Carolina Panthers,Carolina Panthers,Carolina Panthers,Cincinnati Bengals,Cincinnati Bengals,Carolina Panthers,Cincinnati Bengals,Cincinnati Bengals,Cincinnati Bengals,4,8
+Houston Texans,Houston Texans,Houston Texans,Houston Texans,Houston Texans,Houston Texans,Houston Texans,Houston Texans,Houston Texans,Houston Texans,Jacksonville Jaguars,Houston Texans,4,9
+Arizona Cardinals,Arizona Cardinals,Arizona Cardinals,Washington Commanders,Washington Commanders,Arizona Cardinals,Arizona Cardinals,Arizona Cardinals,Washington Commanders,Washington Commanders,Arizona Cardinals,Arizona Cardinals,4,10
+San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,New England Patriots,San Francisco 49ers,New England Patriots,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,4,11
+Cleveland Browns,Cleveland Browns,Las Vegas Raiders,Las Vegas Raiders,Cleveland Browns,Las Vegas Raiders,Las Vegas Raiders,Las Vegas Raiders,Cleveland Browns,Cleveland Browns,Las Vegas Raiders,Las Vegas Raiders,4,12
+Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Los Angeles Chargers,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,4,13
+Buffalo Bills,Buffalo Bills,Baltimore Ravens,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Baltimore Ravens,Baltimore Ravens,4,14
+Miami Dolphins,Miami Dolphins,Tennessee Titans,Tennessee Titans,Miami Dolphins,Miami Dolphins,Miami Dolphins,Tennessee Titans,Miami Dolphins,Miami Dolphins,Miami Dolphins,Tennessee Titans,4,15
+Detroit Lions,Seattle Seahawks,Detroit Lions,Detroit Lions,Detroit Lions,Detroit Lions,Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,Detroit Lions,Detroit Lions,Detroit Lions,4,16
 ,,,,,,,,,,,,5,1
 ,,,,,,,,,,,,5,2
 ,,,,,,,,,,,,5,3

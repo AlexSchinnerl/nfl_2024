@@ -4,6 +4,8 @@ import pandas as pd
 
 st.header("Zwischenstand")
 
+thisWeek = 5
+
 week_view_list = list(range(1, thisWeek))
 week_view_list.append("Summe")
 
