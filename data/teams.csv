@@ -1,33 +1,33 @@
 Wins,Draws,Losses,Games Played,Team,Division,Subdivision
-1,0,3,4,Arizona Cardinals,NFC,West
-2,0,2,4,Atlanta Falcons,NFC,South
-1,0,3,4,Carolina Panthers,NFC,South
-2,0,2,4,Chicago Bears,NFC,North
-2,0,2,4,Dallas Cowboys,NFC,East
+2,0,3,5,Arizona Cardinals,NFC,West
+3,0,2,5,Atlanta Falcons,NFC,South
+1,0,4,5,Carolina Panthers,NFC,South
+3,0,2,5,Chicago Bears,NFC,North
+3,0,2,5,Dallas Cowboys,NFC,East
 3,0,1,4,Detroit Lions,NFC,North
-2,0,2,4,Green Bay Packers,NFC,North
-1,0,3,4,Los Angeles Rams,NFC,West
-4,0,0,4,Minnesota Vikings,NFC,North
-2,0,2,4,New Orleans Saints,NFC,South
-1,0,3,4,New York Giants,NFC,East
+3,0,2,5,Green Bay Packers,NFC,North
+1,0,4,5,Los Angeles Rams,NFC,West
+5,0,0,5,Minnesota Vikings,NFC,North
+2,0,3,5,New Orleans Saints,NFC,South
+2,0,3,5,New York Giants,NFC,East
 2,0,2,4,Philadelphia Eagles,NFC,East
-2,0,2,4,San Francisco 49ers,NFC,West
-3,0,1,4,Seattle Seahawks,NFC,West
-3,0,1,4,Tampa Bay Buccaneers,NFC,South
-3,0,1,4,Washington Commanders,NFC,East
-2,0,2,4,Baltimore Ravens,AFC,North
-3,0,1,4,Buffalo Bills,AFC,East
-1,0,3,4,Cincinnati Bengals,AFC,North
-1,0,3,4,Cleveland Browns,AFC,North
-2,0,2,4,Denver Broncos,AFC,West
-3,0,1,4,Houston Texans,AFC,South
-2,0,2,4,Indianapolis Colts,AFC,South
-0,0,4,4,Jacksonville Jaguars,AFC,South
-4,0,0,4,Kansas City Chiefs,AFC,West
-2,0,2,4,Las Vegas Raiders,AFC,West
+2,0,3,5,San Francisco 49ers,NFC,West
+3,0,2,5,Seattle Seahawks,NFC,West
+3,0,2,5,Tampa Bay Buccaneers,NFC,South
+4,0,1,5,Washington Commanders,NFC,East
+3,0,2,5,Baltimore Ravens,AFC,North
+3,0,2,5,Buffalo Bills,AFC,East
+1,0,4,5,Cincinnati Bengals,AFC,North
+1,0,4,5,Cleveland Browns,AFC,North
+3,0,2,5,Denver Broncos,AFC,West
+4,0,1,5,Houston Texans,AFC,South
+2,0,3,5,Indianapolis Colts,AFC,South
+1,0,4,5,Jacksonville Jaguars,AFC,South
+5,0,0,5,Kansas City Chiefs,AFC,West
+2,0,3,5,Las Vegas Raiders,AFC,West
 2,0,2,4,Los Angeles Chargers,AFC,West
-1,0,3,4,Miami Dolphins,AFC,East
-1,0,3,4,New England Patriots,AFC,East
-2,0,2,4,New York Jets,AFC,East
-3,0,1,4,Pittsburgh Steelers,AFC,North
+2,0,3,5,Miami Dolphins,AFC,East
+1,0,4,5,New England Patriots,AFC,East
+2,0,3,5,New York Jets,AFC,East
+3,0,2,5,Pittsburgh Steelers,AFC,North
 1,0,3,4,Tennessee Titans,AFC,South

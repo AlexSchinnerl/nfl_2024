@@ -63,20 +63,20 @@ Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kans
 Buffalo Bills,Buffalo Bills,Baltimore Ravens,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,4,14,0,0,1,0,0,0,0,0,0,0,1,1
 Miami Dolphins,Miami Dolphins,Tennessee Titans,Tennessee Titans,Miami Dolphins,Miami Dolphins,Miami Dolphins,Tennessee Titans,Miami Dolphins,Miami Dolphins,Miami Dolphins,Tennessee Titans,Tennessee Titans,4,15,0,0,1,1,0,0,0,1,0,0,0,1
 Detroit Lions,Seattle Seahawks,Detroit Lions,Detroit Lions,Detroit Lions,Detroit Lions,Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,Detroit Lions,Detroit Lions,Detroit Lions,Detroit Lions,4,16,1,0,1,1,1,1,0,0,0,1,1,1
-,,,,,,,,,,,,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,2,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,6,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,7,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,8,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,9,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,10,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,11,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,12,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,13,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,5,14,0,0,0,0,0,0,0,0,0,0,0,0
+Tampa Bay Buccaneers,Atlanta Falcons,Atlanta Falcons,None,None,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Atlanta Falcons,,,Atlanta Falcons,5,1,0,1,1,0,0,0,0,0,0,1,0,0
+Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,New York Jets,Minnesota Vikings,New York Jets,New York Jets,,,Minnesota Vikings,5,2,1,1,1,1,1,1,0,1,0,0,0,0
+Chicago Bears,Chicago Bears,Chicago Bears,Chicago Bears,Chicago Bears,Chicago Bears,Chicago Bears,Chicago Bears,Chicago Bears,Carolina Panthers,,,Chicago Bears,5,3,1,1,1,1,1,1,1,1,1,0,0,0
+Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Cincinnati Bengals,Baltimore Ravens,Cincinnati Bengals,,,Baltimore Ravens,5,4,1,1,1,1,1,1,1,0,1,0,0,0
+Miami Dolphins,Miami Dolphins,New England Patriots,New England Patriots,Miami Dolphins,Miami Dolphins,Miami Dolphins,Miami Dolphins,New England Patriots,Miami Dolphins,,,Miami Dolphins,5,5,1,1,0,0,1,1,1,1,0,1,0,0
+Washington Commanders,Cleveland Browns,Washington Commanders,Washington Commanders,Washington Commanders,Washington Commanders,Washington Commanders,Washington Commanders,Washington Commanders,Cleveland Browns,,,Washington Commanders,5,6,1,0,1,1,1,1,1,1,1,0,0,0
+Indianapolis Colts,Jacksonville Jaguars,Jacksonville Jaguars,Indianapolis Colts,Indianapolis Colts,Indianapolis Colts,Indianapolis Colts,Indianapolis Colts,Indianapolis Colts,Indianapolis Colts,,,Jacksonville Jaguars,5,7,0,1,1,0,0,0,0,0,0,0,0,0
+Houston Texans,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,Houston Texans,Houston Texans,Buffalo Bills,Houston Texans,Houston Texans,,,Houston Texans,5,8,1,0,0,0,0,1,1,0,1,1,0,0
+Denver Broncos,Las Vegas Raiders,Denver Broncos,Las Vegas Raiders,Las Vegas Raiders,Las Vegas Raiders,Denver Broncos,Las Vegas Raiders,Denver Broncos,Las Vegas Raiders,,,Denver Broncos,5,9,1,0,1,0,0,0,1,0,1,0,0,0
+San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,,,Arizona Cardinals,5,10,0,0,0,0,0,0,0,0,0,0,0,0
+Green Bay Packers,Green Bay Packers,Green Bay Packers,Green Bay Packers,Green Bay Packers,Green Bay Packers,Green Bay Packers,Green Bay Packers,Green Bay Packers,Los Angeles Rams,,,Green Bay Packers,5,11,1,1,1,1,1,1,1,1,1,0,0,0
+Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,New York Giants,Seattle Seahawks,New York Giants,,,New York Giants,5,12,0,0,0,0,0,0,0,1,0,1,0,0
+Pittsburgh Steelers,Dallas Cowboys,Pittsburgh Steelers,Dallas Cowboys,Dallas Cowboys,Pittsburgh Steelers,Dallas Cowboys,Dallas Cowboys,Pittsburgh Steelers,Dallas Cowboys,,,Dallas Cowboys,5,13,0,1,0,1,1,0,1,1,0,1,0,0
+Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,,,Kansas City Chiefs,5,14,1,1,1,1,1,1,1,1,1,1,0,0
 ,,,,,,,,,,,,0,6,1,0,0,0,0,0,0,0,0,0,0,0,0
 ,,,,,,,,,,,,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0
 ,,,,,,,,,,,,0,6,3,0,0,0,0,0,0,0,0,0,0,0,0
