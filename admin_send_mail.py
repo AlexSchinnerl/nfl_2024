@@ -20,5 +20,5 @@ def send_weekly_mail(html_text, lastWeek, thisWeek):
     server.starttls()
     server.login(MYMAIL, my_intern_key)
     text = msg.as_string()
-    server.sendmail(from_addr=MYMAIL, to_addrs="alexander.schinnerl@jku.at", msg=text)
+    server.sendmail(from_addr=MYMAIL, to_addrs="alex.itsme@gmx.at", msg=text)
     server.quit()
