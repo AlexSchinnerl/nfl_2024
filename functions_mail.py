@@ -12,7 +12,7 @@ def server_details(myMail, myKey, message):
     server.starttls()
     server.login(myMail, myKey)
     text = message.as_string()
-    server.sendmail(from_addr=myMail, to_addrs="alexander.schinnerl@jku.at", msg=text)
+    server.sendmail(from_addr=myMail, to_addrs="alex.itsme@gmx.at", msg=text)
     server.quit()
 
 def send_mail_function(mailText, subject):
@@ -30,7 +30,7 @@ def send_mail_function(mailText, subject):
     server.starttls()
     server.login(MYMAIL, MYKEY)
     text = msg.as_string()
-    server.sendmail(from_addr=MYMAIL, to_addrs="alexander.schinnerl@jku.at", msg=text)
+    server.sendmail(from_addr=MYMAIL, to_addrs="alex.itsme@gmx.at.at", msg=text)
     server.quit()
 
 # --------Attachement
