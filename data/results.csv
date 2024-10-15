@@ -77,20 +77,20 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 5,12,Seattle Seahawks,New York Giants,20,29,New York Giants,Seattle Seahawks
 5,13,Pittsburgh Steelers,Dallas Cowboys,17,20,Dallas Cowboys,Pittsburgh Steelers
 5,14,Kansas City Chiefs,New Orleans Saints,26,13,Kansas City Chiefs,New Orleans Saints
-6,1,Seattle Seahawks,San Francisco 49ers,0,0,0,0
-6,2,Chicago Bears,Jacksonville Jaguars,0,0,0,0
-6,3,Green Bay Packers,Arizona Cardinals,0,0,0,0
-6,4,Tennessee Titans,Indianapolis Colts,0,0,0,0
-6,5,New England Patriots,Houston Texans,0,0,0,0
-6,6,New Orleans Saints,Tampa Bay Buccaneers,0,0,0,0
-6,7,Philadelphia Eagles,Cleveland Browns,0,0,0,0
-6,8,Baltimore Ravens,Washington Commanders,0,0,0,0
-6,9,Denver Broncos,Los Angeles Chargers,0,0,0,0
-6,10,Las Vegas Raiders,Pittsburgh Steelers,0,0,0,0
-6,11,Dallas Cowboys,Detroit Lions,0,0,0,0
-6,12,Carolina Panthers,Atlanta Falcons,0,0,0,0
-6,13,New York Giants,Cincinnati Bengals,0,0,0,0
-6,14,New York Jets,Buffalo Bills,0,0,0,0
+6,1,Seattle Seahawks,San Francisco 49ers,24,35,San Francisco 49ers,Seattle Seahawks
+6,2,Chicago Bears,Jacksonville Jaguars,35,16,Chicago Bears,Jacksonville Jaguars
+6,3,Green Bay Packers,Arizona Cardinals,34,13,Green Bay Packers,Arizona Cardinals
+6,4,Tennessee Titans,Indianapolis Colts,17,20,Indianapolis Colts,Tennessee Titans
+6,5,New England Patriots,Houston Texans,21,41,Houston Texans,New England Patriots
+6,6,New Orleans Saints,Tampa Bay Buccaneers,27,51,Tampa Bay Buccaneers,New Orleans Saints
+6,7,Philadelphia Eagles,Cleveland Browns,20,16,Philadelphia Eagles,Cleveland Browns
+6,8,Baltimore Ravens,Washington Commanders,30,23,Baltimore Ravens,Washington Commanders
+6,9,Denver Broncos,Los Angeles Chargers,16,23,Los Angeles Chargers,Denver Broncos
+6,10,Las Vegas Raiders,Pittsburgh Steelers,13,32,Pittsburgh Steelers,Las Vegas Raiders
+6,11,Dallas Cowboys,Detroit Lions,9,47,Detroit Lions,Dallas Cowboys
+6,12,Carolina Panthers,Atlanta Falcons,20,38,Atlanta Falcons,Carolina Panthers
+6,13,New York Giants,Cincinnati Bengals,7,17,Cincinnati Bengals,New York Giants
+6,14,New York Jets,Buffalo Bills,20,23,Buffalo Bills,New York Jets
 7,1,New Orleans Saints,Denver Broncos,0,0,0,0
 7,2,Jacksonville Jaguars,New England Patriots,0,0,0,0
 7,3,Atlanta Falcons,Seattle Seahawks,0,0,0,0
