@@ -91,21 +91,21 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 6,12,Carolina Panthers,Atlanta Falcons,20,38,Atlanta Falcons,Carolina Panthers
 6,13,New York Giants,Cincinnati Bengals,7,17,Cincinnati Bengals,New York Giants
 6,14,New York Jets,Buffalo Bills,20,23,Buffalo Bills,New York Jets
-7,1,New Orleans Saints,Denver Broncos,0,0,0,0
-7,2,Jacksonville Jaguars,New England Patriots,0,0,0,0
-7,3,Atlanta Falcons,Seattle Seahawks,0,0,0,0
-7,4,Buffalo Bills,Tennessee Titans,0,0,0,0
-7,5,Cleveland Browns,Cincinnati Bengals,0,0,0,0
-7,6,Green Bay Packers,Houston Texans,0,0,0,0
-7,7,Indianapolis Colts,Miami Dolphins,0,0,0,0
-7,8,Minnesota Vikings,Detroit Lions,0,0,0,0
-7,9,New York Giants,Philadelphia Eagles,0,0,0,0
-7,10,Los Angeles Rams,Las Vegas Raiders,0,0,0,0
-7,11,Washington Commanders,Carolina Panthers,0,0,0,0
-7,12,San Francisco 49ers,Kansas City Chiefs,0,0,0,0
-7,13,Pittsburgh Steelers,New York Jets,0,0,0,0
-7,14,Tampa Bay Buccaneers,Baltimore Ravens,0,0,0,0
-7,15,Arizona Cardinals,Los Angeles Chargers,0,0,0,0
+7,1,New Orleans Saints,Denver Broncos,10,33,Denver Broncos,New Orleans Saints
+7,2,Jacksonville Jaguars,New England Patriots,32,16,Jacksonville Jaguars,New England Patriots
+7,3,Atlanta Falcons,Seattle Seahawks,14,34,Seattle Seahawks,Atlanta Falcons
+7,4,Buffalo Bills,Tennessee Titans,34,10,Buffalo Bills,Tennessee Titans
+7,5,Cleveland Browns,Cincinnati Bengals,14,21,Cincinnati Bengals,Cleveland Browns
+7,6,Green Bay Packers,Houston Texans,24,22,Green Bay Packers,Houston Texans
+7,7,Indianapolis Colts,Miami Dolphins,16,10,Indianapolis Colts,Miami Dolphins
+7,8,Minnesota Vikings,Detroit Lions,29,31,Detroit Lions,Minnesota Vikings
+7,9,New York Giants,Philadelphia Eagles,3,28,Philadelphia Eagles,New York Giants
+7,10,Los Angeles Rams,Las Vegas Raiders,20,15,Los Angeles Rams,Las Vegas Raiders
+7,11,Washington Commanders,Carolina Panthers,40,7,Washington Commanders,Carolina Panthers
+7,12,San Francisco 49ers,Kansas City Chiefs,18,28,Kansas City Chiefs,San Francisco 49ers
+7,13,Pittsburgh Steelers,New York Jets,37,15,Pittsburgh Steelers,New York Jets
+7,14,Tampa Bay Buccaneers,Baltimore Ravens,31,41,Baltimore Ravens,Tampa Bay Buccaneers
+7,15,Arizona Cardinals,Los Angeles Chargers,17,15,Arizona Cardinals,Los Angeles Chargers
 8,1,Los Angeles Rams,Minnesota Vikings,0,0,0,0
 8,2,Cleveland Browns,Baltimore Ravens,0,0,0,0
 8,3,Detroit Lions,Tennessee Titans,0,0,0,0
