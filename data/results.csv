@@ -106,22 +106,22 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 7,13,Pittsburgh Steelers,New York Jets,37,15,Pittsburgh Steelers,New York Jets
 7,14,Tampa Bay Buccaneers,Baltimore Ravens,31,41,Baltimore Ravens,Tampa Bay Buccaneers
 7,15,Arizona Cardinals,Los Angeles Chargers,17,15,Arizona Cardinals,Los Angeles Chargers
-8,1,Los Angeles Rams,Minnesota Vikings,0,0,0,0
-8,2,Cleveland Browns,Baltimore Ravens,0,0,0,0
-8,3,Detroit Lions,Tennessee Titans,0,0,0,0
-8,4,Miami Dolphins,Arizona Cardinals,0,0,0,0
-8,5,New England Patriots,New York Jets,0,0,0,0
-8,6,Tampa Bay Buccaneers,Atlanta Falcons,0,0,0,0
-8,7,Washington Commanders,Chicago Bears,0,0,0,0
-8,8,Jacksonville Jaguars,Green Bay Packers,0,0,0,0
-8,9,Houston Texans,Indianapolis Colts,0,0,0,0
-8,10,Los Angeles Chargers,New Orleans Saints,0,0,0,0
-8,11,Seattle Seahawks,Buffalo Bills,0,0,0,0
-8,12,Cincinnati Bengals,Philadelphia Eagles,0,0,0,0
-8,13,Denver Broncos,Carolina Panthers,0,0,0,0
-8,14,Las Vegas Raiders,Kansas City Chiefs,0,0,0,0
-8,15,San Francisco 49ers,Dallas Cowboys,0,0,0,0
-8,16,Pittsburgh Steelers,New York Giants,0,0,0,0
+8,1,Los Angeles Rams,Minnesota Vikings,30,20,Los Angeles Rams,Minnesota Vikings
+8,2,Cleveland Browns,Baltimore Ravens,29,24,Cleveland Browns,Baltimore Ravens
+8,3,Detroit Lions,Tennessee Titans,52,14,Detroit Lions,Tennessee Titans
+8,4,Miami Dolphins,Arizona Cardinals,27,28,Arizona Cardinals,Miami Dolphins
+8,5,New England Patriots,New York Jets,25,22,New England Patriots,New York Jets
+8,6,Tampa Bay Buccaneers,Atlanta Falcons,26,31,Atlanta Falcons,Tampa Bay Buccaneers
+8,7,Washington Commanders,Chicago Bears,18,15,Washington Commanders,Chicago Bears
+8,8,Jacksonville Jaguars,Green Bay Packers,27,30,Green Bay Packers,Jacksonville Jaguars
+8,9,Houston Texans,Indianapolis Colts,23,20,Houston Texans,Indianapolis Colts
+8,10,Los Angeles Chargers,New Orleans Saints,26,8,Los Angeles Chargers,New Orleans Saints
+8,11,Seattle Seahawks,Buffalo Bills,10,31,Buffalo Bills,Seattle Seahawks
+8,12,Cincinnati Bengals,Philadelphia Eagles,17,37,Philadelphia Eagles,Cincinnati Bengals
+8,13,Denver Broncos,Carolina Panthers,28,14,Denver Broncos,Carolina Panthers
+8,14,Las Vegas Raiders,Kansas City Chiefs,20,27,Kansas City Chiefs,Las Vegas Raiders
+8,15,San Francisco 49ers,Dallas Cowboys,30,24,San Francisco 49ers,Dallas Cowboys
+8,16,Pittsburgh Steelers,New York Giants,26,18,Pittsburgh Steelers,New York Giants
 9,1,New York Jets,Houston Texans,0,0,0,0
 9,2,Atlanta Falcons,Dallas Cowboys,0,0,0,0
 9,3,Buffalo Bills,Miami Dolphins,0,0,0,0
