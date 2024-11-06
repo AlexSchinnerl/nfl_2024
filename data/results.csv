@@ -122,21 +122,21 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 8,14,Las Vegas Raiders,Kansas City Chiefs,20,27,Kansas City Chiefs,Las Vegas Raiders
 8,15,San Francisco 49ers,Dallas Cowboys,30,24,San Francisco 49ers,Dallas Cowboys
 8,16,Pittsburgh Steelers,New York Giants,26,18,Pittsburgh Steelers,New York Giants
-9,1,New York Jets,Houston Texans,0,0,0,0
-9,2,Atlanta Falcons,Dallas Cowboys,0,0,0,0
-9,3,Buffalo Bills,Miami Dolphins,0,0,0,0
-9,4,Cincinnati Bengals,Las Vegas Raiders,0,0,0,0
-9,5,Cleveland Browns,Los Angeles Chargers,0,0,0,0
-9,6,Tennessee Titans,New England Patriots,0,0,0,0
-9,7,Minnesota Vikings,Indianapolis Colts,0,0,0,0
-9,8,New York Giants,Washington Commanders,0,0,0,0
-9,9,Carolina Panthers,New Orleans Saints,0,0,0,0
-9,10,Baltimore Ravens,Denver Broncos,0,0,0,0
-9,11,Arizona Cardinals,Chicago Bears,0,0,0,0
-9,12,Green Bay Packers,Detroit Lions,0,0,0,0
-9,13,Seattle Seahawks,Los Angeles Rams,0,0,0,0
-9,14,Philadelphia Eagles,Jacksonville Jaguars,0,0,0,0
-9,15,Kansas City Chiefs,Tampa Bay Buccaneers,0,0,0,0
+9,1,New York Jets,Houston Texans,21,13,New York Jets,Houston Texans
+9,2,Atlanta Falcons,Dallas Cowboys,27,21,Atlanta Falcons,Dallas Cowboys
+9,3,Buffalo Bills,Miami Dolphins,30,27,Buffalo Bills,Miami Dolphins
+9,4,Cincinnati Bengals,Las Vegas Raiders,41,24,Cincinnati Bengals,Las Vegas Raiders
+9,5,Cleveland Browns,Los Angeles Chargers,10,27,Los Angeles Chargers,Cleveland Browns
+9,6,Tennessee Titans,New England Patriots,20,17,Tennessee Titans,New England Patriots
+9,7,Minnesota Vikings,Indianapolis Colts,21,13,Minnesota Vikings,Indianapolis Colts
+9,8,New York Giants,Washington Commanders,22,27,Washington Commanders,New York Giants
+9,9,Carolina Panthers,New Orleans Saints,23,22,Carolina Panthers,New Orleans Saints
+9,10,Baltimore Ravens,Denver Broncos,41,10,Baltimore Ravens,Denver Broncos
+9,11,Arizona Cardinals,Chicago Bears,29,9,Arizona Cardinals,Chicago Bears
+9,12,Green Bay Packers,Detroit Lions,14,24,Detroit Lions,Green Bay Packers
+9,13,Seattle Seahawks,Los Angeles Rams,20,26,Los Angeles Rams,Seattle Seahawks
+9,14,Philadelphia Eagles,Jacksonville Jaguars,28,23,Philadelphia Eagles,Jacksonville Jaguars
+9,15,Kansas City Chiefs,Tampa Bay Buccaneers,30,24,Kansas City Chiefs,Tampa Bay Buccaneers
 10,1,Baltimore Ravens,Cincinnati Bengals,0,0,0,0
 10,2,Carolina Panthers,New York Giants,0,0,0,0
 10,3,Chicago Bears,New England Patriots,0,0,0,0
