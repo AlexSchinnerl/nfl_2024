@@ -137,20 +137,20 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 9,13,Seattle Seahawks,Los Angeles Rams,20,26,Los Angeles Rams,Seattle Seahawks
 9,14,Philadelphia Eagles,Jacksonville Jaguars,28,23,Philadelphia Eagles,Jacksonville Jaguars
 9,15,Kansas City Chiefs,Tampa Bay Buccaneers,30,24,Kansas City Chiefs,Tampa Bay Buccaneers
-10,1,Baltimore Ravens,Cincinnati Bengals,0,0,0,0
-10,2,Carolina Panthers,New York Giants,0,0,0,0
-10,3,Chicago Bears,New England Patriots,0,0,0,0
-10,4,Indianapolis Colts,Buffalo Bills,0,0,0,0
-10,5,Kansas City Chiefs,Denver Broncos,0,0,0,0
-10,6,New Orleans Saints,Atlanta Falcons,0,0,0,0
-10,7,Tampa Bay Buccaneers,San Francisco 49ers,0,0,0,0
-10,8,Washington Commanders,Pittsburgh Steelers,0,0,0,0
-10,9,Jacksonville Jaguars,Minnesota Vikings,0,0,0,0
-10,10,Los Angeles Chargers,Tennessee Titans,0,0,0,0
-10,11,Dallas Cowboys,Philadelphia Eagles,0,0,0,0
-10,12,Arizona Cardinals,New York Jets,0,0,0,0
-10,13,Houston Texans,Detroit Lions,0,0,0,0
-10,14,Los Angeles Rams,Miami Dolphins,0,0,0,0
+10,1,Baltimore Ravens,Cincinnati Bengals,35,34,Baltimore Ravens,Cincinnati Bengals
+10,2,Carolina Panthers,New York Giants,20,17,Carolina Panthers,New York Giants
+10,3,Chicago Bears,New England Patriots,3,19,New England Patriots,Chicago Bears
+10,4,Indianapolis Colts,Buffalo Bills,20,30,Buffalo Bills,Indianapolis Colts
+10,5,Kansas City Chiefs,Denver Broncos,16,14,Kansas City Chiefs,Denver Broncos
+10,6,New Orleans Saints,Atlanta Falcons,20,17,New Orleans Saints,Atlanta Falcons
+10,7,Tampa Bay Buccaneers,San Francisco 49ers,20,23,San Francisco 49ers,Tampa Bay Buccaneers
+10,8,Washington Commanders,Pittsburgh Steelers,27,28,Pittsburgh Steelers,Washington Commanders
+10,9,Jacksonville Jaguars,Minnesota Vikings,7,12,Minnesota Vikings,Jacksonville Jaguars
+10,10,Los Angeles Chargers,Tennessee Titans,27,17,Los Angeles Chargers,Tennessee Titans
+10,11,Dallas Cowboys,Philadelphia Eagles,6,34,Philadelphia Eagles,Dallas Cowboys
+10,12,Arizona Cardinals,New York Jets,31,6,Arizona Cardinals,New York Jets
+10,13,Houston Texans,Detroit Lions,23,26,Detroit Lions,Houston Texans
+10,14,Los Angeles Rams,Miami Dolphins,15,23,Miami Dolphins,Los Angeles Rams
 11,1,Philadelphia Eagles,Washington Commanders,0,0,0,0
 11,2,Chicago Bears,Green Bay Packers,0,0,0,0
 11,3,Detroit Lions,Jacksonville Jaguars,0,0,0,0
