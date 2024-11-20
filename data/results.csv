@@ -151,20 +151,20 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 10,12,Arizona Cardinals,New York Jets,31,6,Arizona Cardinals,New York Jets
 10,13,Houston Texans,Detroit Lions,23,26,Detroit Lions,Houston Texans
 10,14,Los Angeles Rams,Miami Dolphins,15,23,Miami Dolphins,Los Angeles Rams
-11,1,Philadelphia Eagles,Washington Commanders,0,0,0,0
-11,2,Chicago Bears,Green Bay Packers,0,0,0,0
-11,3,Detroit Lions,Jacksonville Jaguars,0,0,0,0
-11,4,Tennessee Titans,Minnesota Vikings,0,0,0,0
-11,5,Miami Dolphins,Las Vegas Raiders,0,0,0,0
-11,6,New England Patriots,Los Angeles Rams,0,0,0,0
-11,7,New Orleans Saints,Cleveland Browns,0,0,0,0
-11,8,Pittsburgh Steelers,Baltimore Ravens,0,0,0,0
-11,9,Denver Broncos,Atlanta Falcons,0,0,0,0
-11,10,San Francisco 49ers,Seattle Seahawks,0,0,0,0
-11,11,Buffalo Bills,Kansas City Chiefs,0,0,0,0
-11,12,Los Angeles Chargers,Cincinnati Bengals,0,0,0,0
-11,13,New York Jets,Indianapolis Colts,0,0,0,0
-11,14,Dallas Cowboys,Houston Texans,0,0,0,0
+11,1,Philadelphia Eagles,Washington Commanders,24,18,Philadelphia Eagles,Washington Commanders
+11,2,Chicago Bears,Green Bay Packers,19,20,Green Bay Packers,Chicago Bears
+11,3,Detroit Lions,Jacksonville Jaguars,52,6,Detroit Lions,Jacksonville Jaguars
+11,4,Tennessee Titans,Minnesota Vikings,13,23,Minnesota Vikings,Tennessee Titans
+11,5,Miami Dolphins,Las Vegas Raiders,34,19,Miami Dolphins,Las Vegas Raiders
+11,6,New England Patriots,Los Angeles Rams,22,28,Los Angeles Rams,New England Patriots
+11,7,New Orleans Saints,Cleveland Browns,35,14,New Orleans Saints,Cleveland Browns
+11,8,Pittsburgh Steelers,Baltimore Ravens,18,16,Pittsburgh Steelers,Baltimore Ravens
+11,9,Denver Broncos,Atlanta Falcons,38,6,Denver Broncos,Atlanta Falcons
+11,10,San Francisco 49ers,Seattle Seahawks,17,20,Seattle Seahawks,San Francisco 49ers
+11,11,Buffalo Bills,Kansas City Chiefs,30,21,Buffalo Bills,Kansas City Chiefs
+11,12,Los Angeles Chargers,Cincinnati Bengals,34,27,Los Angeles Chargers,Cincinnati Bengals
+11,13,New York Jets,Indianapolis Colts,27,28,Indianapolis Colts,New York Jets
+11,14,Dallas Cowboys,Houston Texans,10,34,Houston Texans,Dallas Cowboys
 12,1,Cleveland Browns,Pittsburgh Steelers,0,0,0,0
 12,2,Chicago Bears,Minnesota Vikings,0,0,0,0
 12,3,Indianapolis Colts,Detroit Lions,0,0,0,0
