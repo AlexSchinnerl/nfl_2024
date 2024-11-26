@@ -165,19 +165,19 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 11,12,Los Angeles Chargers,Cincinnati Bengals,34,27,Los Angeles Chargers,Cincinnati Bengals
 11,13,New York Jets,Indianapolis Colts,27,28,Indianapolis Colts,New York Jets
 11,14,Dallas Cowboys,Houston Texans,10,34,Houston Texans,Dallas Cowboys
-12,1,Cleveland Browns,Pittsburgh Steelers,0,0,0,0
-12,2,Chicago Bears,Minnesota Vikings,0,0,0,0
-12,3,Indianapolis Colts,Detroit Lions,0,0,0,0
-12,4,Miami Dolphins,New England Patriots,0,0,0,0
-12,5,New York Giants,Tampa Bay Buccaneers,0,0,0,0
-12,6,Washington Commanders,Dallas Cowboys,0,0,0,0
-12,7,Carolina Panthers,Kansas City Chiefs,0,0,0,0
-12,8,Houston Texans,Tennessee Titans,0,0,0,0
-12,9,Las Vegas Raiders,Denver Broncos,0,0,0,0
-12,10,Green Bay Packers,San Francisco 49ers,0,0,0,0
-12,11,Seattle Seahawks,Arizona Cardinals,0,0,0,0
-12,12,Los Angeles Chargers,Philadelphia Eagles,0,0,0,0
-12,13,Los Angeles Rams,Baltimore Ravens,0,0,0,0
+12,1,Cleveland Browns,Pittsburgh Steelers,24,19,Cleveland Browns,Pittsburgh Steelers
+12,2,Chicago Bears,Minnesota Vikings,27,30,Minnesota Vikings,Chicago Bears
+12,3,Indianapolis Colts,Detroit Lions,6,24,Detroit Lions,Indianapolis Colts
+12,4,Miami Dolphins,New England Patriots,34,15,Miami Dolphins,New England Patriots
+12,5,New York Giants,Tampa Bay Buccaneers,7,30,Tampa Bay Buccaneers,New York Giants
+12,6,Washington Commanders,Dallas Cowboys,26,34,Dallas Cowboys,Washington Commanders
+12,7,Carolina Panthers,Kansas City Chiefs,27,30,Kansas City Chiefs,Carolina Panthers
+12,8,Houston Texans,Tennessee Titans,27,32,Tennessee Titans,Houston Texans
+12,9,Las Vegas Raiders,Denver Broncos,19,29,Denver Broncos,Las Vegas Raiders
+12,10,Green Bay Packers,San Francisco 49ers,38,10,Green Bay Packers,San Francisco 49ers
+12,11,Seattle Seahawks,Arizona Cardinals,16,6,Seattle Seahawks,Arizona Cardinals
+12,12,Los Angeles Chargers,Philadelphia Eagles,23,37,Philadelphia Eagles,Los Angeles Chargers
+12,13,Los Angeles Rams,Baltimore Ravens,20,30,Baltimore Ravens,Los Angeles Rams
 13,1,Detroit Lions,Chicago Bears,0,0,0,0
 13,2,Dallas Cowboys,New York Giants,0,0,0,0
 13,3,Green Bay Packers,Miami Dolphins,0,0,0,0
