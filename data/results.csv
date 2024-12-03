@@ -178,22 +178,22 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 12,11,Seattle Seahawks,Arizona Cardinals,16,6,Seattle Seahawks,Arizona Cardinals
 12,12,Los Angeles Chargers,Philadelphia Eagles,23,37,Philadelphia Eagles,Los Angeles Chargers
 12,13,Los Angeles Rams,Baltimore Ravens,20,30,Baltimore Ravens,Los Angeles Rams
-13,1,Detroit Lions,Chicago Bears,0,0,0,0
-13,2,Dallas Cowboys,New York Giants,0,0,0,0
-13,3,Green Bay Packers,Miami Dolphins,0,0,0,0
-13,4,Kansas City Chiefs,Las Vegas Raiders,0,0,0,0
-13,5,Atlanta Falcons,Los Angeles Chargers,0,0,0,0
-13,6,Cincinnati Bengals,Pittsburgh Steelers,0,0,0,0
-13,7,Minnesota Vikings,Arizona Cardinals,0,0,0,0
-13,8,New England Patriots,Indianapolis Colts,0,0,0,0
-13,9,New York Jets,Seattle Seahawks,0,0,0,0
-13,10,Washington Commanders,Tennessee Titans,0,0,0,0
-13,11,Jacksonville Jaguars,Houston Texans,0,0,0,0
-13,12,New Orleans Saints,Los Angeles Rams,0,0,0,0
-13,13,Carolina Panthers,Tampa Bay Buccaneers,0,0,0,0
-13,14,Baltimore Ravens,Philadelphia Eagles,0,0,0,0
-13,15,Buffalo Bills,San Francisco 49ers,0,0,0,0
-13,16,Denver Broncos,Cleveland Browns,0,0,0,0
+13,1,Detroit Lions,Chicago Bears,23,20,Detroit Lions,Chicago Bears
+13,2,Dallas Cowboys,New York Giants,27,20,Dallas Cowboys,New York Giants
+13,3,Green Bay Packers,Miami Dolphins,30,17,Green Bay Packers,Miami Dolphins
+13,4,Kansas City Chiefs,Las Vegas Raiders,19,17,Kansas City Chiefs,Las Vegas Raiders
+13,5,Atlanta Falcons,Los Angeles Chargers,13,17,Los Angeles Chargers,Atlanta Falcons
+13,6,Cincinnati Bengals,Pittsburgh Steelers,38,44,Pittsburgh Steelers,Cincinnati Bengals
+13,7,Minnesota Vikings,Arizona Cardinals,23,22,Minnesota Vikings,Arizona Cardinals
+13,8,New England Patriots,Indianapolis Colts,24,25,Indianapolis Colts,New England Patriots
+13,9,New York Jets,Seattle Seahawks,21,26,Seattle Seahawks,New York Jets
+13,10,Washington Commanders,Tennessee Titans,42,19,Washington Commanders,Tennessee Titans
+13,11,Jacksonville Jaguars,Houston Texans,20,23,Houston Texans,Jacksonville Jaguars
+13,12,New Orleans Saints,Los Angeles Rams,14,21,Los Angeles Rams,New Orleans Saints
+13,13,Carolina Panthers,Tampa Bay Buccaneers,23,26,Tampa Bay Buccaneers,Carolina Panthers
+13,14,Baltimore Ravens,Philadelphia Eagles,19,24,Philadelphia Eagles,Baltimore Ravens
+13,15,Buffalo Bills,San Francisco 49ers,35,10,Buffalo Bills,San Francisco 49ers
+13,16,Denver Broncos,Cleveland Browns,41,32,Denver Broncos,Cleveland Browns
 14,1,Detroit Lions,Green Bay Packers,0,0,0,0
 14,2,Tennessee Titans,Jacksonville Jaguars,0,0,0,0
 14,3,Miami Dolphins,New York Jets,0,0,0,0

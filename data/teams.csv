@@ -1,33 +1,33 @@
 Wins,Draws,Losses,Games Played,Team,Division,Subdivision
-6,0,5,11,Arizona Cardinals,NFC,West
-6,0,5,11,Atlanta Falcons,NFC,South
-3,0,8,11,Carolina Panthers,NFC,South
-4,0,7,11,Chicago Bears,NFC,North
-4,0,7,11,Dallas Cowboys,NFC,East
-10,0,1,11,Detroit Lions,NFC,North
-8,0,3,11,Green Bay Packers,NFC,North
-5,0,6,11,Los Angeles Rams,NFC,West
-9,0,2,11,Minnesota Vikings,NFC,North
-4,0,7,11,New Orleans Saints,NFC,South
-2,0,9,11,New York Giants,NFC,East
-9,0,2,11,Philadelphia Eagles,NFC,East
-5,0,6,11,San Francisco 49ers,NFC,West
-6,0,5,11,Seattle Seahawks,NFC,West
-5,0,6,11,Tampa Bay Buccaneers,NFC,South
-7,0,5,12,Washington Commanders,NFC,East
-8,0,4,12,Baltimore Ravens,AFC,North
-9,0,2,11,Buffalo Bills,AFC,East
-4,0,7,11,Cincinnati Bengals,AFC,North
-3,0,8,11,Cleveland Browns,AFC,North
-7,0,5,12,Denver Broncos,AFC,West
-7,0,5,12,Houston Texans,AFC,South
-5,0,7,12,Indianapolis Colts,AFC,South
-2,0,9,11,Jacksonville Jaguars,AFC,South
-10,0,1,11,Kansas City Chiefs,AFC,West
-2,0,9,11,Las Vegas Raiders,AFC,West
-7,0,4,11,Los Angeles Chargers,AFC,West
-5,0,6,11,Miami Dolphins,AFC,East
-3,0,9,12,New England Patriots,AFC,East
-3,0,8,11,New York Jets,AFC,East
-8,0,3,11,Pittsburgh Steelers,AFC,North
-3,0,8,11,Tennessee Titans,AFC,South
+6,0,6,12,Arizona Cardinals,NFC,West
+6,0,6,12,Atlanta Falcons,NFC,South
+3,0,9,12,Carolina Panthers,NFC,South
+4,0,8,12,Chicago Bears,NFC,North
+5,0,7,12,Dallas Cowboys,NFC,East
+11,0,1,12,Detroit Lions,NFC,North
+9,0,3,12,Green Bay Packers,NFC,North
+6,0,6,12,Los Angeles Rams,NFC,West
+10,0,2,12,Minnesota Vikings,NFC,North
+4,0,8,12,New Orleans Saints,NFC,South
+2,0,10,12,New York Giants,NFC,East
+10,0,2,12,Philadelphia Eagles,NFC,East
+5,0,7,12,San Francisco 49ers,NFC,West
+7,0,5,12,Seattle Seahawks,NFC,West
+6,0,6,12,Tampa Bay Buccaneers,NFC,South
+8,0,5,13,Washington Commanders,NFC,East
+8,0,5,13,Baltimore Ravens,AFC,North
+10,0,2,12,Buffalo Bills,AFC,East
+4,0,8,12,Cincinnati Bengals,AFC,North
+3,0,9,12,Cleveland Browns,AFC,North
+8,0,5,13,Denver Broncos,AFC,West
+8,0,5,13,Houston Texans,AFC,South
+6,0,7,13,Indianapolis Colts,AFC,South
+2,0,10,12,Jacksonville Jaguars,AFC,South
+11,0,1,12,Kansas City Chiefs,AFC,West
+2,0,10,12,Las Vegas Raiders,AFC,West
+8,0,4,12,Los Angeles Chargers,AFC,West
+5,0,7,12,Miami Dolphins,AFC,East
+3,0,10,13,New England Patriots,AFC,East
+3,0,9,12,New York Jets,AFC,East
+9,0,3,12,Pittsburgh Steelers,AFC,North
+3,0,9,12,Tennessee Titans,AFC,South
