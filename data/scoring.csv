@@ -178,10 +178,10 @@ Green Bay Packers,Green Bay Packers,Green Bay Packers,San Francisco 49ers,,Green
 Arizona Cardinals,Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,,Arizona Cardinals,Arizona Cardinals,,Seattle Seahawks,Seattle Seahawks,Seattle Seahawks,Arizona Cardinals,Seattle Seahawks,12,11,0,1,1,1,0,0,0,0,1,1,1,0
 None,None,None,None,,None,None,,None,None,None,None,Philadelphia Eagles,12,12,0,0,0,0,0,0,0,0,0,0,0,0
 None,None,None,None,,None,None,,None,None,None,None,Baltimore Ravens,12,13,0,0,0,0,0,0,0,0,0,0,0,0
-Detroit Lions (10-0-1),Detroit Lions (10-0-1),Detroit Lions (10-0-1),Detroit Lions (10-0-1),,Detroit Lions (10-0-1),Detroit Lions (10-0-1),,None,Detroit Lions (10-0-1),None,Detroit Lions (10-0-1),Detroit Lions,13,1,0,0,0,0,0,0,0,0,0,0,0,0
+Detroit Lions,Detroit Lions,Detroit Lions,Detroit Lions,,Detroit Lions,Detroit Lions,,None,Detroit Lions,None,Detroit Lions,Detroit Lions,13,1,1,1,1,1,0,1,1,0,0,1,0,1
 Dallas Cowboys,Dallas Cowboys,Dallas Cowboys,Dallas Cowboys,,New York Giants,Dallas Cowboys,,New York Giants,Dallas Cowboys,None,Dallas Cowboys,Dallas Cowboys,13,2,1,1,1,1,0,0,1,0,0,1,0,1
 Green Bay Packers,Green Bay Packers,Green Bay Packers,Green Bay Packers,,Green Bay Packers,Green Bay Packers,,None,Miami Dolphins,None,Green Bay Packers,Green Bay Packers,13,3,1,1,1,1,0,1,1,0,0,0,0,1
-Kansas City Chiefs (10-0-1),Kansas City Chiefs (10-0-1),Kansas City Chiefs (10-0-1),Kansas City Chiefs (10-0-1),,Kansas City Chiefs (10-0-1),Kansas City Chiefs (10-0-1),,Kansas City Chiefs (10-0-1),Kansas City Chiefs (10-0-1),Kansas City Chiefs,Kansas City Chiefs (10-0-1),Kansas City Chiefs,13,4,0,0,0,0,0,0,0,0,0,0,1,0
+Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,,Kansas City Chiefs,Kansas City Chiefs,,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,13,4,1,1,1,1,0,1,1,0,1,1,1,1
 Los Angeles Chargers,Atlanta Falcons,Los Angeles Chargers,Los Angeles Chargers,,Los Angeles Chargers,Los Angeles Chargers,,Atlanta Falcons,Atlanta Falcons,Atlanta Falcons,Los Angeles Chargers,Los Angeles Chargers,13,5,1,0,1,1,0,1,1,0,0,0,0,1
 Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,,Pittsburgh Steelers,Pittsburgh Steelers,,Pittsburgh Steelers,Cincinnati Bengals,Pittsburgh Steelers,Cincinnati Bengals,Pittsburgh Steelers,13,6,1,1,1,1,0,1,1,0,1,0,1,0
 Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,,Minnesota Vikings,Minnesota Vikings,,Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,Minnesota Vikings,13,7,1,1,1,1,0,1,1,0,1,1,1,1
@@ -194,19 +194,19 @@ Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccane
 Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Philadelphia Eagles,,Baltimore Ravens,Philadelphia Eagles,,Baltimore Ravens,Baltimore Ravens,Philadelphia Eagles,Baltimore Ravens,Philadelphia Eagles,13,14,0,0,0,1,0,0,1,0,0,0,1,0
 Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,,Buffalo Bills,Buffalo Bills,,San Francisco 49ers,Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,13,15,1,1,1,1,0,1,1,0,0,1,1,1
 Denver Broncos,Denver Broncos,Denver Broncos,Denver Broncos,,Denver Broncos,Denver Broncos,,Denver Broncos,Denver Broncos,Denver Broncos,Denver Broncos,Denver Broncos,13,16,1,1,1,1,0,1,1,0,1,1,1,1
-,,,,,,,,,,,,0,14,1,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,2,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,3,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,4,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,5,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,6,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,7,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,8,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,9,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,10,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,11,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,12,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,0,14,13,0,0,0,0,0,0,0,0,0,0,0,0
+Detroit Lions,None,Detroit Lions,Green Bay Packers,,Green Bay Packers,Detroit Lions,,Detroit Lions,Detroit Lions,Green Bay Packers,Detroit Lions,Detroit Lions,14,1,1,0,1,0,0,0,1,0,1,1,0,1
+Tennessee Titans,Jacksonville Jaguars,Tennessee Titans,Tennessee Titans,,Jacksonville Jaguars,Tennessee Titans,,Jacksonville Jaguars,Jacksonville Jaguars,Jacksonville Jaguars,Tennessee Titans,Jacksonville Jaguars,14,2,0,1,0,0,0,1,0,0,1,1,1,0
+Miami Dolphins,Miami Dolphins,Miami Dolphins,New York Jets,,Miami Dolphins,Miami Dolphins,,New York Jets,Miami Dolphins,Miami Dolphins,Miami Dolphins,Miami Dolphins,14,3,1,1,1,0,0,1,1,0,0,1,1,1
+Minnesota Vikings,None,Minnesota Vikings,Minnesota Vikings,,Minnesota Vikings,Minnesota Vikings,,Minnesota Vikings,Minnesota Vikings,Atlanta Falcons,Minnesota Vikings,Minnesota Vikings,14,4,1,0,1,1,0,1,1,0,1,1,0,1
+New Orleans Saints,New Orleans Saints,New Orleans Saints,New Orleans Saints,,New Orleans Saints,New Orleans Saints,,New Orleans Saints,New Orleans Saints,New York Giants,New Orleans Saints,New Orleans Saints,14,5,1,1,1,1,0,1,1,0,1,1,0,1
+Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,,Philadelphia Eagles,Philadelphia Eagles,,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,14,6,1,1,1,1,0,1,1,0,1,1,1,1
+Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,,Pittsburgh Steelers,Pittsburgh Steelers,,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,Pittsburgh Steelers,14,7,1,1,1,1,0,1,1,0,1,1,1,1
+Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,,Tampa Bay Buccaneers,Tampa Bay Buccaneers,,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,14,8,1,1,1,1,0,1,1,0,1,1,1,1
+Arizona Cardinals,Arizona Cardinals,Arizona Cardinals,Seattle Seahawks,,Seattle Seahawks,Seattle Seahawks,,Arizona Cardinals,Seattle Seahawks,Seattle Seahawks,Arizona Cardinals,Seattle Seahawks,14,9,0,0,0,1,0,1,1,0,0,1,1,0
+Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,,Buffalo Bills,Buffalo Bills,,Buffalo Bills,Buffalo Bills,Los Angeles Rams,Buffalo Bills,Los Angeles Rams,14,10,0,0,0,0,0,0,0,0,0,0,1,0
+Chicago Bears,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,,San Francisco 49ers,San Francisco 49ers,,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,14,11,0,1,1,1,0,1,1,0,1,1,1,1
+Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,,Kansas City Chiefs,Kansas City Chiefs,,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,Kansas City Chiefs,14,12,1,1,1,1,0,1,1,0,1,1,1,1
+Cincinnati Bengals,Cincinnati Bengals,Dallas Cowboys,Dallas Cowboys,,Cincinnati Bengals,Dallas Cowboys,,Cincinnati Bengals,Dallas Cowboys,Dallas Cowboys,Dallas Cowboys,Cincinnati Bengals,14,13,1,1,0,0,0,1,0,0,1,0,0,0
 ,,,,,,,,,,,,0,15,1,0,0,0,0,0,0,0,0,0,0,0,0
 ,,,,,,,,,,,,0,15,2,0,0,0,0,0,0,0,0,0,0,0,0
 ,,,,,,,,,,,,0,15,3,0,0,0,0,0,0,0,0,0,0,0,0

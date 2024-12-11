@@ -194,19 +194,19 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 13,14,Baltimore Ravens,Philadelphia Eagles,19,24,Philadelphia Eagles,Baltimore Ravens
 13,15,Buffalo Bills,San Francisco 49ers,35,10,Buffalo Bills,San Francisco 49ers
 13,16,Denver Broncos,Cleveland Browns,41,32,Denver Broncos,Cleveland Browns
-14,1,Detroit Lions,Green Bay Packers,0,0,0,0
-14,2,Tennessee Titans,Jacksonville Jaguars,0,0,0,0
-14,3,Miami Dolphins,New York Jets,0,0,0,0
-14,4,Minnesota Vikings,Atlanta Falcons,0,0,0,0
-14,5,New York Giants,New Orleans Saints,0,0,0,0
-14,6,Philadelphia Eagles,Carolina Panthers,0,0,0,0
-14,7,Pittsburgh Steelers,Cleveland Browns,0,0,0,0
-14,8,Tampa Bay Buccaneers,Las Vegas Raiders,0,0,0,0
-14,9,Arizona Cardinals,Seattle Seahawks,0,0,0,0
-14,10,Los Angeles Rams,Buffalo Bills,0,0,0,0
-14,11,San Francisco 49ers,Chicago Bears,0,0,0,0
-14,12,Kansas City Chiefs,Los Angeles Chargers,0,0,0,0
-14,13,Dallas Cowboys,Cincinnati Bengals,0,0,0,0
+14,1,Detroit Lions,Green Bay Packers,34,31,Detroit Lions,Green Bay Packers
+14,2,Tennessee Titans,Jacksonville Jaguars,6,10,Jacksonville Jaguars,Tennessee Titans
+14,3,Miami Dolphins,New York Jets,32,26,Miami Dolphins,New York Jets
+14,4,Minnesota Vikings,Atlanta Falcons,42,21,Minnesota Vikings,Atlanta Falcons
+14,5,New York Giants,New Orleans Saints,11,14,New Orleans Saints,New York Giants
+14,6,Philadelphia Eagles,Carolina Panthers,22,16,Philadelphia Eagles,Carolina Panthers
+14,7,Pittsburgh Steelers,Cleveland Browns,27,14,Pittsburgh Steelers,Cleveland Browns
+14,8,Tampa Bay Buccaneers,Las Vegas Raiders,28,13,Tampa Bay Buccaneers,Las Vegas Raiders
+14,9,Arizona Cardinals,Seattle Seahawks,18,30,Seattle Seahawks,Arizona Cardinals
+14,10,Los Angeles Rams,Buffalo Bills,44,42,Los Angeles Rams,Buffalo Bills
+14,11,San Francisco 49ers,Chicago Bears,38,13,San Francisco 49ers,Chicago Bears
+14,12,Kansas City Chiefs,Los Angeles Chargers,19,17,Kansas City Chiefs,Los Angeles Chargers
+14,13,Dallas Cowboys,Cincinnati Bengals,20,27,Cincinnati Bengals,Dallas Cowboys
 15,1,San Francisco 49ers,Los Angeles Rams,0,0,0,0
 15,2,Cleveland Browns,Kansas City Chiefs,0,0,0,0
 15,3,Tennessee Titans,Cincinnati Bengals,0,0,0,0
