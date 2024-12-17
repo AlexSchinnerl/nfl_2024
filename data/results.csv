@@ -207,22 +207,22 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 14,11,San Francisco 49ers,Chicago Bears,38,13,San Francisco 49ers,Chicago Bears
 14,12,Kansas City Chiefs,Los Angeles Chargers,19,17,Kansas City Chiefs,Los Angeles Chargers
 14,13,Dallas Cowboys,Cincinnati Bengals,20,27,Cincinnati Bengals,Dallas Cowboys
-15,1,San Francisco 49ers,Los Angeles Rams,0,0,0,0
-15,2,Cleveland Browns,Kansas City Chiefs,0,0,0,0
-15,3,Tennessee Titans,Cincinnati Bengals,0,0,0,0
-15,4,New Orleans Saints,Washington Commanders,0,0,0,0
-15,5,New York Giants,Baltimore Ravens,0,0,0,0
-15,6,Carolina Panthers,Dallas Cowboys,0,0,0,0
-15,7,Jacksonville Jaguars,New York Jets,0,0,0,0
-15,8,Houston Texans,Miami Dolphins,0,0,0,0
-15,9,Denver Broncos,Indianapolis Colts,0,0,0,0
-15,10,Detroit Lions,Buffalo Bills,0,0,0,0
-15,11,Philadelphia Eagles,Pittsburgh Steelers,0,0,0,0
-15,12,Arizona Cardinals,New England Patriots,0,0,0,0
-15,13,Los Angeles Chargers,Tampa Bay Buccaneers,0,0,0,0
-15,14,Seattle Seahawks,Green Bay Packers,0,0,0,0
-15,15,Minnesota Vikings,Chicago Bears,0,0,0,0
-15,16,Las Vegas Raiders,Atlanta Falcons,0,0,0,0
+15,1,San Francisco 49ers,Los Angeles Rams,6,12,Los Angeles Rams,San Francisco 49ers
+15,2,Cleveland Browns,Kansas City Chiefs,7,21,Kansas City Chiefs,Cleveland Browns
+15,3,Tennessee Titans,Cincinnati Bengals,27,37,Cincinnati Bengals,Tennessee Titans
+15,4,New Orleans Saints,Washington Commanders,19,20,Washington Commanders,New Orleans Saints
+15,5,New York Giants,Baltimore Ravens,14,35,Baltimore Ravens,New York Giants
+15,6,Carolina Panthers,Dallas Cowboys,14,30,Dallas Cowboys,Carolina Panthers
+15,7,Jacksonville Jaguars,New York Jets,25,32,New York Jets,Jacksonville Jaguars
+15,8,Houston Texans,Miami Dolphins,20,12,Houston Texans,Miami Dolphins
+15,9,Denver Broncos,Indianapolis Colts,31,13,Denver Broncos,Indianapolis Colts
+15,10,Detroit Lions,Buffalo Bills,42,48,Buffalo Bills,Detroit Lions
+15,11,Philadelphia Eagles,Pittsburgh Steelers,27,13,Philadelphia Eagles,Pittsburgh Steelers
+15,12,Arizona Cardinals,New England Patriots,30,17,Arizona Cardinals,New England Patriots
+15,13,Los Angeles Chargers,Tampa Bay Buccaneers,17,40,Tampa Bay Buccaneers,Los Angeles Chargers
+15,14,Seattle Seahawks,Green Bay Packers,13,30,Green Bay Packers,Seattle Seahawks
+15,15,Minnesota Vikings,Chicago Bears,30,12,Minnesota Vikings,Chicago Bears
+15,16,Las Vegas Raiders,Atlanta Falcons,9,15,Atlanta Falcons,Las Vegas Raiders
 16,1,Cincinnati Bengals,Cleveland Browns,0,0,0,0
 16,2,Kansas City Chiefs,Houston Texans,0,0,0,0
 16,3,Baltimore Ravens,Pittsburgh Steelers,0,0,0,0
