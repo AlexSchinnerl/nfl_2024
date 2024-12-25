@@ -223,22 +223,22 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 15,14,Seattle Seahawks,Green Bay Packers,13,30,Green Bay Packers,Seattle Seahawks
 15,15,Minnesota Vikings,Chicago Bears,30,12,Minnesota Vikings,Chicago Bears
 15,16,Las Vegas Raiders,Atlanta Falcons,9,15,Atlanta Falcons,Las Vegas Raiders
-16,1,Cincinnati Bengals,Cleveland Browns,0,0,0,0
-16,2,Kansas City Chiefs,Houston Texans,0,0,0,0
-16,3,Baltimore Ravens,Pittsburgh Steelers,0,0,0,0
-16,4,Atlanta Falcons,New York Giants,0,0,0,0
-16,5,Buffalo Bills,New England Patriots,0,0,0,0
-16,6,Chicago Bears,Detroit Lions,0,0,0,0
-16,7,Indianapolis Colts,Tennessee Titans,0,0,0,0
-16,8,New York Jets,Los Angeles Rams,0,0,0,0
-16,9,Washington Commanders,Philadelphia Eagles,0,0,0,0
-16,10,Carolina Panthers,Arizona Cardinals,0,0,0,0
-16,11,Los Angeles Chargers,Denver Broncos,0,0,0,0
-16,12,Seattle Seahawks,Minnesota Vikings,0,0,0,0
-16,13,Las Vegas Raiders,Jacksonville Jaguars,0,0,0,0
-16,14,Miami Dolphins,San Francisco 49ers,0,0,0,0
-16,15,Dallas Cowboys,Tampa Bay Buccaneers,0,0,0,0
-16,16,Green Bay Packers,New Orleans Saints,0,0,0,0
+16,1,Cincinnati Bengals,Cleveland Browns,24,6,Cincinnati Bengals,Cleveland Browns
+16,2,Kansas City Chiefs,Houston Texans,27,19,Kansas City Chiefs,Houston Texans
+16,3,Baltimore Ravens,Pittsburgh Steelers,34,17,Baltimore Ravens,Pittsburgh Steelers
+16,4,Atlanta Falcons,New York Giants,34,7,Atlanta Falcons,New York Giants
+16,5,Buffalo Bills,New England Patriots,24,21,Buffalo Bills,New England Patriots
+16,6,Chicago Bears,Detroit Lions,17,34,Detroit Lions,Chicago Bears
+16,7,Indianapolis Colts,Tennessee Titans,38,30,Indianapolis Colts,Tennessee Titans
+16,8,New York Jets,Los Angeles Rams,9,19,Los Angeles Rams,New York Jets
+16,9,Washington Commanders,Philadelphia Eagles,36,33,Washington Commanders,Philadelphia Eagles
+16,10,Carolina Panthers,Arizona Cardinals,36,30,Carolina Panthers,Arizona Cardinals
+16,11,Los Angeles Chargers,Denver Broncos,34,27,Los Angeles Chargers,Denver Broncos
+16,12,Seattle Seahawks,Minnesota Vikings,24,27,Minnesota Vikings,Seattle Seahawks
+16,13,Las Vegas Raiders,Jacksonville Jaguars,19,14,Las Vegas Raiders,Jacksonville Jaguars
+16,14,Miami Dolphins,San Francisco 49ers,29,17,Miami Dolphins,San Francisco 49ers
+16,15,Dallas Cowboys,Tampa Bay Buccaneers,26,24,Dallas Cowboys,Tampa Bay Buccaneers
+16,16,Green Bay Packers,New Orleans Saints,34,0,Green Bay Packers,New Orleans Saints
 17,1,Pittsburgh Steelers,Kansas City Chiefs,0,0,0,0
 17,2,Houston Texans,Baltimore Ravens,0,0,0,0
 17,3,Chicago Bears,Seattle Seahawks,0,0,0,0
