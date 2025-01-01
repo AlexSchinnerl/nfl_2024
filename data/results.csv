@@ -239,22 +239,22 @@ Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
 16,14,Miami Dolphins,San Francisco 49ers,29,17,Miami Dolphins,San Francisco 49ers
 16,15,Dallas Cowboys,Tampa Bay Buccaneers,26,24,Dallas Cowboys,Tampa Bay Buccaneers
 16,16,Green Bay Packers,New Orleans Saints,34,0,Green Bay Packers,New Orleans Saints
-17,1,Pittsburgh Steelers,Kansas City Chiefs,0,0,0,0
-17,2,Houston Texans,Baltimore Ravens,0,0,0,0
-17,3,Chicago Bears,Seattle Seahawks,0,0,0,0
-17,4,Cincinnati Bengals,Denver Broncos,0,0,0,0
-17,5,Los Angeles Rams,Arizona Cardinals,0,0,0,0
-17,6,New England Patriots,Los Angeles Chargers,0,0,0,0
-17,7,New York Giants,Indianapolis Colts,0,0,0,0
-17,8,Washington Commanders,Atlanta Falcons,0,0,0,0
-17,9,Buffalo Bills,New York Jets,0,0,0,0
-17,10,Minnesota Vikings,Green Bay Packers,0,0,0,0
-17,11,New Orleans Saints,Las Vegas Raiders,0,0,0,0
-17,12,Tampa Bay Buccaneers,Carolina Panthers,0,0,0,0
-17,13,Jacksonville Jaguars,Tennessee Titans,0,0,0,0
-17,14,Philadelphia Eagles,Dallas Cowboys,0,0,0,0
-17,15,Cleveland Browns,Miami Dolphins,0,0,0,0
-17,16,San Francisco 49ers,Detroit Lions,0,0,0,0
+17,1,Pittsburgh Steelers,Kansas City Chiefs,10,29,Kansas City Chiefs,Pittsburgh Steelers
+17,2,Houston Texans,Baltimore Ravens,2,31,Baltimore Ravens,Houston Texans
+17,3,Chicago Bears,Seattle Seahawks,3,6,Seattle Seahawks,Chicago Bears
+17,4,Cincinnati Bengals,Denver Broncos,30,24,Cincinnati Bengals,Denver Broncos
+17,5,Los Angeles Rams,Arizona Cardinals,13,9,Los Angeles Rams,Arizona Cardinals
+17,6,New England Patriots,Los Angeles Chargers,7,40,Los Angeles Chargers,New England Patriots
+17,7,New York Giants,Indianapolis Colts,45,33,New York Giants,Indianapolis Colts
+17,8,Washington Commanders,Atlanta Falcons,30,24,Washington Commanders,Atlanta Falcons
+17,9,Buffalo Bills,New York Jets,40,14,Buffalo Bills,New York Jets
+17,10,Minnesota Vikings,Green Bay Packers,27,25,Minnesota Vikings,Green Bay Packers
+17,11,New Orleans Saints,Las Vegas Raiders,10,25,Las Vegas Raiders,New Orleans Saints
+17,12,Tampa Bay Buccaneers,Carolina Panthers,48,14,Tampa Bay Buccaneers,Carolina Panthers
+17,13,Jacksonville Jaguars,Tennessee Titans,20,13,Jacksonville Jaguars,Tennessee Titans
+17,14,Philadelphia Eagles,Dallas Cowboys,41,7,Philadelphia Eagles,Dallas Cowboys
+17,15,Cleveland Browns,Miami Dolphins,3,20,Miami Dolphins,Cleveland Browns
+17,16,San Francisco 49ers,Detroit Lions,34,40,Detroit Lions,San Francisco 49ers
 18,1,Atlanta Falcons,Carolina Panthers,0,0,0,0
 18,2,Dallas Cowboys,Washington Commanders,0,0,0,0
 18,3,Denver Broncos,Kansas City Chiefs,0,0,0,0

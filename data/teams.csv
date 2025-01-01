@@ -1,33 +1,33 @@
 Wins,Draws,Losses,Games Played,Team,Division,Subdivision
-7,0,8,15,Arizona Cardinals,NFC,West
-8,0,7,15,Atlanta Falcons,NFC,South
-4,0,11,15,Carolina Panthers,NFC,South
-4,0,11,15,Chicago Bears,NFC,North
-7,0,8,15,Dallas Cowboys,NFC,East
-13,0,2,15,Detroit Lions,NFC,North
-11,0,4,15,Green Bay Packers,NFC,North
-9,0,6,15,Los Angeles Rams,NFC,West
-13,0,2,15,Minnesota Vikings,NFC,North
-5,0,10,15,New Orleans Saints,NFC,South
-2,0,13,15,New York Giants,NFC,East
-12,0,3,15,Philadelphia Eagles,NFC,East
-6,0,9,15,San Francisco 49ers,NFC,West
-8,0,7,15,Seattle Seahawks,NFC,West
-8,0,7,15,Tampa Bay Buccaneers,NFC,South
-10,0,5,15,Washington Commanders,NFC,East
-10,0,5,15,Baltimore Ravens,AFC,North
-12,0,3,15,Buffalo Bills,AFC,East
-7,0,8,15,Cincinnati Bengals,AFC,North
-3,0,12,15,Cleveland Browns,AFC,North
-9,0,6,15,Denver Broncos,AFC,West
-9,0,6,15,Houston Texans,AFC,South
-7,0,8,15,Indianapolis Colts,AFC,South
-3,0,12,15,Jacksonville Jaguars,AFC,South
-14,0,1,15,Kansas City Chiefs,AFC,West
-3,0,12,15,Las Vegas Raiders,AFC,West
-9,0,6,15,Los Angeles Chargers,AFC,West
-7,0,8,15,Miami Dolphins,AFC,East
-3,0,12,15,New England Patriots,AFC,East
-4,0,11,15,New York Jets,AFC,East
-10,0,5,15,Pittsburgh Steelers,AFC,North
-3,0,12,15,Tennessee Titans,AFC,South
+7,0,9,16,Arizona Cardinals,NFC,West
+8,0,8,16,Atlanta Falcons,NFC,South
+4,0,12,16,Carolina Panthers,NFC,South
+4,0,12,16,Chicago Bears,NFC,North
+7,0,9,16,Dallas Cowboys,NFC,East
+14,0,2,16,Detroit Lions,NFC,North
+11,0,5,16,Green Bay Packers,NFC,North
+10,0,6,16,Los Angeles Rams,NFC,West
+14,0,2,16,Minnesota Vikings,NFC,North
+5,0,11,16,New Orleans Saints,NFC,South
+3,0,13,16,New York Giants,NFC,East
+13,0,3,16,Philadelphia Eagles,NFC,East
+6,0,10,16,San Francisco 49ers,NFC,West
+9,0,7,16,Seattle Seahawks,NFC,West
+9,0,7,16,Tampa Bay Buccaneers,NFC,South
+11,0,5,16,Washington Commanders,NFC,East
+11,0,5,16,Baltimore Ravens,AFC,North
+13,0,3,16,Buffalo Bills,AFC,East
+8,0,8,16,Cincinnati Bengals,AFC,North
+3,0,13,16,Cleveland Browns,AFC,North
+9,0,7,16,Denver Broncos,AFC,West
+9,0,7,16,Houston Texans,AFC,South
+7,0,9,16,Indianapolis Colts,AFC,South
+4,0,12,16,Jacksonville Jaguars,AFC,South
+15,0,1,16,Kansas City Chiefs,AFC,West
+4,0,12,16,Las Vegas Raiders,AFC,West
+10,0,6,16,Los Angeles Chargers,AFC,West
+8,0,8,16,Miami Dolphins,AFC,East
+3,0,13,16,New England Patriots,AFC,East
+4,0,12,16,New York Jets,AFC,East
+10,0,6,16,Pittsburgh Steelers,AFC,North
+3,0,13,16,Tennessee Titans,AFC,South
