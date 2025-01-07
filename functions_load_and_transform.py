@@ -36,7 +36,7 @@ def change_home_team_name(row):
 def change_away_team_name(row):
     return team_scores_DF.loc[team_scores_DF["Team"] == row["Away Team"], "Teams (w-d-l)"].values[0]
 
-# thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Home Team", "Away Team", "Location"]]
+thisWeek_DF = schedule.loc[schedule["Week"]==thisWeek, ["Game Nr.", "Date", "Home Team", "Away Team", "Location"]]
 # thisWeek_DF["Home Team"] = thisWeek_DF.apply(change_home_team_name, axis=1)
 # thisWeek_DF["Away Team"] = thisWeek_DF.apply(change_away_team_name, axis=1)
 
