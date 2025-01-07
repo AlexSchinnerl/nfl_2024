@@ -2,10 +2,6 @@ import streamlit as st
 from functions_load_and_transform import player_list, schedule, betsDF, scoringDF, lastWeek, thisWeek
 import pandas as pd
 
-st.header("Zwischenstand")
-
-# thisWeek = 6
-
 week_view_list = list(range(1, thisWeek))
 week_view_list.append("Summe")
 
@@ -22,14 +18,18 @@ po_vorab_points = pd.read_csv("data/playoffResults.csv").transpose().rename(colu
 po_vorab_points["Regular Season Punkte"] = week_view["Summe"]
 po_vorab_points["Gesamtpunkte"] = po_vorab_points["Regular Season Punkte"]+po_vorab_points["Playoff Vorab Punkte"]
 
-po_vorab_bets = pd.read_csv("data/playoffBets.csv").rename(columns={"PO Participant":"Playoff Teilnahme"})
+po_vorab_bets = pd.read_csv("data/playoffBets.csv").rename(columns={"PO Participant":"Playoff Team"})
+po_bets_cols = player_list.copy()
+po_bets_cols.insert(0, "Playoff Team")
+po_vorab_bets = po_vorab_bets[po_bets_cols]
 
-st.dataframe(week_view.sort_values("Summe", ascending=False), height=((11 + 1) * 35 + 3)) # 11 Reihen + 1 Überschrift * 35 für die Reihenhöhe + 3 für die Borders
-
-st.subheader("Playoff Vorab Punkte")
+st.header("Ende der Regular Season: Punkte")
 st.dataframe(po_vorab_points.sort_values("Gesamtpunkte", ascending=False))
-st.write("Playoff Vorab Tipps")
+st.subheader("Playoff Vorab Tipps")
 st.dataframe(po_vorab_bets)
+
+st.header("Regular Season wöchentliche Punkte")
+st.dataframe(week_view.sort_values("Summe", ascending=False), height=((11 + 1) * 35 + 3)) # 11 Reihen + 1 Überschrift * 35 für die Reihenhöhe + 3 für die Borders
 
 st.subheader("Gesamtpunkte")
 st.bar_chart(week_view, y="Summe", y_label="Gesamtpunkte")
