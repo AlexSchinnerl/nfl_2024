@@ -18,7 +18,18 @@ week_view["Summe"] = week_view.sum(axis=1)
 week_view = week_view[week_view_list]
 week_view.columns = week_view.columns.map(str)
 
+po_vorab_points = pd.read_csv("data/playoffResults.csv").transpose().rename(columns={0:"Playoff Vorab Punkte"})
+po_vorab_points["Regular Season Punkte"] = week_view["Summe"]
+po_vorab_points["Gesamtpunkte"] = po_vorab_points["Regular Season Punkte"]+po_vorab_points["Playoff Vorab Punkte"]
+
+po_vorab_bets = pd.read_csv("data/playoffBets.csv").rename(columns={"PO Participant":"Playoff Teilnahme"})
+
 st.dataframe(week_view.sort_values("Summe", ascending=False), height=((11 + 1) * 35 + 3)) # 11 Reihen + 1 Überschrift * 35 für die Reihenhöhe + 3 für die Borders
+
+st.subheader("Playoff Vorab Punkte")
+st.dataframe(po_vorab_points.sort_values("Gesamtpunkte", ascending=False))
+st.write("Playoff Vorab Tipps")
+st.dataframe(po_vorab_bets)
 
 st.subheader("Gesamtpunkte")
 st.bar_chart(week_view, y="Summe", y_label="Gesamtpunkte")
