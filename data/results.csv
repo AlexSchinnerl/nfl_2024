@@ -1,273 +1,279 @@
 Week,Game Nr.,Home Team,Away Team,Score Home,Score Guest,Winner,Looser
-1,1,Kansas City Chiefs,Baltimore Ravens,27,20,Kansas City Chiefs,Baltimore Ravens
-1,2,Philadelphia Eagles,Green Bay Packers,34,29,Philadelphia Eagles,Green Bay Packers
-1,3,Atlanta Falcons,Pittsburgh Steelers,10,18,Pittsburgh Steelers,Atlanta Falcons
-1,4,Buffalo Bills,Arizona Cardinals,34,28,Buffalo Bills,Arizona Cardinals
-1,5,Chicago Bears,Tennessee Titans,24,17,Chicago Bears,Tennessee Titans
-1,6,Cincinnati Bengals,New England Patriots,10,16,New England Patriots,Cincinnati Bengals
-1,7,Indianapolis Colts,Houston Texans,27,29,Houston Texans,Indianapolis Colts
-1,8,Miami Dolphins,Jacksonville Jaguars,20,17,Miami Dolphins,Jacksonville Jaguars
-1,9,New Orleans Saints,Carolina Panthers,47,10,New Orleans Saints,Carolina Panthers
-1,10,New York Giants,Minnesota Vikings,6,28,Minnesota Vikings,New York Giants
-1,11,Los Angeles Chargers,Las Vegas Raiders,22,10,Los Angeles Chargers,Las Vegas Raiders
-1,12,Seattle Seahawks,Denver Broncos,26,20,Seattle Seahawks,Denver Broncos
-1,13,Cleveland Browns,Dallas Cowboys,17,33,Dallas Cowboys,Cleveland Browns
-1,14,Tampa Bay Buccaneers,Washington Commanders,37,20,Tampa Bay Buccaneers,Washington Commanders
-1,15,Detroit Lions,Los Angeles Rams,26,20,Detroit Lions,Los Angeles Rams
-1,16,San Francisco 49ers,New York Jets,32,19,San Francisco 49ers,New York Jets
-2,1,Miami Dolphins,Buffalo Bills,10,31,Buffalo Bills,Miami Dolphins
-2,2,Dallas Cowboys,New Orleans Saints,19,44,New Orleans Saints,Dallas Cowboys
-2,3,Detroit Lions,Tampa Bay Buccaneers,16,20,Tampa Bay Buccaneers,Detroit Lions
-2,4,Green Bay Packers,Indianapolis Colts,16,10,Green Bay Packers,Indianapolis Colts
-2,5,Tennessee Titans,New York Jets,17,24,New York Jets,Tennessee Titans
-2,6,Minnesota Vikings,San Francisco 49ers,23,17,Minnesota Vikings,San Francisco 49ers
-2,7,New England Patriots,Seattle Seahawks,20,23,Seattle Seahawks,New England Patriots
-2,8,Washington Commanders,New York Giants,21,18,Washington Commanders,New York Giants
-2,9,Carolina Panthers,Los Angeles Chargers,3,26,Los Angeles Chargers,Carolina Panthers
-2,10,Jacksonville Jaguars,Cleveland Browns,13,18,Cleveland Browns,Jacksonville Jaguars
-2,11,Baltimore Ravens,Las Vegas Raiders,23,26,Las Vegas Raiders,Baltimore Ravens
-2,12,Arizona Cardinals,Los Angeles Rams,41,10,Arizona Cardinals,Los Angeles Rams
-2,13,Denver Broncos,Pittsburgh Steelers,6,13,Pittsburgh Steelers,Denver Broncos
-2,14,Kansas City Chiefs,Cincinnati Bengals,26,25,Kansas City Chiefs,Cincinnati Bengals
-2,15,Houston Texans,Chicago Bears,19,13,Houston Texans,Chicago Bears
-2,16,Philadelphia Eagles,Atlanta Falcons,21,22,Atlanta Falcons,Philadelphia Eagles
-3,1,New York Jets,New England Patriots,24,3,New York Jets,New England Patriots
-3,2,Cleveland Browns,New York Giants,15,21,New York Giants,Cleveland Browns
-3,3,Tennessee Titans,Green Bay Packers,14,30,Green Bay Packers,Tennessee Titans
-3,4,Indianapolis Colts,Chicago Bears,21,16,Indianapolis Colts,Chicago Bears
-3,5,Minnesota Vikings,Houston Texans,34,7,Minnesota Vikings,Houston Texans
-3,6,New Orleans Saints,Philadelphia Eagles,12,15,Philadelphia Eagles,New Orleans Saints
-3,7,Pittsburgh Steelers,Los Angeles Chargers,20,10,Pittsburgh Steelers,Los Angeles Chargers
-3,8,Tampa Bay Buccaneers,Denver Broncos,7,26,Denver Broncos,Tampa Bay Buccaneers
-3,9,Las Vegas Raiders,Carolina Panthers,22,36,Carolina Panthers,Las Vegas Raiders
-3,10,Seattle Seahawks,Miami Dolphins,24,3,Seattle Seahawks,Miami Dolphins
-3,11,Dallas Cowboys,Baltimore Ravens,25,28,Baltimore Ravens,Dallas Cowboys
-3,12,Los Angeles Rams,San Francisco 49ers,27,24,Los Angeles Rams,San Francisco 49ers
-3,13,Arizona Cardinals,Detroit Lions,13,20,Detroit Lions,Arizona Cardinals
-3,14,Atlanta Falcons,Kansas City Chiefs,17,22,Kansas City Chiefs,Atlanta Falcons
-3,15,Buffalo Bills,Jacksonville Jaguars,47,10,Buffalo Bills,Jacksonville Jaguars
-3,16,Cincinnati Bengals,Washington Commanders,33,38,Washington Commanders,Cincinnati Bengals
-4,1,New York Giants,Dallas Cowboys,15,20,Dallas Cowboys,New York Giants
-4,2,Atlanta Falcons,New Orleans Saints,26,24,Atlanta Falcons,New Orleans Saints
-4,3,Chicago Bears,Los Angeles Rams,24,18,Chicago Bears,Los Angeles Rams
-4,4,Green Bay Packers,Minnesota Vikings,29,31,Minnesota Vikings,Green Bay Packers
-4,5,Indianapolis Colts,Pittsburgh Steelers,27,24,Indianapolis Colts,Pittsburgh Steelers
-4,6,New York Jets,Denver Broncos,9,10,Denver Broncos,New York Jets
-4,7,Tampa Bay Buccaneers,Philadelphia Eagles,33,16,Tampa Bay Buccaneers,Philadelphia Eagles
-4,8,Carolina Panthers,Cincinnati Bengals,24,34,Cincinnati Bengals,Carolina Panthers
-4,9,Houston Texans,Jacksonville Jaguars,24,20,Houston Texans,Jacksonville Jaguars
-4,10,Arizona Cardinals,Washington Commanders,14,42,Washington Commanders,Arizona Cardinals
-4,11,San Francisco 49ers,New England Patriots,30,13,San Francisco 49ers,New England Patriots
-4,12,Las Vegas Raiders,Cleveland Browns,20,16,Las Vegas Raiders,Cleveland Browns
-4,13,Los Angeles Chargers,Kansas City Chiefs,10,17,Kansas City Chiefs,Los Angeles Chargers
-4,14,Baltimore Ravens,Buffalo Bills,35,10,Baltimore Ravens,Buffalo Bills
-4,15,Miami Dolphins,Tennessee Titans,12,31,Tennessee Titans,Miami Dolphins
-4,16,Detroit Lions,Seattle Seahawks,42,29,Detroit Lions,Seattle Seahawks
-5,1,Atlanta Falcons,Tampa Bay Buccaneers,36,30,Atlanta Falcons,Tampa Bay Buccaneers
-5,2,Minnesota Vikings,New York Jets,23,17,Minnesota Vikings,New York Jets
-5,3,Chicago Bears,Carolina Panthers,36,10,Chicago Bears,Carolina Panthers
-5,4,Cincinnati Bengals,Baltimore Ravens,38,41,Baltimore Ravens,Cincinnati Bengals
-5,5,New England Patriots,Miami Dolphins,10,15,Miami Dolphins,New England Patriots
-5,6,Washington Commanders,Cleveland Browns,34,13,Washington Commanders,Cleveland Browns
-5,7,Jacksonville Jaguars,Indianapolis Colts,37,34,Jacksonville Jaguars,Indianapolis Colts
-5,8,Houston Texans,Buffalo Bills,23,20,Houston Texans,Buffalo Bills
-5,9,Denver Broncos,Las Vegas Raiders,34,18,Denver Broncos,Las Vegas Raiders
-5,10,San Francisco 49ers,Arizona Cardinals,23,24,Arizona Cardinals,San Francisco 49ers
-5,11,Los Angeles Rams,Green Bay Packers,19,24,Green Bay Packers,Los Angeles Rams
-5,12,Seattle Seahawks,New York Giants,20,29,New York Giants,Seattle Seahawks
-5,13,Pittsburgh Steelers,Dallas Cowboys,17,20,Dallas Cowboys,Pittsburgh Steelers
-5,14,Kansas City Chiefs,New Orleans Saints,26,13,Kansas City Chiefs,New Orleans Saints
-6,1,Seattle Seahawks,San Francisco 49ers,24,36,San Francisco 49ers,Seattle Seahawks
-6,2,Chicago Bears,Jacksonville Jaguars,35,16,Chicago Bears,Jacksonville Jaguars
-6,3,Green Bay Packers,Arizona Cardinals,34,13,Green Bay Packers,Arizona Cardinals
-6,4,Tennessee Titans,Indianapolis Colts,17,20,Indianapolis Colts,Tennessee Titans
-6,5,New England Patriots,Houston Texans,21,41,Houston Texans,New England Patriots
-6,6,New Orleans Saints,Tampa Bay Buccaneers,27,51,Tampa Bay Buccaneers,New Orleans Saints
-6,7,Philadelphia Eagles,Cleveland Browns,20,16,Philadelphia Eagles,Cleveland Browns
-6,8,Baltimore Ravens,Washington Commanders,30,23,Baltimore Ravens,Washington Commanders
-6,9,Denver Broncos,Los Angeles Chargers,16,23,Los Angeles Chargers,Denver Broncos
-6,10,Las Vegas Raiders,Pittsburgh Steelers,13,32,Pittsburgh Steelers,Las Vegas Raiders
-6,11,Dallas Cowboys,Detroit Lions,9,47,Detroit Lions,Dallas Cowboys
-6,12,Carolina Panthers,Atlanta Falcons,20,38,Atlanta Falcons,Carolina Panthers
-6,13,New York Giants,Cincinnati Bengals,7,17,Cincinnati Bengals,New York Giants
-6,14,New York Jets,Buffalo Bills,20,23,Buffalo Bills,New York Jets
-7,1,New Orleans Saints,Denver Broncos,10,33,Denver Broncos,New Orleans Saints
-7,2,Jacksonville Jaguars,New England Patriots,32,16,Jacksonville Jaguars,New England Patriots
-7,3,Atlanta Falcons,Seattle Seahawks,14,34,Seattle Seahawks,Atlanta Falcons
-7,4,Buffalo Bills,Tennessee Titans,34,10,Buffalo Bills,Tennessee Titans
-7,5,Cleveland Browns,Cincinnati Bengals,14,21,Cincinnati Bengals,Cleveland Browns
-7,6,Green Bay Packers,Houston Texans,24,22,Green Bay Packers,Houston Texans
-7,7,Indianapolis Colts,Miami Dolphins,16,10,Indianapolis Colts,Miami Dolphins
-7,8,Minnesota Vikings,Detroit Lions,29,31,Detroit Lions,Minnesota Vikings
-7,9,New York Giants,Philadelphia Eagles,3,28,Philadelphia Eagles,New York Giants
-7,10,Los Angeles Rams,Las Vegas Raiders,20,15,Los Angeles Rams,Las Vegas Raiders
-7,11,Washington Commanders,Carolina Panthers,40,7,Washington Commanders,Carolina Panthers
-7,12,San Francisco 49ers,Kansas City Chiefs,18,28,Kansas City Chiefs,San Francisco 49ers
-7,13,Pittsburgh Steelers,New York Jets,37,15,Pittsburgh Steelers,New York Jets
-7,14,Tampa Bay Buccaneers,Baltimore Ravens,31,41,Baltimore Ravens,Tampa Bay Buccaneers
-7,15,Arizona Cardinals,Los Angeles Chargers,17,15,Arizona Cardinals,Los Angeles Chargers
-8,1,Los Angeles Rams,Minnesota Vikings,30,20,Los Angeles Rams,Minnesota Vikings
-8,2,Cleveland Browns,Baltimore Ravens,29,24,Cleveland Browns,Baltimore Ravens
-8,3,Detroit Lions,Tennessee Titans,52,14,Detroit Lions,Tennessee Titans
-8,4,Miami Dolphins,Arizona Cardinals,27,28,Arizona Cardinals,Miami Dolphins
-8,5,New England Patriots,New York Jets,25,22,New England Patriots,New York Jets
-8,6,Tampa Bay Buccaneers,Atlanta Falcons,26,31,Atlanta Falcons,Tampa Bay Buccaneers
-8,7,Washington Commanders,Chicago Bears,18,15,Washington Commanders,Chicago Bears
-8,8,Jacksonville Jaguars,Green Bay Packers,27,30,Green Bay Packers,Jacksonville Jaguars
-8,9,Houston Texans,Indianapolis Colts,23,20,Houston Texans,Indianapolis Colts
-8,10,Los Angeles Chargers,New Orleans Saints,26,8,Los Angeles Chargers,New Orleans Saints
-8,11,Seattle Seahawks,Buffalo Bills,10,31,Buffalo Bills,Seattle Seahawks
-8,12,Cincinnati Bengals,Philadelphia Eagles,17,37,Philadelphia Eagles,Cincinnati Bengals
-8,13,Denver Broncos,Carolina Panthers,28,14,Denver Broncos,Carolina Panthers
-8,14,Las Vegas Raiders,Kansas City Chiefs,20,27,Kansas City Chiefs,Las Vegas Raiders
-8,15,San Francisco 49ers,Dallas Cowboys,30,24,San Francisco 49ers,Dallas Cowboys
-8,16,Pittsburgh Steelers,New York Giants,26,18,Pittsburgh Steelers,New York Giants
-9,1,New York Jets,Houston Texans,21,13,New York Jets,Houston Texans
-9,2,Atlanta Falcons,Dallas Cowboys,27,21,Atlanta Falcons,Dallas Cowboys
-9,3,Buffalo Bills,Miami Dolphins,30,27,Buffalo Bills,Miami Dolphins
-9,4,Cincinnati Bengals,Las Vegas Raiders,41,24,Cincinnati Bengals,Las Vegas Raiders
-9,5,Cleveland Browns,Los Angeles Chargers,10,27,Los Angeles Chargers,Cleveland Browns
-9,6,Tennessee Titans,New England Patriots,20,17,Tennessee Titans,New England Patriots
-9,7,Minnesota Vikings,Indianapolis Colts,21,13,Minnesota Vikings,Indianapolis Colts
-9,8,New York Giants,Washington Commanders,22,27,Washington Commanders,New York Giants
-9,9,Carolina Panthers,New Orleans Saints,23,22,Carolina Panthers,New Orleans Saints
-9,10,Baltimore Ravens,Denver Broncos,41,10,Baltimore Ravens,Denver Broncos
-9,11,Arizona Cardinals,Chicago Bears,29,9,Arizona Cardinals,Chicago Bears
-9,12,Green Bay Packers,Detroit Lions,14,24,Detroit Lions,Green Bay Packers
-9,13,Seattle Seahawks,Los Angeles Rams,20,26,Los Angeles Rams,Seattle Seahawks
-9,14,Philadelphia Eagles,Jacksonville Jaguars,28,23,Philadelphia Eagles,Jacksonville Jaguars
-9,15,Kansas City Chiefs,Tampa Bay Buccaneers,30,24,Kansas City Chiefs,Tampa Bay Buccaneers
-10,1,Baltimore Ravens,Cincinnati Bengals,35,34,Baltimore Ravens,Cincinnati Bengals
-10,2,Carolina Panthers,New York Giants,20,17,Carolina Panthers,New York Giants
-10,3,Chicago Bears,New England Patriots,3,19,New England Patriots,Chicago Bears
-10,4,Indianapolis Colts,Buffalo Bills,20,30,Buffalo Bills,Indianapolis Colts
-10,5,Kansas City Chiefs,Denver Broncos,16,14,Kansas City Chiefs,Denver Broncos
-10,6,New Orleans Saints,Atlanta Falcons,20,17,New Orleans Saints,Atlanta Falcons
-10,7,Tampa Bay Buccaneers,San Francisco 49ers,20,23,San Francisco 49ers,Tampa Bay Buccaneers
-10,8,Washington Commanders,Pittsburgh Steelers,27,28,Pittsburgh Steelers,Washington Commanders
-10,9,Jacksonville Jaguars,Minnesota Vikings,7,12,Minnesota Vikings,Jacksonville Jaguars
-10,10,Los Angeles Chargers,Tennessee Titans,27,17,Los Angeles Chargers,Tennessee Titans
-10,11,Dallas Cowboys,Philadelphia Eagles,6,34,Philadelphia Eagles,Dallas Cowboys
-10,12,Arizona Cardinals,New York Jets,31,6,Arizona Cardinals,New York Jets
-10,13,Houston Texans,Detroit Lions,23,26,Detroit Lions,Houston Texans
-10,14,Los Angeles Rams,Miami Dolphins,15,23,Miami Dolphins,Los Angeles Rams
-11,1,Philadelphia Eagles,Washington Commanders,24,18,Philadelphia Eagles,Washington Commanders
-11,2,Chicago Bears,Green Bay Packers,19,20,Green Bay Packers,Chicago Bears
-11,3,Detroit Lions,Jacksonville Jaguars,52,6,Detroit Lions,Jacksonville Jaguars
-11,4,Tennessee Titans,Minnesota Vikings,13,23,Minnesota Vikings,Tennessee Titans
-11,5,Miami Dolphins,Las Vegas Raiders,34,19,Miami Dolphins,Las Vegas Raiders
-11,6,New England Patriots,Los Angeles Rams,22,28,Los Angeles Rams,New England Patriots
-11,7,New Orleans Saints,Cleveland Browns,35,14,New Orleans Saints,Cleveland Browns
-11,8,Pittsburgh Steelers,Baltimore Ravens,18,16,Pittsburgh Steelers,Baltimore Ravens
-11,9,Denver Broncos,Atlanta Falcons,38,6,Denver Broncos,Atlanta Falcons
-11,10,San Francisco 49ers,Seattle Seahawks,17,20,Seattle Seahawks,San Francisco 49ers
-11,11,Buffalo Bills,Kansas City Chiefs,30,21,Buffalo Bills,Kansas City Chiefs
-11,12,Los Angeles Chargers,Cincinnati Bengals,34,27,Los Angeles Chargers,Cincinnati Bengals
-11,13,New York Jets,Indianapolis Colts,27,28,Indianapolis Colts,New York Jets
-11,14,Dallas Cowboys,Houston Texans,10,34,Houston Texans,Dallas Cowboys
-12,1,Cleveland Browns,Pittsburgh Steelers,24,19,Cleveland Browns,Pittsburgh Steelers
-12,2,Chicago Bears,Minnesota Vikings,27,30,Minnesota Vikings,Chicago Bears
-12,3,Indianapolis Colts,Detroit Lions,6,24,Detroit Lions,Indianapolis Colts
-12,4,Miami Dolphins,New England Patriots,34,15,Miami Dolphins,New England Patriots
-12,5,New York Giants,Tampa Bay Buccaneers,7,30,Tampa Bay Buccaneers,New York Giants
-12,6,Washington Commanders,Dallas Cowboys,26,34,Dallas Cowboys,Washington Commanders
-12,7,Carolina Panthers,Kansas City Chiefs,27,30,Kansas City Chiefs,Carolina Panthers
-12,8,Houston Texans,Tennessee Titans,27,32,Tennessee Titans,Houston Texans
-12,9,Las Vegas Raiders,Denver Broncos,19,29,Denver Broncos,Las Vegas Raiders
-12,10,Green Bay Packers,San Francisco 49ers,38,10,Green Bay Packers,San Francisco 49ers
-12,11,Seattle Seahawks,Arizona Cardinals,16,6,Seattle Seahawks,Arizona Cardinals
-12,12,Los Angeles Chargers,Philadelphia Eagles,23,37,Philadelphia Eagles,Los Angeles Chargers
-12,13,Los Angeles Rams,Baltimore Ravens,20,30,Baltimore Ravens,Los Angeles Rams
-13,1,Detroit Lions,Chicago Bears,23,20,Detroit Lions,Chicago Bears
-13,2,Dallas Cowboys,New York Giants,27,20,Dallas Cowboys,New York Giants
-13,3,Green Bay Packers,Miami Dolphins,30,17,Green Bay Packers,Miami Dolphins
-13,4,Kansas City Chiefs,Las Vegas Raiders,19,17,Kansas City Chiefs,Las Vegas Raiders
-13,5,Atlanta Falcons,Los Angeles Chargers,13,17,Los Angeles Chargers,Atlanta Falcons
-13,6,Cincinnati Bengals,Pittsburgh Steelers,38,44,Pittsburgh Steelers,Cincinnati Bengals
-13,7,Minnesota Vikings,Arizona Cardinals,23,22,Minnesota Vikings,Arizona Cardinals
-13,8,New England Patriots,Indianapolis Colts,24,25,Indianapolis Colts,New England Patriots
-13,9,New York Jets,Seattle Seahawks,21,26,Seattle Seahawks,New York Jets
-13,10,Washington Commanders,Tennessee Titans,42,19,Washington Commanders,Tennessee Titans
-13,11,Jacksonville Jaguars,Houston Texans,20,23,Houston Texans,Jacksonville Jaguars
-13,12,New Orleans Saints,Los Angeles Rams,14,21,Los Angeles Rams,New Orleans Saints
-13,13,Carolina Panthers,Tampa Bay Buccaneers,23,26,Tampa Bay Buccaneers,Carolina Panthers
-13,14,Baltimore Ravens,Philadelphia Eagles,19,24,Philadelphia Eagles,Baltimore Ravens
-13,15,Buffalo Bills,San Francisco 49ers,35,10,Buffalo Bills,San Francisco 49ers
-13,16,Denver Broncos,Cleveland Browns,41,32,Denver Broncos,Cleveland Browns
-14,1,Detroit Lions,Green Bay Packers,34,31,Detroit Lions,Green Bay Packers
-14,2,Tennessee Titans,Jacksonville Jaguars,6,10,Jacksonville Jaguars,Tennessee Titans
-14,3,Miami Dolphins,New York Jets,32,26,Miami Dolphins,New York Jets
-14,4,Minnesota Vikings,Atlanta Falcons,42,21,Minnesota Vikings,Atlanta Falcons
-14,5,New York Giants,New Orleans Saints,11,14,New Orleans Saints,New York Giants
-14,6,Philadelphia Eagles,Carolina Panthers,22,16,Philadelphia Eagles,Carolina Panthers
-14,7,Pittsburgh Steelers,Cleveland Browns,27,14,Pittsburgh Steelers,Cleveland Browns
-14,8,Tampa Bay Buccaneers,Las Vegas Raiders,28,13,Tampa Bay Buccaneers,Las Vegas Raiders
-14,9,Arizona Cardinals,Seattle Seahawks,18,30,Seattle Seahawks,Arizona Cardinals
-14,10,Los Angeles Rams,Buffalo Bills,44,42,Los Angeles Rams,Buffalo Bills
-14,11,San Francisco 49ers,Chicago Bears,38,13,San Francisco 49ers,Chicago Bears
-14,12,Kansas City Chiefs,Los Angeles Chargers,19,17,Kansas City Chiefs,Los Angeles Chargers
-14,13,Dallas Cowboys,Cincinnati Bengals,20,27,Cincinnati Bengals,Dallas Cowboys
-15,1,San Francisco 49ers,Los Angeles Rams,6,12,Los Angeles Rams,San Francisco 49ers
-15,2,Cleveland Browns,Kansas City Chiefs,7,21,Kansas City Chiefs,Cleveland Browns
-15,3,Tennessee Titans,Cincinnati Bengals,27,37,Cincinnati Bengals,Tennessee Titans
-15,4,New Orleans Saints,Washington Commanders,19,20,Washington Commanders,New Orleans Saints
-15,5,New York Giants,Baltimore Ravens,14,35,Baltimore Ravens,New York Giants
-15,6,Carolina Panthers,Dallas Cowboys,14,30,Dallas Cowboys,Carolina Panthers
-15,7,Jacksonville Jaguars,New York Jets,25,32,New York Jets,Jacksonville Jaguars
-15,8,Houston Texans,Miami Dolphins,20,12,Houston Texans,Miami Dolphins
-15,9,Denver Broncos,Indianapolis Colts,31,13,Denver Broncos,Indianapolis Colts
-15,10,Detroit Lions,Buffalo Bills,42,48,Buffalo Bills,Detroit Lions
-15,11,Philadelphia Eagles,Pittsburgh Steelers,27,13,Philadelphia Eagles,Pittsburgh Steelers
-15,12,Arizona Cardinals,New England Patriots,30,17,Arizona Cardinals,New England Patriots
-15,13,Los Angeles Chargers,Tampa Bay Buccaneers,17,40,Tampa Bay Buccaneers,Los Angeles Chargers
-15,14,Seattle Seahawks,Green Bay Packers,13,30,Green Bay Packers,Seattle Seahawks
-15,15,Minnesota Vikings,Chicago Bears,30,12,Minnesota Vikings,Chicago Bears
-15,16,Las Vegas Raiders,Atlanta Falcons,9,15,Atlanta Falcons,Las Vegas Raiders
-16,1,Cincinnati Bengals,Cleveland Browns,24,6,Cincinnati Bengals,Cleveland Browns
-16,2,Kansas City Chiefs,Houston Texans,27,19,Kansas City Chiefs,Houston Texans
-16,3,Baltimore Ravens,Pittsburgh Steelers,34,17,Baltimore Ravens,Pittsburgh Steelers
-16,4,Atlanta Falcons,New York Giants,34,7,Atlanta Falcons,New York Giants
-16,5,Buffalo Bills,New England Patriots,24,21,Buffalo Bills,New England Patriots
-16,6,Chicago Bears,Detroit Lions,17,34,Detroit Lions,Chicago Bears
-16,7,Indianapolis Colts,Tennessee Titans,38,30,Indianapolis Colts,Tennessee Titans
-16,8,New York Jets,Los Angeles Rams,9,19,Los Angeles Rams,New York Jets
-16,9,Washington Commanders,Philadelphia Eagles,36,33,Washington Commanders,Philadelphia Eagles
-16,10,Carolina Panthers,Arizona Cardinals,36,30,Carolina Panthers,Arizona Cardinals
-16,11,Los Angeles Chargers,Denver Broncos,34,27,Los Angeles Chargers,Denver Broncos
-16,12,Seattle Seahawks,Minnesota Vikings,24,27,Minnesota Vikings,Seattle Seahawks
-16,13,Las Vegas Raiders,Jacksonville Jaguars,19,14,Las Vegas Raiders,Jacksonville Jaguars
-16,14,Miami Dolphins,San Francisco 49ers,29,17,Miami Dolphins,San Francisco 49ers
-16,15,Dallas Cowboys,Tampa Bay Buccaneers,26,24,Dallas Cowboys,Tampa Bay Buccaneers
-16,16,Green Bay Packers,New Orleans Saints,34,0,Green Bay Packers,New Orleans Saints
-17,1,Pittsburgh Steelers,Kansas City Chiefs,10,29,Kansas City Chiefs,Pittsburgh Steelers
-17,2,Houston Texans,Baltimore Ravens,2,31,Baltimore Ravens,Houston Texans
-17,3,Chicago Bears,Seattle Seahawks,3,6,Seattle Seahawks,Chicago Bears
-17,4,Cincinnati Bengals,Denver Broncos,30,24,Cincinnati Bengals,Denver Broncos
-17,5,Los Angeles Rams,Arizona Cardinals,13,9,Los Angeles Rams,Arizona Cardinals
-17,6,New England Patriots,Los Angeles Chargers,7,40,Los Angeles Chargers,New England Patriots
-17,7,New York Giants,Indianapolis Colts,45,33,New York Giants,Indianapolis Colts
-17,8,Washington Commanders,Atlanta Falcons,30,24,Washington Commanders,Atlanta Falcons
-17,9,Buffalo Bills,New York Jets,40,14,Buffalo Bills,New York Jets
-17,10,Minnesota Vikings,Green Bay Packers,27,25,Minnesota Vikings,Green Bay Packers
-17,11,New Orleans Saints,Las Vegas Raiders,10,25,Las Vegas Raiders,New Orleans Saints
-17,12,Tampa Bay Buccaneers,Carolina Panthers,48,14,Tampa Bay Buccaneers,Carolina Panthers
-17,13,Jacksonville Jaguars,Tennessee Titans,20,13,Jacksonville Jaguars,Tennessee Titans
-17,14,Philadelphia Eagles,Dallas Cowboys,41,7,Philadelphia Eagles,Dallas Cowboys
-17,15,Cleveland Browns,Miami Dolphins,3,20,Miami Dolphins,Cleveland Browns
-17,16,San Francisco 49ers,Detroit Lions,34,40,Detroit Lions,San Francisco 49ers
-18,1,Atlanta Falcons,Carolina Panthers,38,44,Carolina Panthers,Atlanta Falcons
-18,2,Dallas Cowboys,Washington Commanders,19,23,Washington Commanders,Dallas Cowboys
-18,3,Denver Broncos,Kansas City Chiefs,38,0,Denver Broncos,Kansas City Chiefs
-18,4,Detroit Lions,Minnesota Vikings,31,9,Detroit Lions,Minnesota Vikings
-18,5,Green Bay Packers,Chicago Bears,22,24,Chicago Bears,Green Bay Packers
-18,6,Tennessee Titans,Houston Texans,14,23,Houston Texans,Tennessee Titans
-18,7,Indianapolis Colts,Jacksonville Jaguars,26,23,Indianapolis Colts,Jacksonville Jaguars
-18,8,Las Vegas Raiders,Los Angeles Chargers,20,34,Los Angeles Chargers,Las Vegas Raiders
-18,9,Los Angeles Rams,Seattle Seahawks,25,30,Seattle Seahawks,Los Angeles Rams
-18,10,New England Patriots,Buffalo Bills,23,16,New England Patriots,Buffalo Bills
-18,11,New York Jets,Miami Dolphins,32,20,New York Jets,Miami Dolphins
-18,12,Philadelphia Eagles,New York Giants,20,13,Philadelphia Eagles,New York Giants
-18,13,Arizona Cardinals,San Francisco 49ers,47,24,Arizona Cardinals,San Francisco 49ers
-18,14,Pittsburgh Steelers,Cincinnati Bengals,17,19,Cincinnati Bengals,Pittsburgh Steelers
-18,15,Tampa Bay Buccaneers,New Orleans Saints,27,19,Tampa Bay Buccaneers,New Orleans Saints
-18,16,Baltimore Ravens,Cleveland Browns,35,10,Baltimore Ravens,Cleveland Browns
+1,1,Kansas City Chiefs,Baltimore Ravens,27.0,20.0,Kansas City Chiefs,Baltimore Ravens
+1,2,Philadelphia Eagles,Green Bay Packers,34.0,29.0,Philadelphia Eagles,Green Bay Packers
+1,3,Atlanta Falcons,Pittsburgh Steelers,10.0,18.0,Pittsburgh Steelers,Atlanta Falcons
+1,4,Buffalo Bills,Arizona Cardinals,34.0,28.0,Buffalo Bills,Arizona Cardinals
+1,5,Chicago Bears,Tennessee Titans,24.0,17.0,Chicago Bears,Tennessee Titans
+1,6,Cincinnati Bengals,New England Patriots,10.0,16.0,New England Patriots,Cincinnati Bengals
+1,7,Indianapolis Colts,Houston Texans,27.0,29.0,Houston Texans,Indianapolis Colts
+1,8,Miami Dolphins,Jacksonville Jaguars,20.0,17.0,Miami Dolphins,Jacksonville Jaguars
+1,9,New Orleans Saints,Carolina Panthers,47.0,10.0,New Orleans Saints,Carolina Panthers
+1,10,New York Giants,Minnesota Vikings,6.0,28.0,Minnesota Vikings,New York Giants
+1,11,Los Angeles Chargers,Las Vegas Raiders,22.0,10.0,Los Angeles Chargers,Las Vegas Raiders
+1,12,Seattle Seahawks,Denver Broncos,26.0,20.0,Seattle Seahawks,Denver Broncos
+1,13,Cleveland Browns,Dallas Cowboys,17.0,33.0,Dallas Cowboys,Cleveland Browns
+1,14,Tampa Bay Buccaneers,Washington Commanders,37.0,20.0,Tampa Bay Buccaneers,Washington Commanders
+1,15,Detroit Lions,Los Angeles Rams,26.0,20.0,Detroit Lions,Los Angeles Rams
+1,16,San Francisco 49ers,New York Jets,32.0,19.0,San Francisco 49ers,New York Jets
+2,1,Miami Dolphins,Buffalo Bills,10.0,31.0,Buffalo Bills,Miami Dolphins
+2,2,Dallas Cowboys,New Orleans Saints,19.0,44.0,New Orleans Saints,Dallas Cowboys
+2,3,Detroit Lions,Tampa Bay Buccaneers,16.0,20.0,Tampa Bay Buccaneers,Detroit Lions
+2,4,Green Bay Packers,Indianapolis Colts,16.0,10.0,Green Bay Packers,Indianapolis Colts
+2,5,Tennessee Titans,New York Jets,17.0,24.0,New York Jets,Tennessee Titans
+2,6,Minnesota Vikings,San Francisco 49ers,23.0,17.0,Minnesota Vikings,San Francisco 49ers
+2,7,New England Patriots,Seattle Seahawks,20.0,23.0,Seattle Seahawks,New England Patriots
+2,8,Washington Commanders,New York Giants,21.0,18.0,Washington Commanders,New York Giants
+2,9,Carolina Panthers,Los Angeles Chargers,3.0,26.0,Los Angeles Chargers,Carolina Panthers
+2,10,Jacksonville Jaguars,Cleveland Browns,13.0,18.0,Cleveland Browns,Jacksonville Jaguars
+2,11,Baltimore Ravens,Las Vegas Raiders,23.0,26.0,Las Vegas Raiders,Baltimore Ravens
+2,12,Arizona Cardinals,Los Angeles Rams,41.0,10.0,Arizona Cardinals,Los Angeles Rams
+2,13,Denver Broncos,Pittsburgh Steelers,6.0,13.0,Pittsburgh Steelers,Denver Broncos
+2,14,Kansas City Chiefs,Cincinnati Bengals,26.0,25.0,Kansas City Chiefs,Cincinnati Bengals
+2,15,Houston Texans,Chicago Bears,19.0,13.0,Houston Texans,Chicago Bears
+2,16,Philadelphia Eagles,Atlanta Falcons,21.0,22.0,Atlanta Falcons,Philadelphia Eagles
+3,1,New York Jets,New England Patriots,24.0,3.0,New York Jets,New England Patriots
+3,2,Cleveland Browns,New York Giants,15.0,21.0,New York Giants,Cleveland Browns
+3,3,Tennessee Titans,Green Bay Packers,14.0,30.0,Green Bay Packers,Tennessee Titans
+3,4,Indianapolis Colts,Chicago Bears,21.0,16.0,Indianapolis Colts,Chicago Bears
+3,5,Minnesota Vikings,Houston Texans,34.0,7.0,Minnesota Vikings,Houston Texans
+3,6,New Orleans Saints,Philadelphia Eagles,12.0,15.0,Philadelphia Eagles,New Orleans Saints
+3,7,Pittsburgh Steelers,Los Angeles Chargers,20.0,10.0,Pittsburgh Steelers,Los Angeles Chargers
+3,8,Tampa Bay Buccaneers,Denver Broncos,7.0,26.0,Denver Broncos,Tampa Bay Buccaneers
+3,9,Las Vegas Raiders,Carolina Panthers,22.0,36.0,Carolina Panthers,Las Vegas Raiders
+3,10,Seattle Seahawks,Miami Dolphins,24.0,3.0,Seattle Seahawks,Miami Dolphins
+3,11,Dallas Cowboys,Baltimore Ravens,25.0,28.0,Baltimore Ravens,Dallas Cowboys
+3,12,Los Angeles Rams,San Francisco 49ers,27.0,24.0,Los Angeles Rams,San Francisco 49ers
+3,13,Arizona Cardinals,Detroit Lions,13.0,20.0,Detroit Lions,Arizona Cardinals
+3,14,Atlanta Falcons,Kansas City Chiefs,17.0,22.0,Kansas City Chiefs,Atlanta Falcons
+3,15,Buffalo Bills,Jacksonville Jaguars,47.0,10.0,Buffalo Bills,Jacksonville Jaguars
+3,16,Cincinnati Bengals,Washington Commanders,33.0,38.0,Washington Commanders,Cincinnati Bengals
+4,1,New York Giants,Dallas Cowboys,15.0,20.0,Dallas Cowboys,New York Giants
+4,2,Atlanta Falcons,New Orleans Saints,26.0,24.0,Atlanta Falcons,New Orleans Saints
+4,3,Chicago Bears,Los Angeles Rams,24.0,18.0,Chicago Bears,Los Angeles Rams
+4,4,Green Bay Packers,Minnesota Vikings,29.0,31.0,Minnesota Vikings,Green Bay Packers
+4,5,Indianapolis Colts,Pittsburgh Steelers,27.0,24.0,Indianapolis Colts,Pittsburgh Steelers
+4,6,New York Jets,Denver Broncos,9.0,10.0,Denver Broncos,New York Jets
+4,7,Tampa Bay Buccaneers,Philadelphia Eagles,33.0,16.0,Tampa Bay Buccaneers,Philadelphia Eagles
+4,8,Carolina Panthers,Cincinnati Bengals,24.0,34.0,Cincinnati Bengals,Carolina Panthers
+4,9,Houston Texans,Jacksonville Jaguars,24.0,20.0,Houston Texans,Jacksonville Jaguars
+4,10,Arizona Cardinals,Washington Commanders,14.0,42.0,Washington Commanders,Arizona Cardinals
+4,11,San Francisco 49ers,New England Patriots,30.0,13.0,San Francisco 49ers,New England Patriots
+4,12,Las Vegas Raiders,Cleveland Browns,20.0,16.0,Las Vegas Raiders,Cleveland Browns
+4,13,Los Angeles Chargers,Kansas City Chiefs,10.0,17.0,Kansas City Chiefs,Los Angeles Chargers
+4,14,Baltimore Ravens,Buffalo Bills,35.0,10.0,Baltimore Ravens,Buffalo Bills
+4,15,Miami Dolphins,Tennessee Titans,12.0,31.0,Tennessee Titans,Miami Dolphins
+4,16,Detroit Lions,Seattle Seahawks,42.0,29.0,Detroit Lions,Seattle Seahawks
+5,1,Atlanta Falcons,Tampa Bay Buccaneers,36.0,30.0,Atlanta Falcons,Tampa Bay Buccaneers
+5,2,Minnesota Vikings,New York Jets,23.0,17.0,Minnesota Vikings,New York Jets
+5,3,Chicago Bears,Carolina Panthers,36.0,10.0,Chicago Bears,Carolina Panthers
+5,4,Cincinnati Bengals,Baltimore Ravens,38.0,41.0,Baltimore Ravens,Cincinnati Bengals
+5,5,New England Patriots,Miami Dolphins,10.0,15.0,Miami Dolphins,New England Patriots
+5,6,Washington Commanders,Cleveland Browns,34.0,13.0,Washington Commanders,Cleveland Browns
+5,7,Jacksonville Jaguars,Indianapolis Colts,37.0,34.0,Jacksonville Jaguars,Indianapolis Colts
+5,8,Houston Texans,Buffalo Bills,23.0,20.0,Houston Texans,Buffalo Bills
+5,9,Denver Broncos,Las Vegas Raiders,34.0,18.0,Denver Broncos,Las Vegas Raiders
+5,10,San Francisco 49ers,Arizona Cardinals,23.0,24.0,Arizona Cardinals,San Francisco 49ers
+5,11,Los Angeles Rams,Green Bay Packers,19.0,24.0,Green Bay Packers,Los Angeles Rams
+5,12,Seattle Seahawks,New York Giants,20.0,29.0,New York Giants,Seattle Seahawks
+5,13,Pittsburgh Steelers,Dallas Cowboys,17.0,20.0,Dallas Cowboys,Pittsburgh Steelers
+5,14,Kansas City Chiefs,New Orleans Saints,26.0,13.0,Kansas City Chiefs,New Orleans Saints
+6,1,Seattle Seahawks,San Francisco 49ers,24.0,36.0,San Francisco 49ers,Seattle Seahawks
+6,2,Chicago Bears,Jacksonville Jaguars,35.0,16.0,Chicago Bears,Jacksonville Jaguars
+6,3,Green Bay Packers,Arizona Cardinals,34.0,13.0,Green Bay Packers,Arizona Cardinals
+6,4,Tennessee Titans,Indianapolis Colts,17.0,20.0,Indianapolis Colts,Tennessee Titans
+6,5,New England Patriots,Houston Texans,21.0,41.0,Houston Texans,New England Patriots
+6,6,New Orleans Saints,Tampa Bay Buccaneers,27.0,51.0,Tampa Bay Buccaneers,New Orleans Saints
+6,7,Philadelphia Eagles,Cleveland Browns,20.0,16.0,Philadelphia Eagles,Cleveland Browns
+6,8,Baltimore Ravens,Washington Commanders,30.0,23.0,Baltimore Ravens,Washington Commanders
+6,9,Denver Broncos,Los Angeles Chargers,16.0,23.0,Los Angeles Chargers,Denver Broncos
+6,10,Las Vegas Raiders,Pittsburgh Steelers,13.0,32.0,Pittsburgh Steelers,Las Vegas Raiders
+6,11,Dallas Cowboys,Detroit Lions,9.0,47.0,Detroit Lions,Dallas Cowboys
+6,12,Carolina Panthers,Atlanta Falcons,20.0,38.0,Atlanta Falcons,Carolina Panthers
+6,13,New York Giants,Cincinnati Bengals,7.0,17.0,Cincinnati Bengals,New York Giants
+6,14,New York Jets,Buffalo Bills,20.0,23.0,Buffalo Bills,New York Jets
+7,1,New Orleans Saints,Denver Broncos,10.0,33.0,Denver Broncos,New Orleans Saints
+7,2,Jacksonville Jaguars,New England Patriots,32.0,16.0,Jacksonville Jaguars,New England Patriots
+7,3,Atlanta Falcons,Seattle Seahawks,14.0,34.0,Seattle Seahawks,Atlanta Falcons
+7,4,Buffalo Bills,Tennessee Titans,34.0,10.0,Buffalo Bills,Tennessee Titans
+7,5,Cleveland Browns,Cincinnati Bengals,14.0,21.0,Cincinnati Bengals,Cleveland Browns
+7,6,Green Bay Packers,Houston Texans,24.0,22.0,Green Bay Packers,Houston Texans
+7,7,Indianapolis Colts,Miami Dolphins,16.0,10.0,Indianapolis Colts,Miami Dolphins
+7,8,Minnesota Vikings,Detroit Lions,29.0,31.0,Detroit Lions,Minnesota Vikings
+7,9,New York Giants,Philadelphia Eagles,3.0,28.0,Philadelphia Eagles,New York Giants
+7,10,Los Angeles Rams,Las Vegas Raiders,20.0,15.0,Los Angeles Rams,Las Vegas Raiders
+7,11,Washington Commanders,Carolina Panthers,40.0,7.0,Washington Commanders,Carolina Panthers
+7,12,San Francisco 49ers,Kansas City Chiefs,18.0,28.0,Kansas City Chiefs,San Francisco 49ers
+7,13,Pittsburgh Steelers,New York Jets,37.0,15.0,Pittsburgh Steelers,New York Jets
+7,14,Tampa Bay Buccaneers,Baltimore Ravens,31.0,41.0,Baltimore Ravens,Tampa Bay Buccaneers
+7,15,Arizona Cardinals,Los Angeles Chargers,17.0,15.0,Arizona Cardinals,Los Angeles Chargers
+8,1,Los Angeles Rams,Minnesota Vikings,30.0,20.0,Los Angeles Rams,Minnesota Vikings
+8,2,Cleveland Browns,Baltimore Ravens,29.0,24.0,Cleveland Browns,Baltimore Ravens
+8,3,Detroit Lions,Tennessee Titans,52.0,14.0,Detroit Lions,Tennessee Titans
+8,4,Miami Dolphins,Arizona Cardinals,27.0,28.0,Arizona Cardinals,Miami Dolphins
+8,5,New England Patriots,New York Jets,25.0,22.0,New England Patriots,New York Jets
+8,6,Tampa Bay Buccaneers,Atlanta Falcons,26.0,31.0,Atlanta Falcons,Tampa Bay Buccaneers
+8,7,Washington Commanders,Chicago Bears,18.0,15.0,Washington Commanders,Chicago Bears
+8,8,Jacksonville Jaguars,Green Bay Packers,27.0,30.0,Green Bay Packers,Jacksonville Jaguars
+8,9,Houston Texans,Indianapolis Colts,23.0,20.0,Houston Texans,Indianapolis Colts
+8,10,Los Angeles Chargers,New Orleans Saints,26.0,8.0,Los Angeles Chargers,New Orleans Saints
+8,11,Seattle Seahawks,Buffalo Bills,10.0,31.0,Buffalo Bills,Seattle Seahawks
+8,12,Cincinnati Bengals,Philadelphia Eagles,17.0,37.0,Philadelphia Eagles,Cincinnati Bengals
+8,13,Denver Broncos,Carolina Panthers,28.0,14.0,Denver Broncos,Carolina Panthers
+8,14,Las Vegas Raiders,Kansas City Chiefs,20.0,27.0,Kansas City Chiefs,Las Vegas Raiders
+8,15,San Francisco 49ers,Dallas Cowboys,30.0,24.0,San Francisco 49ers,Dallas Cowboys
+8,16,Pittsburgh Steelers,New York Giants,26.0,18.0,Pittsburgh Steelers,New York Giants
+9,1,New York Jets,Houston Texans,21.0,13.0,New York Jets,Houston Texans
+9,2,Atlanta Falcons,Dallas Cowboys,27.0,21.0,Atlanta Falcons,Dallas Cowboys
+9,3,Buffalo Bills,Miami Dolphins,30.0,27.0,Buffalo Bills,Miami Dolphins
+9,4,Cincinnati Bengals,Las Vegas Raiders,41.0,24.0,Cincinnati Bengals,Las Vegas Raiders
+9,5,Cleveland Browns,Los Angeles Chargers,10.0,27.0,Los Angeles Chargers,Cleveland Browns
+9,6,Tennessee Titans,New England Patriots,20.0,17.0,Tennessee Titans,New England Patriots
+9,7,Minnesota Vikings,Indianapolis Colts,21.0,13.0,Minnesota Vikings,Indianapolis Colts
+9,8,New York Giants,Washington Commanders,22.0,27.0,Washington Commanders,New York Giants
+9,9,Carolina Panthers,New Orleans Saints,23.0,22.0,Carolina Panthers,New Orleans Saints
+9,10,Baltimore Ravens,Denver Broncos,41.0,10.0,Baltimore Ravens,Denver Broncos
+9,11,Arizona Cardinals,Chicago Bears,29.0,9.0,Arizona Cardinals,Chicago Bears
+9,12,Green Bay Packers,Detroit Lions,14.0,24.0,Detroit Lions,Green Bay Packers
+9,13,Seattle Seahawks,Los Angeles Rams,20.0,26.0,Los Angeles Rams,Seattle Seahawks
+9,14,Philadelphia Eagles,Jacksonville Jaguars,28.0,23.0,Philadelphia Eagles,Jacksonville Jaguars
+9,15,Kansas City Chiefs,Tampa Bay Buccaneers,30.0,24.0,Kansas City Chiefs,Tampa Bay Buccaneers
+10,1,Baltimore Ravens,Cincinnati Bengals,35.0,34.0,Baltimore Ravens,Cincinnati Bengals
+10,2,Carolina Panthers,New York Giants,20.0,17.0,Carolina Panthers,New York Giants
+10,3,Chicago Bears,New England Patriots,3.0,19.0,New England Patriots,Chicago Bears
+10,4,Indianapolis Colts,Buffalo Bills,20.0,30.0,Buffalo Bills,Indianapolis Colts
+10,5,Kansas City Chiefs,Denver Broncos,16.0,14.0,Kansas City Chiefs,Denver Broncos
+10,6,New Orleans Saints,Atlanta Falcons,20.0,17.0,New Orleans Saints,Atlanta Falcons
+10,7,Tampa Bay Buccaneers,San Francisco 49ers,20.0,23.0,San Francisco 49ers,Tampa Bay Buccaneers
+10,8,Washington Commanders,Pittsburgh Steelers,27.0,28.0,Pittsburgh Steelers,Washington Commanders
+10,9,Jacksonville Jaguars,Minnesota Vikings,7.0,12.0,Minnesota Vikings,Jacksonville Jaguars
+10,10,Los Angeles Chargers,Tennessee Titans,27.0,17.0,Los Angeles Chargers,Tennessee Titans
+10,11,Dallas Cowboys,Philadelphia Eagles,6.0,34.0,Philadelphia Eagles,Dallas Cowboys
+10,12,Arizona Cardinals,New York Jets,31.0,6.0,Arizona Cardinals,New York Jets
+10,13,Houston Texans,Detroit Lions,23.0,26.0,Detroit Lions,Houston Texans
+10,14,Los Angeles Rams,Miami Dolphins,15.0,23.0,Miami Dolphins,Los Angeles Rams
+11,1,Philadelphia Eagles,Washington Commanders,24.0,18.0,Philadelphia Eagles,Washington Commanders
+11,2,Chicago Bears,Green Bay Packers,19.0,20.0,Green Bay Packers,Chicago Bears
+11,3,Detroit Lions,Jacksonville Jaguars,52.0,6.0,Detroit Lions,Jacksonville Jaguars
+11,4,Tennessee Titans,Minnesota Vikings,13.0,23.0,Minnesota Vikings,Tennessee Titans
+11,5,Miami Dolphins,Las Vegas Raiders,34.0,19.0,Miami Dolphins,Las Vegas Raiders
+11,6,New England Patriots,Los Angeles Rams,22.0,28.0,Los Angeles Rams,New England Patriots
+11,7,New Orleans Saints,Cleveland Browns,35.0,14.0,New Orleans Saints,Cleveland Browns
+11,8,Pittsburgh Steelers,Baltimore Ravens,18.0,16.0,Pittsburgh Steelers,Baltimore Ravens
+11,9,Denver Broncos,Atlanta Falcons,38.0,6.0,Denver Broncos,Atlanta Falcons
+11,10,San Francisco 49ers,Seattle Seahawks,17.0,20.0,Seattle Seahawks,San Francisco 49ers
+11,11,Buffalo Bills,Kansas City Chiefs,30.0,21.0,Buffalo Bills,Kansas City Chiefs
+11,12,Los Angeles Chargers,Cincinnati Bengals,34.0,27.0,Los Angeles Chargers,Cincinnati Bengals
+11,13,New York Jets,Indianapolis Colts,27.0,28.0,Indianapolis Colts,New York Jets
+11,14,Dallas Cowboys,Houston Texans,10.0,34.0,Houston Texans,Dallas Cowboys
+12,1,Cleveland Browns,Pittsburgh Steelers,24.0,19.0,Cleveland Browns,Pittsburgh Steelers
+12,2,Chicago Bears,Minnesota Vikings,27.0,30.0,Minnesota Vikings,Chicago Bears
+12,3,Indianapolis Colts,Detroit Lions,6.0,24.0,Detroit Lions,Indianapolis Colts
+12,4,Miami Dolphins,New England Patriots,34.0,15.0,Miami Dolphins,New England Patriots
+12,5,New York Giants,Tampa Bay Buccaneers,7.0,30.0,Tampa Bay Buccaneers,New York Giants
+12,6,Washington Commanders,Dallas Cowboys,26.0,34.0,Dallas Cowboys,Washington Commanders
+12,7,Carolina Panthers,Kansas City Chiefs,27.0,30.0,Kansas City Chiefs,Carolina Panthers
+12,8,Houston Texans,Tennessee Titans,27.0,32.0,Tennessee Titans,Houston Texans
+12,9,Las Vegas Raiders,Denver Broncos,19.0,29.0,Denver Broncos,Las Vegas Raiders
+12,10,Green Bay Packers,San Francisco 49ers,38.0,10.0,Green Bay Packers,San Francisco 49ers
+12,11,Seattle Seahawks,Arizona Cardinals,16.0,6.0,Seattle Seahawks,Arizona Cardinals
+12,12,Los Angeles Chargers,Philadelphia Eagles,23.0,37.0,Philadelphia Eagles,Los Angeles Chargers
+12,13,Los Angeles Rams,Baltimore Ravens,20.0,30.0,Baltimore Ravens,Los Angeles Rams
+13,1,Detroit Lions,Chicago Bears,23.0,20.0,Detroit Lions,Chicago Bears
+13,2,Dallas Cowboys,New York Giants,27.0,20.0,Dallas Cowboys,New York Giants
+13,3,Green Bay Packers,Miami Dolphins,30.0,17.0,Green Bay Packers,Miami Dolphins
+13,4,Kansas City Chiefs,Las Vegas Raiders,19.0,17.0,Kansas City Chiefs,Las Vegas Raiders
+13,5,Atlanta Falcons,Los Angeles Chargers,13.0,17.0,Los Angeles Chargers,Atlanta Falcons
+13,6,Cincinnati Bengals,Pittsburgh Steelers,38.0,44.0,Pittsburgh Steelers,Cincinnati Bengals
+13,7,Minnesota Vikings,Arizona Cardinals,23.0,22.0,Minnesota Vikings,Arizona Cardinals
+13,8,New England Patriots,Indianapolis Colts,24.0,25.0,Indianapolis Colts,New England Patriots
+13,9,New York Jets,Seattle Seahawks,21.0,26.0,Seattle Seahawks,New York Jets
+13,10,Washington Commanders,Tennessee Titans,42.0,19.0,Washington Commanders,Tennessee Titans
+13,11,Jacksonville Jaguars,Houston Texans,20.0,23.0,Houston Texans,Jacksonville Jaguars
+13,12,New Orleans Saints,Los Angeles Rams,14.0,21.0,Los Angeles Rams,New Orleans Saints
+13,13,Carolina Panthers,Tampa Bay Buccaneers,23.0,26.0,Tampa Bay Buccaneers,Carolina Panthers
+13,14,Baltimore Ravens,Philadelphia Eagles,19.0,24.0,Philadelphia Eagles,Baltimore Ravens
+13,15,Buffalo Bills,San Francisco 49ers,35.0,10.0,Buffalo Bills,San Francisco 49ers
+13,16,Denver Broncos,Cleveland Browns,41.0,32.0,Denver Broncos,Cleveland Browns
+14,1,Detroit Lions,Green Bay Packers,34.0,31.0,Detroit Lions,Green Bay Packers
+14,2,Tennessee Titans,Jacksonville Jaguars,6.0,10.0,Jacksonville Jaguars,Tennessee Titans
+14,3,Miami Dolphins,New York Jets,32.0,26.0,Miami Dolphins,New York Jets
+14,4,Minnesota Vikings,Atlanta Falcons,42.0,21.0,Minnesota Vikings,Atlanta Falcons
+14,5,New York Giants,New Orleans Saints,11.0,14.0,New Orleans Saints,New York Giants
+14,6,Philadelphia Eagles,Carolina Panthers,22.0,16.0,Philadelphia Eagles,Carolina Panthers
+14,7,Pittsburgh Steelers,Cleveland Browns,27.0,14.0,Pittsburgh Steelers,Cleveland Browns
+14,8,Tampa Bay Buccaneers,Las Vegas Raiders,28.0,13.0,Tampa Bay Buccaneers,Las Vegas Raiders
+14,9,Arizona Cardinals,Seattle Seahawks,18.0,30.0,Seattle Seahawks,Arizona Cardinals
+14,10,Los Angeles Rams,Buffalo Bills,44.0,42.0,Los Angeles Rams,Buffalo Bills
+14,11,San Francisco 49ers,Chicago Bears,38.0,13.0,San Francisco 49ers,Chicago Bears
+14,12,Kansas City Chiefs,Los Angeles Chargers,19.0,17.0,Kansas City Chiefs,Los Angeles Chargers
+14,13,Dallas Cowboys,Cincinnati Bengals,20.0,27.0,Cincinnati Bengals,Dallas Cowboys
+15,1,San Francisco 49ers,Los Angeles Rams,6.0,12.0,Los Angeles Rams,San Francisco 49ers
+15,2,Cleveland Browns,Kansas City Chiefs,7.0,21.0,Kansas City Chiefs,Cleveland Browns
+15,3,Tennessee Titans,Cincinnati Bengals,27.0,37.0,Cincinnati Bengals,Tennessee Titans
+15,4,New Orleans Saints,Washington Commanders,19.0,20.0,Washington Commanders,New Orleans Saints
+15,5,New York Giants,Baltimore Ravens,14.0,35.0,Baltimore Ravens,New York Giants
+15,6,Carolina Panthers,Dallas Cowboys,14.0,30.0,Dallas Cowboys,Carolina Panthers
+15,7,Jacksonville Jaguars,New York Jets,25.0,32.0,New York Jets,Jacksonville Jaguars
+15,8,Houston Texans,Miami Dolphins,20.0,12.0,Houston Texans,Miami Dolphins
+15,9,Denver Broncos,Indianapolis Colts,31.0,13.0,Denver Broncos,Indianapolis Colts
+15,10,Detroit Lions,Buffalo Bills,42.0,48.0,Buffalo Bills,Detroit Lions
+15,11,Philadelphia Eagles,Pittsburgh Steelers,27.0,13.0,Philadelphia Eagles,Pittsburgh Steelers
+15,12,Arizona Cardinals,New England Patriots,30.0,17.0,Arizona Cardinals,New England Patriots
+15,13,Los Angeles Chargers,Tampa Bay Buccaneers,17.0,40.0,Tampa Bay Buccaneers,Los Angeles Chargers
+15,14,Seattle Seahawks,Green Bay Packers,13.0,30.0,Green Bay Packers,Seattle Seahawks
+15,15,Minnesota Vikings,Chicago Bears,30.0,12.0,Minnesota Vikings,Chicago Bears
+15,16,Las Vegas Raiders,Atlanta Falcons,9.0,15.0,Atlanta Falcons,Las Vegas Raiders
+16,1,Cincinnati Bengals,Cleveland Browns,24.0,6.0,Cincinnati Bengals,Cleveland Browns
+16,2,Kansas City Chiefs,Houston Texans,27.0,19.0,Kansas City Chiefs,Houston Texans
+16,3,Baltimore Ravens,Pittsburgh Steelers,34.0,17.0,Baltimore Ravens,Pittsburgh Steelers
+16,4,Atlanta Falcons,New York Giants,34.0,7.0,Atlanta Falcons,New York Giants
+16,5,Buffalo Bills,New England Patriots,24.0,21.0,Buffalo Bills,New England Patriots
+16,6,Chicago Bears,Detroit Lions,17.0,34.0,Detroit Lions,Chicago Bears
+16,7,Indianapolis Colts,Tennessee Titans,38.0,30.0,Indianapolis Colts,Tennessee Titans
+16,8,New York Jets,Los Angeles Rams,9.0,19.0,Los Angeles Rams,New York Jets
+16,9,Washington Commanders,Philadelphia Eagles,36.0,33.0,Washington Commanders,Philadelphia Eagles
+16,10,Carolina Panthers,Arizona Cardinals,36.0,30.0,Carolina Panthers,Arizona Cardinals
+16,11,Los Angeles Chargers,Denver Broncos,34.0,27.0,Los Angeles Chargers,Denver Broncos
+16,12,Seattle Seahawks,Minnesota Vikings,24.0,27.0,Minnesota Vikings,Seattle Seahawks
+16,13,Las Vegas Raiders,Jacksonville Jaguars,19.0,14.0,Las Vegas Raiders,Jacksonville Jaguars
+16,14,Miami Dolphins,San Francisco 49ers,29.0,17.0,Miami Dolphins,San Francisco 49ers
+16,15,Dallas Cowboys,Tampa Bay Buccaneers,26.0,24.0,Dallas Cowboys,Tampa Bay Buccaneers
+16,16,Green Bay Packers,New Orleans Saints,34.0,0.0,Green Bay Packers,New Orleans Saints
+17,1,Pittsburgh Steelers,Kansas City Chiefs,10.0,29.0,Kansas City Chiefs,Pittsburgh Steelers
+17,2,Houston Texans,Baltimore Ravens,2.0,31.0,Baltimore Ravens,Houston Texans
+17,3,Chicago Bears,Seattle Seahawks,3.0,6.0,Seattle Seahawks,Chicago Bears
+17,4,Cincinnati Bengals,Denver Broncos,30.0,24.0,Cincinnati Bengals,Denver Broncos
+17,5,Los Angeles Rams,Arizona Cardinals,13.0,9.0,Los Angeles Rams,Arizona Cardinals
+17,6,New England Patriots,Los Angeles Chargers,7.0,40.0,Los Angeles Chargers,New England Patriots
+17,7,New York Giants,Indianapolis Colts,45.0,33.0,New York Giants,Indianapolis Colts
+17,8,Washington Commanders,Atlanta Falcons,30.0,24.0,Washington Commanders,Atlanta Falcons
+17,9,Buffalo Bills,New York Jets,40.0,14.0,Buffalo Bills,New York Jets
+17,10,Minnesota Vikings,Green Bay Packers,27.0,25.0,Minnesota Vikings,Green Bay Packers
+17,11,New Orleans Saints,Las Vegas Raiders,10.0,25.0,Las Vegas Raiders,New Orleans Saints
+17,12,Tampa Bay Buccaneers,Carolina Panthers,48.0,14.0,Tampa Bay Buccaneers,Carolina Panthers
+17,13,Jacksonville Jaguars,Tennessee Titans,20.0,13.0,Jacksonville Jaguars,Tennessee Titans
+17,14,Philadelphia Eagles,Dallas Cowboys,41.0,7.0,Philadelphia Eagles,Dallas Cowboys
+17,15,Cleveland Browns,Miami Dolphins,3.0,20.0,Miami Dolphins,Cleveland Browns
+17,16,San Francisco 49ers,Detroit Lions,34.0,40.0,Detroit Lions,San Francisco 49ers
+18,1,Atlanta Falcons,Carolina Panthers,38.0,44.0,Carolina Panthers,Atlanta Falcons
+18,2,Dallas Cowboys,Washington Commanders,19.0,23.0,Washington Commanders,Dallas Cowboys
+18,3,Denver Broncos,Kansas City Chiefs,38.0,0.0,Denver Broncos,Kansas City Chiefs
+18,4,Detroit Lions,Minnesota Vikings,31.0,9.0,Detroit Lions,Minnesota Vikings
+18,5,Green Bay Packers,Chicago Bears,22.0,24.0,Chicago Bears,Green Bay Packers
+18,6,Tennessee Titans,Houston Texans,14.0,23.0,Houston Texans,Tennessee Titans
+18,7,Indianapolis Colts,Jacksonville Jaguars,26.0,23.0,Indianapolis Colts,Jacksonville Jaguars
+18,8,Las Vegas Raiders,Los Angeles Chargers,20.0,34.0,Los Angeles Chargers,Las Vegas Raiders
+18,9,Los Angeles Rams,Seattle Seahawks,25.0,30.0,Seattle Seahawks,Los Angeles Rams
+18,10,New England Patriots,Buffalo Bills,23.0,16.0,New England Patriots,Buffalo Bills
+18,11,New York Jets,Miami Dolphins,32.0,20.0,New York Jets,Miami Dolphins
+18,12,Philadelphia Eagles,New York Giants,20.0,13.0,Philadelphia Eagles,New York Giants
+18,13,Arizona Cardinals,San Francisco 49ers,47.0,24.0,Arizona Cardinals,San Francisco 49ers
+18,14,Pittsburgh Steelers,Cincinnati Bengals,17.0,19.0,Cincinnati Bengals,Pittsburgh Steelers
+18,15,Tampa Bay Buccaneers,New Orleans Saints,27.0,19.0,Tampa Bay Buccaneers,New Orleans Saints
+18,16,Baltimore Ravens,Cleveland Browns,35.0,10.0,Baltimore Ravens,Cleveland Browns
+19,1,Houston Texans,Los Angeles Chargers,32.0,12.0,Houston Texans,Los Angeles Chargers
+19,2,Baltimore Ravens,Pittsburgh Steelers,28.0,14.0,Baltimore Ravens,Pittsburgh Steelers
+19,3,Buffalo Bills,Denver Broncos,31.0,7.0,Buffalo Bills,Denver Broncos
+19,4,Philadelphia Eagles,Green Bay Packers,22.0,10.0,Philadelphia Eagles,Green Bay Packers
+19,5,Tampa Bay Buccaneers,Washington Commanders,20.0,23.0,Washington Commanders,Tampa Bay Buccaneers
+19,6,Los Angeles Rams,Minnesota Vikings,27.0,9.0,Los Angeles Rams,Minnesota Vikings
