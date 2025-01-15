@@ -4,9 +4,9 @@ import pandas as pd
 from functions_load_and_transform import player_list, thisWeek, lastWeek, thisWeek_DF, lastWeek_DF
 from functions_form import name_submit, send_form
 
-from streamlit_flow import streamlit_flow
-from streamlit_flow.elements import StreamlitFlowNode, StreamlitFlowEdge 
-from streamlit_flow.state import StreamlitFlowState
+# from streamlit_flow import streamlit_flow
+# from streamlit_flow.elements import StreamlitFlowNode, StreamlitFlowEdge 
+# from streamlit_flow.state import StreamlitFlowState
 # from streamlit_flow.layouts import TreeLayout
 
 st.header("Road to Superbowl")
