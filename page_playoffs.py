@@ -36,7 +36,7 @@ with colB:
         selected_teams.append(player_name)
         send_form(mailText=selected_teams[:-1], subject=f"bets_{selected_teams[-1]}_week_{thisWeek}")
 
-col_A, col_B = st.columns([2,1])
+col_A, col_B = st.columns([1,1])
 with col_A:
     st.subheader(f"Ergebnisse für Woche {lastWeek}")
     st.dataframe(lastWeek_DF, hide_index=True, height=600)
