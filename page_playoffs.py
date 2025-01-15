@@ -10,6 +10,7 @@ from functions_form import name_submit, send_form
 # from streamlit_flow.layouts import TreeLayout
 
 st.header("Road to Superbowl")
+st.image("PlayoffTree.png")
 
 # nodes = [
 #     StreamlitFlowNode(id='1', pos=(66, 0), data={'content': 'Chiefs'}, node_type='input', source_position='right'),
