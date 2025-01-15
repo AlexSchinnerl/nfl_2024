@@ -24,19 +24,20 @@ po_bets_cols.insert(0, "Playoff Team")
 po_vorab_bets = po_vorab_bets[po_bets_cols]
 
 st.header("Ende der Regular Season: Punkte")
-st.dataframe(po_vorab_points.sort_values("Gesamtpunkte", ascending=False))
-st.subheader("Playoff Vorab Tipps")
-st.dataframe(po_vorab_bets)
+st.dataframe(po_vorab_points.sort_values("Gesamtpunkte", ascending=False), height=((11 + 1) * 35 + 3))
 
 st.header("Regular Season wöchentliche Punkte")
 st.dataframe(week_view.sort_values("Summe", ascending=False), height=((11 + 1) * 35 + 3)) # 11 Reihen + 1 Überschrift * 35 für die Reihenhöhe + 3 für die Borders
 
-st.subheader("Gesamtpunkte")
-st.bar_chart(week_view, y="Summe", y_label="Gesamtpunkte")
+st.subheader("Playoff Vorab Tipps")
+st.dataframe(po_vorab_bets)
 
-selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=lastWeek)
-st.subheader(f"Punkte Woche: {selected_week}")
-st.bar_chart(week_view, y=str(selected_week), y_label=f"Punkte", color=(53, 94, 59))
+# st.subheader("Gesamtpunkte")
+# st.bar_chart(week_view, y="Summe", y_label="Gesamtpunkte")
+
+# selected_week = st.slider(label="Woche auswählen",value=lastWeek, min_value=1, max_value=lastWeek)
+# st.subheader(f"Punkte Woche: {selected_week}")
+# st.bar_chart(week_view, y=str(selected_week), y_label=f"Punkte", color=(53, 94, 59))
 
 
 
