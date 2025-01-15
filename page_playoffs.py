@@ -11,57 +11,57 @@ from streamlit_flow.state import StreamlitFlowState
 
 st.header("Road to Superbowl")
 
-nodes = [
-    StreamlitFlowNode(id='1', pos=(66, 0), data={'content': 'Chiefs'}, node_type='input', source_position='right'),
-    StreamlitFlowNode(id='2', pos=(0, 100), data={'content': 'Texans vs. Chargers'}, node_type='input', source_position='right'),
-    StreamlitFlowNode(id='3', pos=(0, 200), data={'content': 'Ravens vs. Steelers'}, node_type='input', source_position='right'),
-    StreamlitFlowNode(id='4', pos=(0, 300), data={'content': 'Bills vs. Broncos'}, node_type='input', source_position='right'),
+# nodes = [
+#     StreamlitFlowNode(id='1', pos=(66, 0), data={'content': 'Chiefs'}, node_type='input', source_position='right'),
+#     StreamlitFlowNode(id='2', pos=(0, 100), data={'content': 'Texans vs. Chargers'}, node_type='input', source_position='right'),
+#     StreamlitFlowNode(id='3', pos=(0, 200), data={'content': 'Ravens vs. Steelers'}, node_type='input', source_position='right'),
+#     StreamlitFlowNode(id='4', pos=(0, 300), data={'content': 'Bills vs. Broncos'}, node_type='input', source_position='right'),
 
-    StreamlitFlowNode(id='5', pos=(960, 0), data={'content': 'Lions'}, node_type='input', source_position='left'),
-    StreamlitFlowNode(id='6', pos=(960, 100), data={'content': 'Buccaneers vs. Commanders'}, node_type='input', source_position='left'),
-    StreamlitFlowNode(id='7', pos=(960, 200), data={'content': 'Rams vs. Vikings'}, node_type='input', source_position='left'),
-    StreamlitFlowNode(id='8', pos=(960, 300), data={'content': 'Eagles vs. Packers'}, node_type='input', source_position='left'),
+#     StreamlitFlowNode(id='5', pos=(960, 0), data={'content': 'Lions'}, node_type='input', source_position='left'),
+#     StreamlitFlowNode(id='6', pos=(960, 100), data={'content': 'Buccaneers vs. Commanders'}, node_type='input', source_position='left'),
+#     StreamlitFlowNode(id='7', pos=(960, 200), data={'content': 'Rams vs. Vikings'}, node_type='input', source_position='left'),
+#     StreamlitFlowNode(id='8', pos=(960, 300), data={'content': 'Eagles vs. Packers'}, node_type='input', source_position='left'),
 
         
-    StreamlitFlowNode(id='9', pos=(150, 150), data={'content': 'Chiefs vs. Texans'}, node_type='default', target_position='left', source_position='right'),
-    StreamlitFlowNode(id='10', pos=(150, 250), data={'content': 'Bills vs. Ravens'}, node_type='default', target_position='left', source_position='right'),
-    StreamlitFlowNode(id='11', pos=(790, 150), data={'content': 'Lions vs. Commanders'}, node_type='default', target_position='right', source_position='left'),
-    StreamlitFlowNode(id='12', pos=(790, 250), data={'content': 'Eagles vs. Rams'}, node_type='default', target_position='right', source_position='left'),
+#     StreamlitFlowNode(id='9', pos=(150, 150), data={'content': 'Chiefs vs. Texans'}, node_type='default', target_position='left', source_position='right'),
+#     StreamlitFlowNode(id='10', pos=(150, 250), data={'content': 'Bills vs. Ravens'}, node_type='default', target_position='left', source_position='right'),
+#     StreamlitFlowNode(id='11', pos=(790, 150), data={'content': 'Lions vs. Commanders'}, node_type='default', target_position='right', source_position='left'),
+#     StreamlitFlowNode(id='12', pos=(790, 250), data={'content': 'Eagles vs. Rams'}, node_type='default', target_position='right', source_position='left'),
 
-    StreamlitFlowNode(id='13', pos=(300, 200), data={'content': 'AFC Conference Finals'}, node_type='default', target_position='left', source_position='right'),
-    StreamlitFlowNode(id='14', pos=(620, 200), data={'content': 'NFC Conference Finals'}, node_type='default', target_position='right', source_position='left'),
+#     StreamlitFlowNode(id='13', pos=(300, 200), data={'content': 'AFC Conference Finals'}, node_type='default', target_position='left', source_position='right'),
+#     StreamlitFlowNode(id='14', pos=(620, 200), data={'content': 'NFC Conference Finals'}, node_type='default', target_position='right', source_position='left'),
 
-    StreamlitFlowNode(id='15', pos=(485, 200), data={'content': 'Superbowl LIX'}, node_type='default', source_position='left', target_position='right'),
-        ]
+#     StreamlitFlowNode(id='15', pos=(485, 200), data={'content': 'Superbowl LIX'}, node_type='default', source_position='left', target_position='right'),
+#         ]
 
-edges = [StreamlitFlowEdge('1-9', '1', '9', animated=True),
-         StreamlitFlowEdge('2-9', '2', '9', animated=True),
-        StreamlitFlowEdge('3-10', '3', '10', animated=True),
-        StreamlitFlowEdge('4-10', '4', '10', animated=True),
-        StreamlitFlowEdge('5-11', '5', '11', animated=True),
-        StreamlitFlowEdge('6-11', '6', '11', animated=True),
-        StreamlitFlowEdge('7-12', '7', '12', animated=True),
-        StreamlitFlowEdge('8-12', '8', '12', animated=True),
+# edges = [StreamlitFlowEdge('1-9', '1', '9', animated=True),
+#          StreamlitFlowEdge('2-9', '2', '9', animated=True),
+#         StreamlitFlowEdge('3-10', '3', '10', animated=True),
+#         StreamlitFlowEdge('4-10', '4', '10', animated=True),
+#         StreamlitFlowEdge('5-11', '5', '11', animated=True),
+#         StreamlitFlowEdge('6-11', '6', '11', animated=True),
+#         StreamlitFlowEdge('7-12', '7', '12', animated=True),
+#         StreamlitFlowEdge('8-12', '8', '12', animated=True),
 
-        StreamlitFlowEdge('9-13', '9', '13', animated=True),
-        StreamlitFlowEdge('10-13', '10', '13', animated=True),
-        StreamlitFlowEdge('11-14', '11', '14', animated=True),
-        StreamlitFlowEdge('12-14', '12', '14', animated=True),
+#         StreamlitFlowEdge('9-13', '9', '13', animated=True),
+#         StreamlitFlowEdge('10-13', '10', '13', animated=True),
+#         StreamlitFlowEdge('11-14', '11', '14', animated=True),
+#         StreamlitFlowEdge('12-14', '12', '14', animated=True),
 
-        StreamlitFlowEdge('13-15', '13', '15', animated=True),
-        StreamlitFlowEdge('14-15', '14', '15', animated=True),
-        ]
+#         StreamlitFlowEdge('13-15', '13', '15', animated=True),
+#         StreamlitFlowEdge('14-15', '14', '15', animated=True),
+#         ]
 
-state = StreamlitFlowState(nodes, edges)
+# state = StreamlitFlowState(nodes, edges)
 
-# streamlit_flow('tree_layout', state, layout=TreeLayout(direction='right'))
-streamlit_flow('static_flow',
-                state,
-                fit_view=True,
-                show_minimap=False,
-                show_controls=True,
-                pan_on_drag=False,
-                allow_zoom=True)
+# # streamlit_flow('tree_layout', state, layout=TreeLayout(direction='right'))
+# streamlit_flow('static_flow',
+#                 state,
+#                 fit_view=True,
+#                 show_minimap=False,
+#                 show_controls=True,
+#                 pan_on_drag=False,
+#                 allow_zoom=True)
 
 
 
