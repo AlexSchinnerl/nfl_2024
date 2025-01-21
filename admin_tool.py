@@ -182,7 +182,7 @@ with scoreInput:
         # score_input(week_nr=week_nr_score, home_team_list=score_home_list, away_team_list=score_away_list)
         score_input(week_nr=week_nr, home_team_list=score_home_list, away_team_list=score_away_list)
         calc_scoring_csv()
-        calculate_w_d_l()
+        # calculate_w_d_l()
         st.dataframe(pd.read_csv("data/scoring.csv"))
         st.dataframe(pd.read_csv("data/results.csv"))
         st.dataframe(pd.read_csv("data/teams.csv"))

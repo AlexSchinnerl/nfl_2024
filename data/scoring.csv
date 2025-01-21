@@ -271,16 +271,16 @@ San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,San Francisco 49ers,
 Cincinnati Bengals,Cincinnati Bengals,Pittsburgh Steelers,Pittsburgh Steelers,,,Pittsburgh Steelers,,Pittsburgh Steelers,Cincinnati Bengals,,Pittsburgh Steelers,Cincinnati Bengals,18.0,14.0,1,1,0,0,0,0,0,0,0,1,0,0
 Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Tampa Bay Buccaneers,,,Tampa Bay Buccaneers,,New Orleans Saints,Tampa Bay Buccaneers,,Tampa Bay Buccaneers,Tampa Bay Buccaneers,18.0,15.0,1,1,1,1,0,0,1,0,0,1,0,1
 Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,,,Baltimore Ravens,,Baltimore Ravens,Baltimore Ravens,,Baltimore Ravens,Baltimore Ravens,18.0,16.0,1,1,1,1,0,0,1,0,1,1,0,1
-Houston Texans,Houston Texans,Los Angeles Chargers,Los Angeles Chargers,,,Houston Texans,,Los Angeles Chargers,Houston Texans,,Los Angeles Chargers,,19.0,1.0,0,0,0,0,0,0,0,0,0,0,0,0
-Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,,,Baltimore Ravens,,Baltimore Ravens,Baltimore Ravens,,Baltimore Ravens,,19.0,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,,,Denver Broncos,,Denver Broncos,Buffalo Bills,,Buffalo Bills,,19.0,3.0,0,0,0,0,0,0,0,0,0,0,0,0
-Green Bay Packers,Green Bay Packers,Philadelphia Eagles,Green Bay Packers,,,Philadelphia Eagles,,Green Bay Packers,Philadelphia Eagles,,Philadelphia Eagles,,19.0,4.0,0,0,0,0,0,0,0,0,0,0,0,0
-Washington Commanders,Washington Commanders,Tampa Bay Buccaneers,Washington Commanders,,,Tampa Bay Buccaneers,,Washington Commanders,Washington Commanders,,Washington Commanders,,19.0,5.0,0,0,0,0,0,0,0,0,0,0,0,0
-Minnesota Vikings,Los Angeles Rams,Minnesota Vikings,Los Angeles Rams,,,Minnesota Vikings,,Los Angeles Rams,Minnesota Vikings,,Minnesota Vikings,,19.0,6.0,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+Houston Texans,Houston Texans,Los Angeles Chargers,Los Angeles Chargers,,,Houston Texans,,Los Angeles Chargers,Houston Texans,,Los Angeles Chargers,Houston Texans,19.0,1.0,1,1,0,0,0,0,1,0,0,1,0,0
+Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,,,Baltimore Ravens,,Baltimore Ravens,Baltimore Ravens,,Baltimore Ravens,Baltimore Ravens,19.0,2.0,1,1,1,1,0,0,1,0,1,1,0,1
+Buffalo Bills,Buffalo Bills,Buffalo Bills,Buffalo Bills,,,Denver Broncos,,Denver Broncos,Buffalo Bills,,Buffalo Bills,Buffalo Bills,19.0,3.0,1,1,1,1,0,0,0,0,0,1,0,1
+Green Bay Packers,Green Bay Packers,Philadelphia Eagles,Green Bay Packers,,,Philadelphia Eagles,,Green Bay Packers,Philadelphia Eagles,,Philadelphia Eagles,Philadelphia Eagles,19.0,4.0,0,0,1,0,0,0,1,0,0,1,0,1
+Washington Commanders,Washington Commanders,Tampa Bay Buccaneers,Washington Commanders,,,Tampa Bay Buccaneers,,Washington Commanders,Washington Commanders,,Washington Commanders,Washington Commanders,19.0,5.0,1,1,0,1,0,0,0,0,1,1,0,1
+Minnesota Vikings,Los Angeles Rams,Minnesota Vikings,Los Angeles Rams,,,Minnesota Vikings,,Los Angeles Rams,Minnesota Vikings,,Minnesota Vikings,Los Angeles Rams,19.0,6.0,0,1,0,1,0,0,0,0,1,0,0,0
+Houston Texans,Houston Texans,Kansas City Chiefs,Kansas City Chiefs,,Houston Texans,,,Kansas City Chiefs,Houston Texans,Kansas City Chiefs,Kansas City Chiefs,,,,0,0,0,0,0,0,0,0,0,0,0,0
+Detroit Lions,Detroit Lions,Detroit Lions,Detroit Lions,,Detroit Lions,,,Washington Commanders,Detroit Lions,Washington Commanders,Detroit Lions,,,,0,0,0,0,0,0,0,0,0,0,0,0
+Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,Philadelphia Eagles,,Philadelphia Eagles,,,Los Angeles Rams,Philadelphia Eagles,Los Angeles Rams,Philadelphia Eagles,,,,0,0,0,0,0,0,0,0,0,0,0,0
+Buffalo Bills,Baltimore Ravens,Baltimore Ravens,Buffalo Bills,,Baltimore Ravens,,,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,Baltimore Ravens,,,,0,0,0,0,0,0,0,0,0,0,0,0
 ,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0
 ,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0
 ,,,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0
