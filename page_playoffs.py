@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from functions_load_and_transform import player_list, thisWeek, lastWeek, thisWeek_DF, lastWeek_DF
 from functions_form import name_submit, send_form
 
 st.header("Road to Superbowl")
 st.image("PlayoffTree.png")
-
+fig, ax = plt.subplots()
+st.pyplot(fig)
 
 st.header("Playoff Tipps")
 
