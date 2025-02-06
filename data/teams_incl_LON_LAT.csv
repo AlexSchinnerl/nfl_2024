@@ -1,0 +1,33 @@
+Wins,Draws,Losses,Games Played,Team,Division,Subdivision,lat,lon
+8,0,9,17,Arizona Cardinals,NFC,West,33.527283,-112.263275
+8,0,9,17,Atlanta Falcons,NFC,South,33.755489,-84.401993
+5,0,12,17,Carolina Panthers,NFC,South,35.225845,-80.853607
+5,0,12,17,Chicago Bears,NFC,North,41.862366,-87.617256
+7,0,10,17,Dallas Cowboys,NFC,East,32.747778,-97.092778
+15,0,2,17,Detroit Lions,NFC,North,42.340156,-83.045808
+11,0,6,17,Green Bay Packers,NFC,North,44.501306,-88.062167
+10,0,7,17,Los Angeles Rams,NFC,West,33.953587,-118.339630
+14,0,3,17,Minnesota Vikings,NFC,North,44.973774,-93.258736
+5,0,12,17,New Orleans Saints,NFC,South,29.951439,-90.081970
+3,0,14,17,New York Giants,NFC,East,40.813778,-74.074310
+14,0,3,17,Philadelphia Eagles,NFC,East,39.900898,-75.168098
+6,0,11,17,San Francisco 49ers,NFC,West,37.773972,-122.431297
+10,0,7,17,Seattle Seahawks,NFC,West,47.443546,-122.301659
+10,0,7,17,Tampa Bay Buccaneers,NFC,South,27.975958,-82.503693
+12,0,5,17,Washington Commanders,NFC,East,38.889805,-77.009056
+12,0,5,17,Baltimore Ravens,AFC,North,39.278088,-76.623322
+13,0,4,17,Buffalo Bills,AFC,East,42.773773,-78.787460
+9,0,8,17,Cincinnati Bengals,AFC,North,39.096306,-84.516846
+3,0,14,17,Cleveland Browns,AFC,North,41.506035,-81.700058
+10,0,7,17,Denver Broncos,AFC,West,39.744129,-105.020828
+10,0,7,17,Houston Texans,AFC,South,29.749907,-95.358421
+8,0,9,17,Indianapolis Colts,AFC,South,39.759991,-86.163712
+4,0,13,17,Jacksonville Jaguars,AFC,South,30.323471,-81.636528
+15,0,2,17,Kansas City Chiefs,AFC,West,39.048786,-94.484566
+4,0,13,17,Las Vegas Raiders,AFC,West,36.090794,-115.183952
+11,0,6,17,Los Angeles Chargers,AFC,West,33.953587,-118.339630
+8,0,9,17,Miami Dolphins,AFC,East,25.957960,-80.239311
+4,0,13,17,New England Patriots,AFC,East,42.0878,-71.2587
+5,0,12,17,New York Jets,AFC,East,40.813778,-74.074310
+10,0,7,17,Pittsburgh Steelers,AFC,North,40.4444,-79.9618
+3,0,14,17,Tennessee Titans,AFC,South,36.166461,-86.771289
